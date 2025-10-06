@@ -12,7 +12,7 @@ The end goal is simple - to build an "electro-gravitic" flying craft. But in ord
 
 Background knowledge:
 - `FOUNDATION-THEORY`: "Foundational" scientific knowledge.
-- `EVIDENCE`: Conspiracy theories accessorizing interest in this topic.
+- `CONSPIRACY-THEORIES`: Conspiracy theories accessorizing interest in this topic.
 
 3 key initiatives:
 - `UNIFIED-FIELD-THEORY`: Understanding the unified "aether" theory that has been developed and classified over the last several decades.
