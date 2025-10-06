@@ -4,6 +4,8 @@ A new and exciting area of research for me. This repo is dedicated to understand
 - The classified unified-field model of physics developed decades ago
 - All technology based on the understanding of it, including but not limited to, electro-gravitic propulsion and zero-point energy / overunity
 
+![](img/ufo.png)
+
 The end goal is simple - to build an "electro-gravitic" flying craft. But in order to do that successfully, many other things may need to be understood.
 
 ## Contents
