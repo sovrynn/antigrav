@@ -1,0 +1,287 @@
+/* 
+This CSS file is used to apply front-end styles for the Stripe Payments plugin.
+
+This CSS file is enqueued from the front-end using the 'stripe-handler-ng-style' handler. So it will be available on every page of the front end.
+
+Used in the [asp_product] shortcode also.
+CSS class names should use dashes. Example: asp-product-description
+*/
+
+/* Small Spinner */
+.asp-spinner {
+    text-indent: -9999px;
+    vertical-align: middle;
+    margin-left: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: asp-spinner .6s linear infinite;
+}
+
+@keyframes asp-spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Button Spinner */
+.asp-btn-spinner-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.asp-btn-spinner {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.asp-btn-spinner div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #6fcef3;
+    border-radius: 50%;
+    animation: asp-btn-spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #6fcef3 transparent transparent transparent;
+}
+
+.asp-btn-spinner div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.asp-btn-spinner div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.asp-btn-spinner div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes asp-btn-spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.asp_line_through {
+    text-decoration: line-through;
+}
+
+.asp_product_coupon_input_container {
+    margin: 5px 0 10px 0;
+}
+
+.asp_btn_normalize {
+    text-transform: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+
+&::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.asp_product_custom_field_error {
+    display: none;
+    color: red;
+}
+
+.asp_out_of_stock {
+    font-weight: bold;
+}
+
+.asp_product_buy_button input, .asp_product_buy_button select {
+    display: inline-block;
+    line-height: 1;
+    padding: 8px 10px;
+    height: auto;
+}
+
+.asp_product_custom_field_label {
+    margin-right: 10px;
+}
+
+.asp-product-variations-label {
+    margin-right: 10px;
+}
+
+.asp_product_coupon_field_label {
+    margin-right: 10px;
+}
+
+.asp_product_coupon_input_container input.asp_product_coupon_field_input {
+    width: auto;
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.asp_product_buy_btn_container {
+    display: inline-block;
+}
+
+.asp_product_buy_button input::placeholder {
+    font-style: italic;
+    color: #bbb;
+}
+
+@keyframes blink {
+    0% {
+        opacity: .2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.asp-processing-cont {
+    display: none !important;
+}
+
+.asp-processing i {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.asp-processing i:nth-child(2) {
+    animation-delay: .1s;
+}
+
+.asp-processing i:nth-child(3) {
+    animation-delay: .2s;
+}
+
+.asp-popup-iframe {
+    z-index: 2147483647;
+    background: rgba(0, 0, 0, 0.004);
+    border: 0px none transparent;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch !important;
+    visibility: visible;
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.asp-popup-iframe-cont {
+    align-items: center;
+    justify-content: center;
+    z-index: 2147483647;
+    background: rgba(0, 0, 0, .3);
+    border: 0px none transparent;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch !important;
+    visibility: visible;
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.asp-popup-spinner-cont {
+    text-align: center;
+    height: 85px;
+    padding-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .asp_product_buy_btn_container {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* Start of 'Thank You' page shortcode related CSS */
+.asp-order-data-box {
+    display: flex;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px 0 0 1px;
+    width: 100%;
+ }
+
+.asp-order-data-box-col{
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0 1px 1px 0;
+    word-break: break-all;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.asp-order-data-box-col :first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .asp-order-data-box {
+        flex-direction: column;
+    }
+}
+
+.asp-order-details-table,
+.asp-order-downloads-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+
+.asp-order-details-table td,
+.asp-order-details-table th,
+.asp-order-downloads-table td,
+.asp-order-downloads-table th {
+    padding: 15px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.asp-order-shipping-address,
+.asp-order-billing-address {
+    padding: 15px;
+    border: 1px solid lightgray;
+    white-space: pre-line;
+}
+/* End of 'Thank You' page shortcode related CSS */

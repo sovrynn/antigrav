@@ -1,0 +1,80 @@
+/* -- Mods for Custom Google Fonts -- */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic);
+
+
+body {
+	font-family:'source sans pro',arial, sans-serif;
+	font-size:16px;
+	line-height:1.5em;
+	color:#666;
+	font-weight:400;
+	}
+
+h1,h2,h3,h4,h5,h6,h7,
+#sitetitle .title {
+	font-family: 'source sans pro',arial, sans-serif;
+	font-weight:400;
+	}
+
+#sitetitle .title {
+	font-size:30px;
+	line-height:1.1em;
+	margin:0;
+	padding:0;
+	}
+
+
+.meta,
+.catslide-meta,
+.tabs,
+.wp-pagenavi,
+.flextabs-custom-controls {
+	font-size:14px;
+	line-height:1.5em;
+	}
+
+.cats-by-2 .entry,
+#content table,
+table#wp-calendar caption,
+.sitemap
+.archive-tabs a,
+.index-3-4-archives select,
+.sitemap-wide,
+.sitemap-narrow,
+#portfolio,
+#sidebar,
+#sidebar-narrow {
+	font-size:14px;
+	line-height:1.5em;
+	}
+
+#footer,
+p.sitemap-meta,
+#content .cat-posts-stacked .meta {
+	font-size:14px;
+	line-height:1.5em;
+	}
+
+.footurl {
+	font-size:18px;
+	}
+
+#topnav {
+	font-size:12px;
+	text-transform:uppercase;
+	}
+
+#catnav {
+	font-size:14px;
+	}
+
+.meta {
+	font-size:14px;
+	}
+
+.sitemap-post p.post-title {
+	font-size:16px;
+	margin:0;
+	padding:0;
+	}
