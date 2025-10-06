@@ -16,8 +16,8 @@ Background knowledge:
 
 3 key initiatives:
 - `UNIFIED-FIELD-THEORY`: Understanding the unified "aether" theory that has been developed and classified over the last several decades.
-- `FREE-ENERGY`: So-called "zero-point energy" (ZPE) / overunity explained by unified field theory.
 - `ANTIGRAVITY`: Understanding alternative "electro-gravitic" propulsion methods.
+- `FREE-ENERGY`: So-called "zero-point energy" (ZPE) / overunity explained by unified field theory.
 
 Auxiliary initiative:
 - `WEAPONS-TOOLS`: Information about other devices that can be understood using this knowledge.

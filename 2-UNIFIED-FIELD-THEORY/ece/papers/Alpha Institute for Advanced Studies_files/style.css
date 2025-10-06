@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html, body {
+}
+
+H1{
+	font-family: roman;
+	color: black;
+}
+H2, H3, H4{
+	font-family: sans-serif; color: darkgreen;
+}
+P, UL, OL{
+	font-family: sans-serif; color: black;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+ul.no-bullets {
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+table.blog {
+	border: 2px solid green;
+	border-collapse: collapse;
+	width: 80%;
+}
