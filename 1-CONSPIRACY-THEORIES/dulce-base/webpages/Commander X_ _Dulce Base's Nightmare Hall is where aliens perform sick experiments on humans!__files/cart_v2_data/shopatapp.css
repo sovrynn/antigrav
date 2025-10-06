@@ -1,0 +1,7 @@
+.shop-at-app-loading-style .ecwid-productBrowser-cart-emptyCartPanel  {
+	visibility: hidden;
+}
+
+.shop-at-app-checkout-loading-style .ecwid-productBrowser-CartPage, .shop-at-app-checkout-loading-style .ecwid-productBrowser-auth-signInLink  {
+	visibility: hidden;
+}

@@ -1,0 +1,220 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.215.208 with SMTP id q77csp338844lfi;
+        Fri, 16 Jan 2015 07:38:42 -0800 (PST)
+X-Received: by 10.224.93.6 with SMTP id t6mr25789941qam.93.1421422721593;
+        Fri, 16 Jan 2015 07:38:41 -0800 (PST)
+Return-Path: <terribillionairs@aol.com>
+Received: from omr-m4.mx.aol.com (omr-m4.mx.aol.com. [64.12.226.25])
+        by mx.google.com with ESMTPS id j18si6319590qae.88.2015.01.16.07.38.41
+        for <john.podesta@gmail.com>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Fri, 16 Jan 2015 07:38:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of terribillionairs@aol.com designates 64.12.226.25 as permitted sender) client-ip=64.12.226.25;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of terribillionairs@aol.com designates 64.12.226.25 as permitted sender) smtp.mail=terribillionairs@aol.com;
+       dkim=pass header.i=@mx.aol.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=aol.com
+Received: from mtaout-mbd02.mx.aol.com (mtaout-mbd02.mx.aol.com [172.26.252.14])
+	by omr-m4.mx.aol.com (Outbound Mail Relay) with ESMTP id EF1E8380000D3;
+	Fri, 16 Jan 2015 10:38:40 -0500 (EST)
+Received: from TerriPC (ip24-251-231-151.ph.ph.cox.net [24.251.231.151])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mtaout-mbd02.mx.aol.com (MUA/Third Party Client Interface) with ESMTPSA id 083F538000089;
+	Fri, 16 Jan 2015 10:38:39 -0500 (EST)
+From: "Terri D. Mansfield" <terribillionairs@aol.com>
+To: john.podesta@gmail.com
+CC: eryn_m_sepp@who.eop.gov, eryn.sepp@gmail.com
+Subject: email for John Podesta strategy (c/o Eryn)  from Edgar Mitchell
+Date: Fri, 16 Jan 2015 08:38:34 -0700
+Message-ID: <00a701d031a2$7dfa8f20$79efad60$@aol.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00A8_01D03167.D19D3DC0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdAxoi4Jzq0dROdjTeOFND8toNWhjA==
+Content-Language: en-us
+x-aol-global-disposition: G
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20140625; t=1421422720;
+	bh=qCvXYa8G7Slxd+/YNvaKMOp1LVHRNegiOYMqt41yKPg=;
+	h=From:To:Subject:Message-ID:Date:MIME-Version:Content-Type;
+	b=Q8zEWnOEm/i86V2GyOYzEKb6miOmxdhvgwLjJuFf/CCRIA0d8sZ4Qfw9FeAm/03jU
+	 n4uu1Zo0XIH3sLOeOTnDHqa0AeWGkfepFJ/aKOA5wo/JkC6B2H4mWorgoFvlRyWTHV
+	 g+1GbrZG+xFfhdTkwgGkfqpzOlREUPS8ROJ6KLg8=
+x-aol-sid: 3039ac1afc0e54b9307f4bf5
+X-AOL-IP: 24.251.231.151
+
+------=_NextPart_000_00A8_01D03167.D19D3DC0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear John,
+
+=20
+
+In learning that you will leave the Administration next month to work =
+with Hillary Clinton, I write to suggest that Hillary talk with =
+President Obama after Terri Mansfield and I meet with you to discuss =
+Zero Point Energy and Disclosure.
+
+=20
+
+Best regards,
+
+Edgar
+
+Edgar D. Mitchell, ScD
+
+Chief Science Officer & Founder, Quantrek
+
+Apollo 14 astronaut
+
+6th man to walk on the Moon
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+------=_NextPart_000_00A8_01D03167.D19D3DC0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-priority:9;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;}
+h2
+	{mso-style-priority:9;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.name
+	{mso-style-name:name;}
+span.EmailStyle20
+	{mso-style-type:personal-reply;
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><div><div><div =
+id=3D"AOLMsgPart_1_1fff8e6d-e817-433e-b0ad-7abfe3051781"><div><div><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>Dear =
+John,<o:p></o:p></span></p><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>&nbsp;<o:p></o:p><=
+/span></p><div><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>In learning that =
+you will leave the Administration next month to work with Hillary =
+Clinton, I write to suggest that Hillary talk with President Obama after =
+Terri Mansfield and I meet with you to discuss Zero Point Energy and =
+Disclosure.<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>&nbsp;<o:p></o:p><=
+/span></p></div><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>Best =
+regards,<o:p></o:p></span></p><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>Edgar<o:p></o:p></=
+span></p><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>Edgar D. =
+Mitchell, ScD<o:p></o:p></span></p><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>Chief Science =
+Officer &amp; Founder, Quantrek<o:p></o:p></span></p><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>Apollo 14 =
+astronaut<o:p></o:p></span></p><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>6th man to walk =
+on the Moon<o:p></o:p></span></p><div><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'>&nbsp;<o:p></o:p><=
+/span></p></div><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'>&nb=
+sp;<o:p></o:p></span></p><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'>&nb=
+sp;<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'>&nb=
+sp;<o:p></o:p></span></p></div><div><div><div =
+id=3D"AOLMsgPart_1_6e9fd1a4-71af-41b7-924a-9c5960236961"><div><div><div><=
+div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></body></html>
+------=_NextPart_000_00A8_01D03167.D19D3DC0--

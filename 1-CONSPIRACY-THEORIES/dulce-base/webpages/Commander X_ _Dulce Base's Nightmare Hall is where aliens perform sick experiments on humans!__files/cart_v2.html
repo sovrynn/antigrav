@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html id="ecwid_html"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="cart_v2_data/wix.min.js"></script>
+<script src="cart_v2_data/jquery.min.js"></script>
+<script type="text/javascript">
+	function getPageId() {
+		return 'pfcb4';
+	}
+</script>
+<link rel="stylesheet" href="cart_v2_data/widget.css">
+<script type="text/javascript" src="cart_v2_data/storage.js"></script>
+<script type="text/javascript" src="cart_v2_data/widget.js"></script>
+	<script type="text/javascript">
+		window.ec = window.ec || {};
+		window.ec.storefront = window.ec.storefront || {};
+		window.ec.config = window.ec.config || {};
+		window.ec.config.isShowPBPopupDisabled = true;
+
+		setAlwaysNavigateToStorePage(false);
+
+		var IFRAME_PADDING = 70;
+		var CHECK_MINICART_SIZE_INTERVAL_MS = 5;
+		var CHECK_MINICART_DURATION_SEC = 30;
+		var minicartV1IsInitialized = false;
+		var minicartV2IsInitialized = false;
+		var cartWidgetHidden = false;
+		var resizeIframeIntervalId = null;
+
+		var draftSettingsOnServer = null;
+		var draftSettingsSameAsPublished = false;
+
+		function isInsideWixEditor() {
+			return Wix.Utils.getViewMode() === 'editor' || Wix.Utils.getViewMode() === 'preview';
+		}
+
+		if (isInsideWixEditor()) {
+			window.ec.storefront.cart_widget_icon = 'BAG';
+			window.ec.storefront.cart_widget_fixed_shape = 'PILL';
+			window.ec.storefront.cart_widget_layout = 'MEDIUM_ICON_COUNTER';
+		} else {
+			window.ec.storefront.cart_widget_icon = 'BAG';
+			window.ec.storefront.cart_widget_fixed_shape = 'PILL';
+			window.ec.storefront.cart_widget_layout = 'MEDIUM_ICON_COUNTER';
+		}
+
+		(function() {
+			$(document).ready(function() {
+				/**********************************************************************/
+				/********************** Код интеграции с Wix **************************/
+				/**********************************************************************/
+
+				var lastAppliedParams = null;
+
+				var cartWidgetHiddenWhenEmpty = true;
+				if (isInsideWixEditor()) {
+					cartWidgetHiddenWhenEmpty = true;
+				} else {
+					cartWidgetHiddenWhenEmpty = true;
+				}
+
+				Wix.addEventListener(Wix.Events.EDIT_MODE_CHANGE, function(data) {
+					if (data.editMode === 'preview') {
+						saveSettings("DRAFT");
+					}
+				});
+
+				Wix.addEventListener(Wix.Events.SITE_SAVED, function() {
+					saveSettings("DRAFT");
+				});
+
+				Wix.addEventListener(Wix.Events.SITE_PUBLISHED, function() {
+					saveSettings("PUBLISH");
+				});
+
+				Wix.addEventListener(Wix.Events.STYLE_PARAMS_CHANGE, function(params) {
+					if (Wix.Utils.getViewMode() === 'editor') {
+						lastAppliedParams = params;
+						applyWixStyleParams(params);
+
+						if (draftSettingsOnServer === null) {
+							draftSettingsOnServer = buildProfile(lastAppliedParams, 'DRAFT').draftSettings;
+						}
+					}
+				});
+
+				function applyWixStyleParams(params) {
+					if (window.Ecwid && window.Ecwid.refreshConfig && params) {
+						var consts = getConsts();
+
+						params.numbers = params.numbers || {};
+						params.booleans = params.booleans || {};
+
+						if (typeof params.numbers.cartWidgetIcon !== 'undefined') {
+							window.ec.storefront.cart_widget_icon = consts.cartWidgetIconValues[params.numbers.cartWidgetIcon];
+						}
+						if (typeof params.numbers.cartWidgetFixedShape !== 'undefined') {
+							window.ec.storefront.cart_widget_fixed_shape = consts.cartWidgetFixedShapeValues[params.numbers.cartWidgetFixedShape];
+						}
+
+						var cartWidgetLayout = consts.cartWidgetLayoutValues[params.numbers.cartWidgetLayout];
+						if (typeof cartWidgetLayout !== 'undefined' && cartWidgetLayout !== 'SQUARE_BAG_LEGACY_MODE') {
+							window.ec.storefront.cart_widget_layout = cartWidgetLayout;
+						}
+
+						if (typeof params.booleans.cartWidgetHiddenWhenEmpty !== 'undefined') {
+							cartWidgetHiddenWhenEmpty = params.booleans.cartWidgetHiddenWhenEmpty;
+						}
+
+						Ecwid.refreshConfig();
+						resizeIframeToFitMinicart();
+
+						saveSettings("DRAFT");
+					}
+				}
+
+				Ecwid.OnAPILoaded.add(function() {
+					Ecwid.Cart.get(function(cart) {
+						updateMinicartView(cart);
+					});
+
+					Ecwid.OnCartChanged.add(function(cart) {
+						updateMinicartView(cart);
+					});
+				});
+
+				function updateMinicartView(cart) {
+					if (cart.productsQuantity === 0 && cartWidgetHiddenWhenEmpty && !isInsideWixEditor()) {
+						cartWidgetHidden = true;
+						clearResizeIframeInterval();
+						Wix.resizeWindow(0, 0);
+					} else {
+						cartWidgetHidden = false;
+						resizeIframeToFitMinicart();
+					}
+				}
+
+				function resizeIframeToFitMinicart() {
+					if (cartWidgetHidden === true) {
+						return;
+					}
+
+					clearResizeIframeInterval();
+
+					var counter = (1000 / CHECK_MINICART_SIZE_INTERVAL_MS) * CHECK_MINICART_DURATION_SEC;
+					resizeIframeIntervalId = setInterval(function() {
+						var minicartWidth = $("#minicart-v2 .ec-minicart").width();
+						var minicartHeight = $("#minicart-v2 .ec-minicart").height();
+
+						var iframeWidth = minicartWidth + IFRAME_PADDING;
+						var iframeHeight = minicartHeight + IFRAME_PADDING;
+
+						Wix.resizeWindow(iframeWidth, iframeHeight);
+
+						counter--;
+						if (counter === 0) {
+							clearInterval(resizeIframeIntervalId);
+							resizeIframeIntervalId = null;
+						}
+					}, CHECK_MINICART_SIZE_INTERVAL_MS);
+				}
+
+				function clearResizeIframeInterval() {
+					if (resizeIframeIntervalId !== null) {
+						clearInterval(resizeIframeIntervalId);
+					}
+				}
+
+				var saveSettingsTimer;
+				function saveSettings(mode) {
+					var profile = buildProfile(lastAppliedParams, mode);
+
+					if (saveSettingsTimer !== undefined) {
+						clearTimeout(saveSettingsTimer);
+					}
+					saveSettingsTimer = setTimeout(function () {
+						saveSettingsTimer = undefined;
+
+						if (profile.publishedSettings && !draftSettingsSameAsPublished
+								|| profile.draftSettings && JSON.stringify(profile.draftSettings) !== JSON.stringify(draftSettingsOnServer)) {
+
+							$.ajax({
+								type: 'PUT',
+								url: '/wix/app/profile?instance=vyWn3eY3jEPWptogMXp8CoYC3y5nklUeegydL7Q0mAU.eyJpbnN0YW5jZUlkIjoiNTA3ZTdiNzEtN2M4Zi00ZGM1LWIxNTgtMWVmYTFjZDhlZGEyIiwiYXBwRGVmSWQiOiIxMmYxZmJhYi04YjlkLTMwMDItODdiNS0yOTcyODk3ZTgzMTQiLCJzaWduRGF0ZSI6IjIwMjUtMDgtMjFUMDk6NDM6MjcuODczWiIsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiZTg4NWUxOTctMDQyZC00YjMzLWFlOGItMTZhN2M4ODQ4ZWEwIiwic2l0ZU93bmVySWQiOiIzMWI2NzI5OS1iYjMwLTRiZjQtODNjMS1kZDA3YjVmZDRkY2EiLCJicyI6IlZNWFVReVQxanpEcElPUWI5ZTFDRE9PMTJEYXJSU0d2M1FpZ0x5WENQN1kiLCJzY2QiOiIyMDE5LTA2LTA0VDEwOjQ0OjM1LjU1MloifQ&debugInfo=OnCartSaveSettings',
+								data: JSON.stringify(profile),
+								dataType: 'json',
+								contentType: 'application/json; charset=UTF-8',
+								complete: function () {
+									draftSettingsSameAsPublished = profile.publishedSettings !== undefined;
+									if (profile.draftSettings) {
+										draftSettingsOnServer = profile.draftSettings;
+									}
+								}
+							});
+						}
+					}, 1000);
+				}
+
+				function buildProfile(params, mode) {
+					if (!params) {
+						return {};
+					}
+
+					var settings = {};
+
+					var consts = getConsts();
+					if ('ENDPOINT_V2' === 'ENDPOINT_V1') {
+						settings.cartWidgetV1Icon = consts.cartWidgetIconValues[params.numbers.cartWidgetIcon];
+						settings.cartWidgetV1FixedShape = consts.cartWidgetFixedShapeValues[params.numbers.cartWidgetFixedShape];
+						settings.cartWidgetV1Layout = consts.cartWidgetLayoutValues[params.numbers.cartWidgetLayout];
+					} else {
+						settings.cartWidgetV2Icon = consts.cartWidgetIconValues[params.numbers.cartWidgetIcon];
+						settings.cartWidgetV2FixedShape = consts.cartWidgetFixedShapeValues[params.numbers.cartWidgetFixedShape];
+						settings.cartWidgetV2Layout = consts.cartWidgetLayoutValues[params.numbers.cartWidgetLayout];
+					}
+					settings.cartWidgetHiddenWhenEmpty = params.booleans.cartWidgetHiddenWhenEmpty;
+
+					if (mode === 'PUBLISH') {
+						return {
+							publishedSettings: settings
+						};
+					} else {
+						return {
+							draftSettings: settings
+						};
+					}
+				}
+
+				function getConsts() {
+					return {
+						cartWidgetLayoutValues: ["SMALL_ICON","SMALL_ICON_COUNTER","COUNTER_ONLY","TITLE_COUNTER","MEDIUM_ICON_COUNTER","MEDIUM_ICON_TITLE_COUNTER","BIG_ICON_TITLE_SUBTOTAL","BIG_ICON_DETAILS_SUBTOTAL","SQUARE_BAG_LEGACY_MODE"],
+						cartWidgetIconValues: ["BAG","CART","BASKET"],
+						cartWidgetFixedShapeValues: ["PILL","RECT","NONE"]
+					};
+				}
+			});
+		})();
+
+			window.ec = window.ec || {};
+			window.ec.config = window.ec.config || {};
+			window.ec.config.chameleon = window.ec.config.chameleon || {};
+			window.ec.config.chameleon.colors = window.ec.config.chameleon.colors || {};
+			var colors = window.ec.config.chameleon.colors;
+			colors['color-foreground'] = '#333333';
+			colors['color-link'] = '#1E7EC8';
+			colors['color-button'] = '#439CA0';
+			colors['color-price'] = '#A20505';
+			colors['color-background'] = updateOpacity('#FFFFFF', 0);
+			var fontFamily = '';
+			if (!!fontFamily) {
+				var font = window.ec.config.chameleon.font || {};
+				font['font-family'] = fontFamily;
+				window.ec.config.chameleon.font = font;
+			}
+
+			function hex2rgba(hex, opacity) {
+				hex = hex.replace('#', '');
+				var r = parseInt(hex.substring(0, 2), 16);
+				var g = parseInt(hex.substring(2, 4), 16);
+				var b = parseInt(hex.substring(4, 6), 16);
+
+				var result = 'rgba(' + r + ',' + g + ',' + b + ',' + opacity / 100 + ')';
+				return result;
+			}
+
+			function updateOpacity(color, opacity) {
+				if (!color) {
+					return null;
+				}
+
+				if (color.indexOf('#') === 0) {
+					return hex2rgba(color, opacity)
+				}
+
+				if (color.indexOf('rgba(') === 0) {
+					var colors = color.replace('rgba(', '').split(',').map(function(x){ return parseInt(x, 10); })
+					var r = colors[0];
+					var g = colors[1];
+					var b = colors[2];
+					return 'rgba(' + r + ',' + g + ',' + b + ',' + opacity / 100 + ')';
+				}
+			}
+	</script>
+<script type="module" src="cart_v2_data/ecommerce-i2qgnqyl.js"></script><style wix-style="">.Title{ font:normal normal bold 50px/1.4em georgia,palatino,book antiqua,palatino linotype,serif; } .Menu{ font:normal normal normal 16px/1.4em din-next-w01-light,sans-serif; } .Page-title{ font:normal normal bold 40px/1.4em georgia,palatino,book antiqua,palatino linotype,serif; } .Heading-XL{ font:normal normal normal 35px/1.4em georgia,palatino,book antiqua,palatino linotype,serif; } .Heading-L{ font:normal normal normal 46px/1.4em georgia,palatino,book antiqua,palatino linotype,serif; } .Heading-M{ font:normal normal normal 25px/1.4em georgia,palatino,book antiqua,palatino linotype,serif; } .Heading-S{ font:normal normal bold 22px/1.4em georgia,palatino,book antiqua,palatino linotype,serif; } .Body-L{ font:normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif; } .Body-M{ font:normal normal normal 15px/1.4em avenir-lt-w01_35-light1475496,sans-serif; } .Body-S{ font:normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif; } .Body-XS{ font:normal normal normal 12px/1.4em din-next-w01-light,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="cart_v2_data/fonts.n4jkv23h7cty2lxtptuz.css"><link type="text/css" rel="stylesheet" href="cart_v2_data/wixMadefor.j95mkaziqjnrn77aekr8.css"><link type="text/css" rel="stylesheet" href="cart_v2_data/google.hba6ofik00l4m5mejlr2.css"><style>:focus {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible:focus,
+.js-focus-visible .focus-visible:focus ~ .wixSdkShowFocusOnSibling
+{
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.9), 0 0 1px 2px #3899EC;
+}
+</style><script src="widget_data/focus-visible.min.js" id="dynamic_script_FOCUS_VISIBLE"></script><link rel="modulepreload" as="script" crossorigin="" href="https://d34ikvsdm2rlij.cloudfront.net/storefront/static/2025/all/apps-startup-7p1cogge.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d34ikvsdm2rlij.cloudfront.net/storefront/static/2025/all/vendor-hx2zjovf.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d34ikvsdm2rlij.cloudfront.net/storefront/static/2025/all/shared-f4usgi4a.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d34ikvsdm2rlij.cloudfront.net/storefront/static/2025/all/apps-js-api-lxj7al92.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d34ikvsdm2rlij.cloudfront.net/storefront/static/2025/all/apps-minicart-v2-ccwx3xzh.js"><link rel="stylesheet" href="cart_v2_data/new.css" data-ec-stylesheet=""><script type="text/javascript" src="cart_v2_data/new-frontend.en.default.590181173.js" async=""></script><script type="text/javascript" src="cart_v2_data/Untitled.es" async=""></script><script type="text/javascript" src="cart_v2_data/bundle.8e7be14d.js" async=""></script><link rel="stylesheet" href="cart_v2_data/shopatapp.css"></head>
+<body id="cart-widget" class="wix-widget js-focus-visible">
+	<script type="text/javascript" src="cart_v2_data/script.js" charset="utf-8"></script>
+
+	<script type="text/javascript">
+		if (Ecwid.isStorefrontV3 && Ecwid.isStorefrontV3()) {
+			window.ec.config.useExternalState = true;
+			window.ec.config.storefrontUrls = window.ec.config.storefrontUrls || {}
+			window.ec.config.storefrontUrls.cleanUrls = true
+			Ecwid.customHistoryStateHandler = widgetCustomHistoryHandler;
+		}
+
+		$(window).ready(function() {
+			Ecwid.OnAPILoaded.add(function() {
+				Wix.PubSub.subscribe("ecwid_cart_changed", function(event) {
+					EcwidCart.refreshCartInfo({ cart: event.data.cart });
+				});
+				if (Ecwid.isStorefrontV3 && Ecwid.isStorefrontV3()) {
+					let session = undefined;
+					Wix.PubSub.subscribe("ecwid_session_changed", function(event) {
+						session = event.data.session;
+					});
+
+					Wix.PubSub.subscribe("ecwid_cart_synchronized", function() {
+						if (session !== undefined) {
+							Ecwid.setSession(session);
+							session = undefined;
+						} else {
+							EcwidCart.refreshCartInfo({ shouldRefetchCart: true });
+						}
+					});
+
+					Wix.PubSub.subscribe("ecwid_state_changed", onEcwidStateChanged)
+
+					Wix.addEventListener(Wix.Events.PAGE_NAVIGATION, onWixPageNavigationEventListener);
+				}
+			});
+
+			addRouteChangeEventListener("CART");
+
+			Wix.getSiteInfo(function(siteInfo) {
+				window.ecwid_ProductBrowserURL = siteInfo.url;
+			});
+		});
+	</script>
+
+	<div class="ec-cart-widget" id="minicart-v2" data-fixed="true" data-fixed-position="TOP_RIGHT" data-responsive="false" data-v-app=""><div class="ec-minicart ec-minicart--empty ec-storefront-v3 ec-minicart--m ec-minicart--fixed ec-minicart--top ec-minicart--right ec-minicart--pill ec-minicart--animation-default" tabindex="0" role="button" aria-label="Shopping cart"><div class="ec-minicart__body"><div class="ec-minicart__icon"><svg class="icon-default" width="36" height="30" viewBox="0 0 36 30" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M7 7h22v18a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4V7z" stroke="currentColor" stroke-width="2"></path><path d="M13 10V6c0-2.993 2.009-5 5-5s5 2.026 5 5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><circle class="cart-not-empty" cx="18" cy="18" r="4" fill="currentColor"></circle></g></svg></div><!----><div class="ec-minicart__wrap"><div class="ec-minicart__counter">0</div><!----><!----></div></div></div></div>
+	<div id="minicart-v1"></div>
+
+	<script type="text/javascript">
+		if (isInsideWixEditor()) {
+			initMinicartV1();
+			initMinicartV2();
+				hideMinicartV1();
+		} else {
+				initMinicartV2();
+		}
+
+		function initMinicartV1() {
+			if (!minicartV1IsInitialized) {
+				xMinicart("style=", "layout=", "id=minicart-v1");
+				minicartV1IsInitialized = true;
+			}
+		}
+
+		function initMinicartV2() {
+			if (!minicartV2IsInitialized) {
+				Ecwid.init();
+				minicartV2IsInitialized = true;
+			}
+		}
+
+		function showMinicartV1() {
+			initMinicartV1();
+			$('#minicart-v1').show();
+		}
+
+		function hideMinicartV1() {
+			$('#minicart-v1').hide();
+		}
+
+		function showMinicartV2() {
+			initMinicartV2();
+			$('#minicart-v2').show();
+		}
+
+		function hideMinicartV2() {
+			$('#minicart-v2').hide();
+		}
+	</script>
+
+
+
+<iframe name="__privateStripeMetricsController6530" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" src="cart_v2_data/m-outer-3437aaddcdf6922d623e172c2d6f9278.html" aria-hidden="true" tabindex="-1" style="border: medium !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>

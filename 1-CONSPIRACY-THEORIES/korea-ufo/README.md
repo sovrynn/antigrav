@@ -1,0 +1,1 @@
+Supposedly there is a UFO which, due to not being movable, was covered by a gigantic building, and is in South Korea.

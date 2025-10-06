@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+/*Search Panel*/
+#search_panel .ecwid-minicart {
+	display: none !important;
+}
+.wix-widget .ecwid-ProductBrowserPopup {
+	display: none !important;
+}
+
+#search_panel .ecwid-SearchPanel {
+	position: relative;
+	height: 30px;
+	padding: 0 10px;
+}
+
+#search_panel .ecwid-SearchPanel input {
+	width: 100%;
+	box-sizing: border-box;
+	height: 24px;
+	border: 1px solid #CBCED1;
+	border-radius: 3px;
+	margin-top: 6px;
+	padding: 4px 15px 4px 8px;
+}
+
+#search_panel .ecwid-SearchPanel .ecwid-SearchPanel-button {
+	border: 0 none;
+	cursor: pointer;
+	font-family: font_icons;
+	font-size: 14px;
+	height: 20px;
+	position: absolute;
+	margin: 6px 0 0 -36px;
+	overflow: hidden;
+	width: 20px;
+	z-index: 2;
+	padding: 0;
+	background-color: #fff;
+	white-space: nowrap;
+	border-radius: 5px;
+	right: 13px;
+	top: 3px;
+}
+#search_panel .ecwid-SearchPanel .ecwid-SearchPanel-button:before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("../../images/search.svg") center center no-repeat ;
+}
+#search_panel {
+	position: relative;
+}
+
+/* Cart widget */
+
+#cart-widget .ecwid-minicart-label {
+	visibility: hidden;
+}
+
+#cart-widget .ecwid-minicart-mini-rolloverContainer{
+    display: block !important;
+}
+
+#cart-widget .ecwid-minicart-mini {
+	visibility: hidden;
+}

@@ -1,0 +1,1 @@
+Apparently there is evidence of tiny magnetized particles in these crop circles.

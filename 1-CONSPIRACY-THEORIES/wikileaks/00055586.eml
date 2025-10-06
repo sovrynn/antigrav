@@ -1,0 +1,2456 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp6094172lfb;
+        Mon, 28 Dec 2015 04:54:00 -0800 (PST)
+X-Received: by 10.140.225.9 with SMTP id v9mr2079563qhb.89.1451307240408;
+        Mon, 28 Dec 2015 04:54:00 -0800 (PST)
+Return-Path: <delivery@mx.sailthru.com>
+Received: from mx-washpost-c.sailthru.com (mx-washpost-c.sailthru.com. [192.64.237.167])
+        by mx.google.com with ESMTPS id u142si64531476qka.40.2015.12.28.04.54.00
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Dec 2015 04:54:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery@mx.sailthru.com designates 192.64.237.167 as permitted sender) client-ip=192.64.237.167;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of delivery@mx.sailthru.com designates 192.64.237.167 as permitted sender) smtp.mailfrom=delivery@mx.sailthru.com;
+       dkim=pass header.i=@pmta.sailthru.com;
+       dkim=pass header.i=@e.washingtonpost.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=mt; d=pmta.sailthru.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ bh=tiv5zfW/+K9BgXydLLublb6E2hM=;
+ b=Zbph9/03c6eEz+FeMWZJYtDo9Syuzb+mdTVwPsIFsvgWWQLwyuIyfIKnpHPj9LLvSwP/P3a7Gp6G
+   1wx7PaGGn1RdN+E9MbzBERoktXHfOJQXsJUfXEGRmbCI80T3ab45biVauu/0U672VVGe4UoqSA9K
+   4LZT6AjHsY7pG49POJk=
+Received: from njmta-53.sailthru.com (173.228.155.53) by mx-washpost-c.sailthru.com id hg4oeg1qqbsl for <john.podesta@gmail.com>; Mon, 28 Dec 2015 07:49:46 -0500 (envelope-from <delivery@mx.sailthru.com>)
+Received: from nj1-dimpine.flt (172.18.20.21) by njmta-53.sailthru.com id hg4nuk1qqbse for <john.podesta@gmail.com>; Mon, 28 Dec 2015 07:48:26 -0500 (envelope-from <delivery@mx.sailthru.com>)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; t=1451306906;
+	s=sailthru; d=e.washingtonpost.com;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=ZgjoxS0alr9NTy7vpi4L316rY3OkSer383okoodc0/I=;
+	b=Ee7jU3Fxze0ezvcqZWj/Tyxu3bc12zDlFcubMknBhG3B9kXMtRBEmdPNfzheOBL8
+	Sk4KBSKFhuG5QGnzDGq5U4kuL8Hl5MHRqAUceG6GgeIX+Q/0QuMkXPvls/A7RlaNS5b
+	rLMR/34O/LRP1HV5oUipEi+qfBPucCBXqDH1cpEQ=
+Date: Mon, 28 Dec 2015 07:48:26 -0500 (EST)
+From: The Washington Post <email@e.washingtonpost.com>
+To: john.podesta@gmail.com
+Message-ID: <20151228074826.5808849.467306@sailthru.com>
+Subject: The Daily 202: Are we going to lose Afghanistan?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_168706097_794181399.1451306906692"
+Precedence: bulk
+X-Feedback-ID: 4956:5808849:campaign:sailthru
+X-TM-ID: 20151228074826.5808849.467306
+X-Info: Message sent by sailthru.com customer The Washington Post
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-Unsubscribe-Web: http://link.washingtonpost.com/oc/5483d5bc3b35d0d76d8c549c3gi4x.a0kq/ac48787e
+List-Unsubscribe: <http://link.washingtonpost.com/oc/5483d5bc3b35d0d76d8c549c3gi4x.a0kq/ac48787e>, <mailto:unsubscribe_20151228074826.5808849.467306@mx.sailthru.com>
+X-rpcampaign: sthiq5808849
+
+------=_Part_168706097_794181399.1451306906692
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+View on the Web: <http://link.washingtonpost.com/view/5483d5bc3b35d0d76d8c5=
+49c3gi4x.a0kq/a86590a8>
+- - - - - - - - - - - - - - - - - - - - - - - - -=20
+
+THE DAILY 202
+
+- - - - - - - - - - - - - - - - - - - - - - - - -=20
+By James Hohmann
+- - - - - - - - - - - - - - - - - - - - - - - - -=20
+Share on Twitter: <http://link.washingtonpost.com/click/5808849.467306/aHR0=
+cHM6Ly90d2l0dGVyLmNvbS8_c3RhdHVzPUNoZWNrJTIwb3V0JTIwVGhlRGFpbHkyMDIlMjBmcm9=
+tJTIwJTQwUG93ZXJQb3N0JTIwaHR0cDovL2xpbmsud2FzaGluZ3RvbnBvc3QuY29tL3B1YmxpYy=
+81ODA4ODQ5JndwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cC8b7c=
+6c5a> Share on Facebook: <http://link.washingtonpost.com/click/5808849.4673=
+06/aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3NoYXJlci5waHA_dT1odHRwOi8vbGluay53YXNo=
+aW5ndG9ucG9zdC5jb20vcHVibGljLzU4MDg4NDkmd3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/=
+5483d5bc3b35d0d76d8c549cCf4fa62e7>=20
+- - - - - - - - - - - - - - - - - - - - - - - - -=20
+
+THE DAILY 202: ARE WE GOING TO LOSE AFGHANISTAN? <http://link.washingtonpos=
+t.com/click/5808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vbmV3cy9w=
+b3dlcnBvc3Qvd3AvMjAxNS8xMi8yOC90aGUtZGFpbHktMjAyLWFyZS13ZS1nb2luZy10by1sb3N=
+lLWFmZ2hhbmlzdGFuLz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c5=
+49cCd6c4f18e>
+
+An Afghan shopkeeper watches this morning from a broken window of his shop =
+near the site of suicide car bomb attack in Kabul. (AP Photo/Rahmat Gul)
+THE BIG IDEA:
+&#8212;=C2=A0Because of ISIS and the threat of attacks on the homeland, Syr=
+ia has been on the front burner and Afghanistan has been on the back burner=
+ during the presidential campaign. That=E2=80=99s about to change.
+In the last few hours, a Taliban suicide bomber killed at least one person =
+and injured 13 more near the airport in Kabul. The incident, just two weeks=
+ after a major assault on the city and a week after six U.S. soldiers were =
+killed in another bombing near Bagram air base, underscores the extent to w=
+hich the situation continues to deteriorate.
+&#8212; =E2=80=9CIn private, top Afghan and American officials have begun t=
+o voice increasingly grim assessments of the resurgent Taliban threat,=E2=
+=80=9D The Post=E2=80=99s Sudarsan Raghavan reports from Marja. &#8220;With=
+ control of =E2=80=94 or a significant presence in =E2=80=94 roughly 30 per=
+cent of districts across the nation, according to Western and Afghan offici=
+als, the Taliban now holds more territory than in any year since 2001. =E2=
+=80=A6 Deserters and injured Afghan soldiers say they are fighting a more s=
+ophisticated and well-armed insurgency than they have seen in years.&#8221;
+&#8212; The Post=C2=A0obtained an eye-opening transcript of a late-October =
+meeting of the Afghan National Security Council that raises serious questio=
+ns about whether the local government is up for the challenge.=C2=A0=E2=80=
+=9CWe have not met the people=E2=80=99s expectations. We haven=E2=80=99t de=
+livered,=E2=80=9D Abdullah Abdullah, the country=E2=80=99s chief executive,=
+ told the high-level gathering. =E2=80=9COur forces lack discipline. They l=
+ack rotation opportunities. We haven=E2=80=99t taken care of our own police=
+men and soldiers. They continue to absorb enormous casualties.=E2=80=9D=C2=
+=A0At the=C2=A0meeting, Gen. John F. Campbell, the commander of U.S. and al=
+lied forces in Afghanistan, told his Afghan counterparts that he was as gui=
+lty as they were of =E2=80=9Cjust putting our finger in the dike in Helmand=
+.=E2=80=9D
+&#8212; &#8220;For now, the top American and Afghan priority is preventing =
+Helmand, largely secured by U.S. Marines and British forces in 2012, from a=
+gain falling to the insurgency,&#8221; Raghavan reports. &#8220;As of last =
+month, about 7,000 members of the Afghan security forces had been killed th=
+is year, with 12,000 injured, a 26 percent increase over the total number o=
+f dead and wounded in all of 2014. &#8230;U.S. Special Operations troops ar=
+e increasingly being deployed into harm=E2=80=99s way to assist their Afgha=
+n counterparts. Since Nov.=C2=A04, four members of the U.S.-led coalition h=
+ave been wounded in Helmand.&#8221; Read the full story.
+
+&nbsp;
+&#8212;=C2=A0Afghanistan=E2=80=99s decline has serious implications for U.S=
+. national security. One of President Obama=E2=80=99s first major decisions=
+ was to expand the troop presence in the country. This is a major legacy is=
+sue for him. How far are the 2016 candidates in both parties willing to go =
+to stop the Taliban? The electorate remains reluctant about open-ended depl=
+oyments of U.S. boots on the ground. How much more sacrifice Americans are =
+willing to accept, even in this time of rising anxiety about terrorism, is =
+very much an open question.
+&#8212; The Taliban is a barbaric foe&#8230;=C2=A0Pamela Constable=C2=A0rep=
+orts from Kabul today=C2=A0on=C2=A0the beheading of a third-grade girl.
+&#8212; &#8230;but can there be a negotiated peace? From the Associated Pre=
+ss: &#8220;Afghanistan and Pakistan agreed on Sunday to meet with U.S. and =
+Chinese officials in the first weeks of the new year to discuss &#8216;peac=
+e-related issues,&#8217; a move that could re-invigorate a stalled peace pr=
+ocess with the Taliban, the Afghan president=E2=80=99s office said.=C2=A0Th=
+e development came as Pakistan=E2=80=99s powerful army chief Gen. Raheel Sh=
+arif met with senior officials in the Afghan capital.&#8221;
+An injured NATO soldier lies on the ground after a suicide car bomb attack =
+targeted foreign military vehicles in Kabul this June. (Wakil Kohsar/AFP/Ge=
+tty Images
+WHILE YOU WERE SLEEPING:
+President Obama speaks to troops at a Marine Corps base on Christmas. (Reut=
+ers/Jonathan Ernst)
+&#8212;=C2=A0President and Mrs. Obama, along with a few friends, had a 4.5-=
+hour dinner last night at Hoku&#8217;s, the flagship restaurant at the Kaha=
+la Hotel. It came at the end of a day that included hours on the beach and =
+a stop for Hawaiian shave ice. See the dinner menu from where the Obamas at=
+e here.
+&#8212; Bernie Sanders, starting a two-day Nevada swing, ripped into=C2=A0t=
+he Republican candidates who have kissed Sheldon Adelson&#8217;s ring.=C2=
+=A0At an evening rally in Reno that drew more than 2,000 people, Sanders sp=
+oke facetiously of an =E2=80=9CAdelson caucus,=E2=80=9D including Marco Rub=
+io and Donald Trump. =E2=80=9CSheldon Adelson has not invited me to speak w=
+ith him,=E2=80=9D he said. (John Wagner)
+&#8212; The old Axis powers are still grappling=C2=A0with the consequences=
+=C2=A0of World War II. Two stories on the wire this morning show how long i=
+t takes to heal wounds:
+
+Japan will formally apologize to South Korea for forcing its women to work =
+in brothels during World War II.=C2=A0Tokyo=C2=A0will provide $8.3 million =
+toward the care of aging =E2=80=9Ccomfort women=E2=80=9D in a historic agre=
+ement that could ease tensions between two key U.S. allies.
+For the first time in 70 years, a new edition=C2=A0of &#8220;Mein Kampf&#82=
+21;=C2=A0will be released in Germany next week.=C2=A0The new edition, being=
+ released by a publicly funded institute, will include critical commentary =
+about Adolph Hitler. =E2=80=9CWhile historians say it could help fill a gap=
+ in Germans&#8217; knowledge of the era, Jewish groups are wary,=E2=80=9D t=
+he AP reports from Berlin. =E2=80=9CUnder German law, a copyright expires a=
+t the end of the year 70 years after an author&#8217;s death =E2=80=94 in t=
+his case, Hitler&#8217;s April 30, 1945, suicide in a Berlin bunker =E2=80=
+=A6 That means Bavaria&#8217;s state finance ministry, which holds the copy=
+right, can no longer use it to prevent the work&#8217;s publication beyond =
+Dec. 31.=E2=80=9D
+
+GET SMART FAST:
+
+At least 11 people died after tornadoes swept through the Dallas area, brin=
+ging the total number of weather-related deaths in the country over=C2=A0th=
+e last week to 43. (Dallas Morning News)
+Chicago police accidentally shot and killed a community activist after offi=
+cers were called to her apartment complex because an emotionally-disturbed=
+=C2=A019-year-old neighbor, also killed by cops, was wielding a baseball ba=
+t.=C2=A0(Mark Guarino)
+The fire that burned a Houston mosque on Christmas was definitely arson, in=
+vestigators ruled=C2=A0Sunday. (Houston Chronicle)
+The NFL and Major League Baseball will investigate claims made in an Al Jaz=
+eera documentary that an anti-aging clinic in Indianapolis provided steroid=
+s to numerous athletes, including Peyton Manning, Ryan Zimmerman and James =
+Harrison. Those three, and others, issued quick denials. (Barry Svrluga and=
+ Mark Maske)
+Iraqi forces reclaimed the main government center in Ramadi, which was=C2=
+=A0under ISIS control for seven months. (Mustafa Salim and Loveday Morris)
+The Justice Department charged at least 60 people with terrorism-related ch=
+arges in 2015, a record attributable to the rise of ISIS and its influence =
+on social media. (Ellen Nakashima)
+China has officially instituted a new two-child policy, ending the one-chil=
+d rule that was=C2=A0in place since the 1970s. (CNN)
+The Chinese bureaucrat responsible for regulating the waste heap that cause=
+d last week&#8217;s big=C2=A0landslide=C2=A0committed suicide. (Sarah Kapla=
+n)
+The Chinese Foreign Ministry=C2=A0expelled a French journalist over=C2=A0an=
+ article that=C2=A0suggested=C2=A0Beijing&#8217;s expression of solidarity =
+after the Paris attacks was really about=C2=A0getting international support=
+ to crack down on the=C2=A0Uighurs.=C2=A0(Emily Rauhala)
+The Virginia chamber of commerce official shot while being interviewed on a=
+ Roanoke TV station =E2=80=93 during which the reporter and cameraman were =
+killed =E2=80=93 is done with her surgeries and will soon return to work. (=
+CNN)
+The Chipotle where 136 Boston College students got sick reopened this weeke=
+nd after being closed for three weeks. (The Globe)
+A mall in Louisville, Ky., closed early and extra police officers were call=
+ed in after up to 2,000 =E2=80=9Cunruly=E2=80=9D teenagers engaged in fight=
+s, and harassed customers and store employees. (Toledo Blade)
+A 33-year-old visiting San Diego fell 40 feet off a cliff=C2=A0to his death=
+ on Christmas because he was distracted while trying=C2=A0to take pictures =
+on his=C2=A0cell phone. (Union Tribune)
+Eleven unrelated cold cases were solved by a man who investigated serial ki=
+ller John Wayne Gacy=E2=80=99s unknown victims. (Sharon Cohen)
+=E2=80=9CStar Wars:=C2=A0The Force Awakens=E2=80=9D has already grossed $1.=
+09-billion worldwide. (Michael Cavna)
+
+POWER PLAYERS IN THE NEWS:
+
+Trump slammed the Republican Party of Virginia for requiring that primary v=
+oters sign a statement saying they&#8217;re Republicans, saying it discoura=
+ges independent and first-time voters from participating. (Jenna Portnoy)
+Bill Gates donated $42 million in 2015 to groups supporting Common Core. (V=
+alerie Strauss)
+South Carolina Rep. Trey Gowdy (R)=C2=A0endorsed Marco Rubio and will campa=
+ign with him this week in Iowa. &#8220;It&#8217;s a major show of support f=
+rom a Republican who had previously recoiled at the idea of making a 2016 e=
+ndorsement,&#8221; writes=C2=A0David Weigel.
+The psychiatrist who urged the American Psychiatric Association to stop tre=
+ating homosexuality as an illness, Robert Spitzer, died of heart disease at=
+ 83. (Amy Argetsinger)
+
+SUNDAY SHOW HIGHLIGHTS:
+
+John Kasich refused to say he would endorse Trump if he won the GOP nominat=
+ion, attacking The Donald for complaining about everything. (ABC)
+DNC chair Debbie Wasserman Schultz warned=C2=A0Trump to attack Bill Clinton=
+ at &#8220;his own peril&#8221; after the GOP frontrunner=C2=A0tweeted that=
+ Clinton has a history of sexism. (NBC)
+Mike Huckabee denied that his super PAC &#8220;selectively edited&#8221; an=
+ ad that prematurely cut off Ted Cruz&#8217;s answer to a question about th=
+e importance of fighting same-sex marriage. Unlike=C2=A0Kasich, Huckabee=C2=
+=A0said he would support Trump if he were the GOP nominee. (Fox)
+Bernie Sanders said on NBC=C2=A0that he is working with the DNC to put the =
+Clinton data breach incident &#8220;behind us.&#8221;=C2=A0The Vermont sena=
+tor also=C2=A0said on CBS=C2=A0that=C2=A0Sandra Bland, who died in police c=
+ustody,=C2=A0would not have been arrested had=C2=A0she been=C2=A0white.
+
+WAPO HIGHLIGHTS:
+&nbsp;
+Ben Carson is photographed in his home in Upperco, Md., on December 23, 201=
+5. (Photo by Marvin Joseph/The Washington Post)
+&#8212;=C2=A0&#8220;Ben Carson on the brink: &#8220;A process like this is =
+pretty brutal,&#8221; by Steven Ginsberg and Robert Costa: The Post intervi=
+ewed the famous neurosurgeon in his &#8220;manse in the countryside near Ba=
+ltimore.&#8221; On attacks, Carson said &#8220;it&#8217;s not pleasant&#823=
+0;But it=E2=80=99s discouraging to know that we=E2=80=99re at that stage in=
+ our country where people don=E2=80=99t care so much about the truth. It=E2=
+=80=99s just what=E2=80=99s sensational, what=E2=80=99s the shiny object. I=
+t=E2=80=99s all &#8216;Who=E2=80=99s in the football game? Who=E2=80=99s on=
+ =E2=80=98Dancing With the Stars=E2=80=99? Who=E2=80=99s yelling the loudes=
+t?&#8217; And I=E2=80=99m not sure that=E2=80=99s what we need right now be=
+cause we=E2=80=99ve got some real big problems in our country.&#8221; He hi=
+s decline in the polls is because a narrative is being pushed that &#8220;i=
+f you=E2=80=99re soft-spoken and mild-mannered, there is no way you can dea=
+l with terrorism, with national security, that you=E2=80=99re not a strong =
+person &#8230;=C2=A0We want to be comforted, we want to be comforted quickl=
+y, and we go for the bright, shiny object as the solution rather than being=
+ a little more cerebral &#8230;=C2=A0What I=E2=80=99ve been emphasizing on =
+the road lately is that strength is not defined by the decibels of which yo=
+u say something or by the gesticulations associated with it, but by the acc=
+omplishments of one=E2=80=99s life. What have you faced, and how have you f=
+aced those things?&#8221;
+&#8212;=C2=A0=E2=80=9CIn Central Asia, Chinese inroads in Russia=E2=80=99s =
+backyard,=E2=80=9D by Simon Denyer: =E2=80=9CThe Silk Road slogan may be ne=
+w, but many of its goals are not. Beijing has long been working to secure a=
+ share of the region=E2=80=99s rich natural resources to fuel China=E2=80=
+=99s industrial economy; it is building a network of security cooperation i=
+n Central Asia as a bulwark against Islamist extremism that could leak into=
+ China=E2=80=99s restive western province of Xinjiang, and it wants to crea=
+te alternative trading routes to Europe that bypass Asia=E2=80=99s narrow, =
+congested shipping lanes. Under the Silk Road plan, China also is promising=
+ to spend hundreds of millions of dollars to build new infrastructure here,=
+ and it hopes to reap benefits of its own: to create new markets for Chines=
+e goods, especially for heavy industries such as steel and cement that have=
+ suffered as the Chinese economy has slowed.=E2=80=9D
+Vladimir Putin has preciously said Russia will add more than 40 new interco=
+ntinental ballistic missiles to its nuclear arsenal this year. (Reuters/Max=
+im Shemetov)
+&#8212; The Post&#8217;s editorial board expresses alarm about Russia&#8217=
+;s development of a=C2=A0nuclear-armed, underwater, unmanned drone:=C2=A0&#=
+8220;The new weapon was revealed=C2=A0when Russian President Vladimir Putin=
+ met with military chiefs in Sochi in November and television news footage =
+captured a page being used in the briefing. The Kremlin later said the vide=
+o &#8230; should not have been broadcast, and the video was deleted &#8230;=
+=C2=A0Russia appears to be creating a tactical nuclear weapon that could be=
+ slipped into a harbor, unleashing a tidal wave as well as the devastating =
+effects of a nuclear explosion. It might be used to attack a military targe=
+t, such as a submarine or naval base, but cities and industry could also be=
+ hit. &#8230;=C2=A0There are no arms control treaties in place to stop this=
+; smaller tactical nuclear weapons have never been limited by treaty.&#8221=
+;=C2=A0Wonder if Trump will weigh in&#8230;
+&#8212; =E2=80=9CThe flawed system that allows companies to make millions o=
+ff the injured,=E2=80=9D by Terrence McCoy: =E2=80=9CIn all, according to T=
+errence Taylor=E2=80=99s bank records and court documents, the burn survivo=
+r sold $11 million of his structured settlement =E2=80=94 which had a prese=
+nt value of about $8.5 million =E2=80=94 for roughly $1.4 million, or 16 ce=
+nts on the present dollar. He has sued the companies, focusing on a South F=
+lorida firm named Structured Asset Funding, which did six deals with him. T=
+hat Taylor, who had received diagnoses of learning and emotional disabiliti=
+es, could so quickly hemorrhage 30 years=E2=80=99 worth of income in deals =
+approved in a courthouse he never visited is the result of Virginia=E2=80=
+=99s failure to properly regulate and monitor an industry that makes tens o=
+f millions off some of the state=E2=80=99s most vulnerable residents, a Was=
+hington Post investigation has found. Unlike traditional settlements, which=
+ are paid out in one sum, structured settlements dispense the payout in por=
+tions over a lifetime to protect vulnerable people from immediately spendin=
+g it all.=E2=80=9D
+&#8212; =E2=80=9CThe A.I. anxiety,=E2=80=9D by Joel Achenbach: =E2=80=9CNic=
+k Bostrom=E2=80=99s underlying concerns about machine intelligence, uninten=
+ded consequences and potentially malevolent computers have gone mainstream.=
+ You can=E2=80=99t attend a technology conference these days without someon=
+e bringing up the A.I. anxiety. It hovers over the tech conversation with t=
+he high-pitched whine of a 1950s-era Hollywood flying saucer. People will t=
+ell you that even Stephen Hawking is worried about it. And Bill Gates. And =
+that Elon Musk gave $10 million for research on how to keep machine intelli=
+gence under control. All that is true. =E2=80=A6 This is a topic rife with =
+speculation and perhaps a whiff of hysteria. But the discussion reflects a =
+broader truth: We live in an age in which machine intelligence has become a=
+ part of daily life. Computers fly planes and soon will drive cars. Compute=
+r algorithms anticipate our needs and decide which advertisements to show u=
+s. Machines create news stories without human intervention. Machines can re=
+cognize your face in a crowd. &#8230; We don=E2=80=99t know how this will p=
+lay out. But some of the most serious thinkers on Earth worry about potenti=
+al hazards =E2=80=94 and wonder whether we remain fully in control of our i=
+nventions.=E2=80=9D
+SOCIAL MEDIA SPEED READ:
+&#8212; Pictures of the day:
+2016 presidential candidates wished voters a Merry Christmas via social med=
+ia, with some fun family photos and some throwbacks:
+(@realdonaldtrump)
+(@hillaryclinton)
+(@chrischristie)
+(@marcorubiofla)
+(@jebbush)
+(@realbencarson)
+And President Obama, plus some former residents of the White House, extende=
+d their Season&#8217;s Greetings:
+(@thewhitehouse)
+(@georgewbush)
+Jacqueline Kennedy, John Jr., and Caroline, on Christmas Day in Palm Beach,=
+ Fla., in 1962:
+(@whitehousehistory)
+&#8211;Tweets of the day:
+Rep. Donna Edwards (D-Md.), seeking the Maryland Senate seat being vacated =
+by Barbara Mikulski (D-Md.), sent her own wishes for a Happy Kwanzaa:
+(@repdonnaedwards)
+Rep. David Cicilline (D-R.I.) celebrated Christmas with the troops in Iraq:
+(@repcicilline)
+Rep. Justin Amash (R-Mich.) offered Clinton and Sanders a libertarian econo=
+mics lesson:
+(@justinamash)
+Rep. Kristi Noem (R-S.D.) got a practical gift from her sister. &#8220;I th=
+ink I&#8217;m offended,&#8221; she tweeted:
+(@repkristinoem)
+Sen. John Thune (R-S.D.) tweeted that his dad celebrated his 96th birthday =
+by getting &#8220;stuck being our driver:&#8221;
+(@SenJohnThune)
+&#8212; Instagrams of the day:
+Dogs were a constant &#8212; and of course cute &#8212; theme on Instagram =
+over the holidays.
+&#8220;Bart,&#8221; an explosives detection trained canine, found Santa ins=
+tead at the Kansas City International airport:
+(@TSA)
+Sen. Steve Daines (R-Mont.) took a walk in the snow with his dogs on Christ=
+mas Day:
+(@stevedaines)
+Ben Carson noted that pet lovers could get animal swag at his online store:
+(@realbencarson)
+Former reality TV star=C2=A0Sean Duffy, now a GOP congressman from Wisconsi=
+n, showed off his family:
+(repseanduffy)
+The Sanders campaign posted this picture of a little Bernie and his big bro=
+ther, Larry, growing up in Brooklyn:
+(@berniesanders)
+Rep. Eric Swalwell (D-Calif.) warned his nephew, Nolan, that he was &#8220;=
+not to cool&#8221; to be picked up, no matter how old he is:
+(@repswalwell)
+And Sen. Martin Heinrich (D-N.M.) showed=C2=A0the holiday lights along Cany=
+on Road in Santa Fe:
+(@senatormartinheinrich)
+GOOD READS FROM ELSEWHERE:
+Bill, with Hillary, campaigning for governor of Arkansas in 1978. (The Wash=
+ington Post)
+&#8212; New York Times, &#8220;How Hillary Clinton went undercover to exami=
+ne race in education,&#8221; by Amy Chozick in Dothan, Ala.: &#8220;On a hu=
+mid summer day in 1972, Hillary Rodham walked into this town=E2=80=99s new =
+private academy, a couple of cinder-block classrooms erected hurriedly amid=
+ fields of farmland, and pretended to be someone else.=C2=A0Playing down he=
+r flat Chicago accent, she told the school=E2=80=99s guidance counselor tha=
+t her husband had just taken a job in Dothan, that they were a churchgoing =
+family and that they were looking for a school for their son.=C2=A0The futu=
+re Mrs. Clinton, then a 24-year-old law student, was working for Marian Wri=
+ght Edelman, the civil rights activist and prominent advocate for children.=
+ Mrs. Edelman had sent her to Alabama to help prove that the Nixon administ=
+ration was not enforcing the legal ban on granting tax-exempt status to so-=
+called segregation academies, the estimated 200 private academies that spra=
+ng up in the South to cater to white families after a 1969 Supreme Court de=
+cision forced public schools to integrate.=C2=A0Her mission was simple: Est=
+ablish whether the Dothan school was discriminating based on race. &#8230; =
+=C2=A0A look at Mrs. Clinton=E2=80=99s efforts that summer, through archive=
+s and interviews with more than 50 local officials, civil rights activists =
+and people who knew her, reveals a summer job that was both out of characte=
+r for the bookish law student and a moment of awakening.&#8221;
+Donald Trump at Taj Mahal in Atlantic City (Photo by Tom Briglia/FilmMagic)
+&#8212; Los Angeles Times, &#8220;Trump left his mark on Atlantic City =E2=
+=80=94 for better and for worse,&#8221; by Joseph Tanfani:=C2=A0&#8220;With=
+ his showman&#8217;s knack for positive spin, he depicts his history in Atl=
+antic City, bankruptcies and all, as more proof of his genius for timing. &=
+#8230;=C2=A0The real story of Trump&#8217;s rise and fall in Atlantic City =
+is more complicated. His casinos were profitable early. As he expanded, tho=
+ugh, Trump&#8217;s aggressive borrowing and go-go strategy left them labori=
+ng under high-interest debt. When he decided to leave, in 2009, the exit wa=
+s far from smooth and graceful; he gave up after last-ditch battles with bo=
+ndholders.=C2=A0Today, some still love him here, even people who lost money=
+. Others have bitter memories. &#8216;He trampled everyone: the shareholder=
+s, the bondholders, the employees, the contractors,&#8217; said Sebastian P=
+ignatello, who lives in Flushing, N.Y., near where Trump grew up. An invest=
+or who headed a stockholders&#8217; committee that tried to recover losses =
+in one Trump bankruptcy, Pignatello says many small businesses had to settl=
+e for &#8216;pennies on the dollar.'&#8221;
+John Kasich leaves a birthday message for the father of a voter attending h=
+is town hall in Salem, New Hampshire, on December 3. (Michael Mathes/AFP/Ge=
+tty Images)
+Kasich campaign touts analytics=C2=A0&#8211;&gt; New Hampshire Union Leader=
+, &#8220;Primary &#8216;ground games&#8217; delve deep into data mining,&#8=
+221; by Dan Tuohy: &#8220;Talking about &#8216;ground game&#8217; ahead of =
+New Hampshire&#8217;s first-in-the-nation Presidential Primary, it seemed a=
+ppropriate to hear Tom Rath refer to &#8216;Sabermetrics,&#8217; =C2=A0the =
+statistical study of baseball to identify player performance. &#8216;It&#82=
+17;s become more like the analytics approach to baseball,&#8217; he said. &=
+#8216;Analytics really drives a lot of the tactical decisions.&#8217;=C2=A0=
+His player is John Kasich, the Ohio governor. Rath, a state co-chairman, sh=
+ared some insight into the Republican presidential hopeful&#8217;s organiza=
+tion and the use of data-mining technology to target likely voters. &#8230;=
+ The technology indicates where a campaign is strongest and drills down to =
+the demographics, said John E. Sununu, a former U.S. senator who is Kasich&=
+#8217;s state chairman. He said the data provides a more objective layer, b=
+ut experience and expertise remain key to the roadmap.&#8221;
+A long exposure photograph from last week shows the SpaceX Falcon 9 lifting=
+ off (L) from its launch pad and then returning to a landing zone (R) at th=
+e Cape Canaveral Air Force Station. (Reuters/Mike Brown)
+&#8212;=C2=A0Daily Beast, =E2=80=9CWhat=E2=80=99s next for outer space?=E2=
+=80=9D By David Axe: =E2=80=9CElon Musk has called reusability =E2=80=98the=
+ fundamental breakthrough needed to revolutionize access to space.=E2=80=99=
+ For decades, government and private space organizations have dreamed of po=
+ssessing such a multiple-use rocket, believing it will cut down on the high=
+ cost=E2=80=94hundreds of millions of dollars per launch=E2=80=94of getting=
+ to, and beyond, Earth=E2=80=99s orbit. Governments have repeatedly tried a=
+nd failed to design a launch-and-land rocket. It took a private company hea=
+ded by an eccentric billionaire inventor to actually get it done following =
+years of experimentation and one high-profile crash in April. Musk and Spac=
+eX=E2=80=99s December feat was more than just a technological milestone=E2=
+=80=94it also signaled the coming of age of private space exploration. If 2=
+015 was the year private space firms such as SpaceX, Blue Origin, Virgin Ga=
+lactic and lunar mining concern Moon Express blasted into the headlines, 20=
+16 could be the year these extraterrestrial companies make substantial prog=
+ress toward reaching, exploring and profiting from space.=E2=80=9D
+HOT ON THE LEFT
+The University of California school system will no longer invest in private=
+ prisons after its administrators met with black student groups=C2=A0who we=
+re lobbying for the change. From Think Progress: &#8220;As a result of moun=
+ting student pressure to divest, UC removed its $25 million shares from the=
+ Geo Group Inc and Corrections Corporation of America (CCA) =E2=80=94 contr=
+oversial companies linked to human rights abuses across the country.&#8221;
+HOT ON THE RIGHT
+Trump, in response to Trey Gowdy&#8217;s endorsement of Rubio, called the B=
+enghazi hearings a &#8220;disaster.&#8221; From the Washington Examiner: &#=
+8220;He=C2=A0did not win with those hearings,&#8221; Trump said. &#8220;It =
+was not good for Republicans and for the country. I hope he does a lot bett=
+er for Marco than he did with the Benghazi hearings.&#8221;
+DAYBOOK:
+&#8211;What&#8217;s happening today on the campaign trail: Donald Trump is =
+holding a rally at 7 p.m. in Nashua, New Hampshire.=C2=A0Marco Rubio holds =
+a town hall in Burlington, Iowa. Chris Christie is campaigning in Dubuque i=
+n the afternoon before holding a town hall in Davenport in the evening. Mar=
+tin O&#8217;Malley will attend a leadership forum in Iowa Falls before camp=
+aigning in Waterloo and Tama later in the day. John Kasich stops in Manches=
+ter and Derry, N.H.
+&#8212; On the Hill: Recess
+&#8211;At the White House:=C2=A0President Obama is vacationing in Hawaii.
+QUOTE OF THE DAY:
+This summer Bernie Sanders got angry when=C2=A0interviewers suggested he an=
+d Trump were both outsiders tapping into discontent with the status quo. No=
+w, a month out from Iowa, he=E2=80=99s changing his tune. =E2=80=9CMany of =
+Trump&#8217;s supporters are working class people and they&#8217;re angry,=
+=E2=80=9D the democratic socialist said on CBS Sunday. =E2=80=9CAnd they&#8=
+217;re angry because they&#8217;re working longer hours for lower wages. Th=
+ey&#8217;re angry because their jobs have left this country and gone to Chi=
+na or other low wage countries. They&#8217;re angry because they can&#8217;=
+t afford to send their kids to college or they can&#8217;t retire with dign=
+ity. And I think what Trump has done successfully, I would say, is take tha=
+t anger, take that anxiety about terrorism and say to a lot of people in th=
+is country, =E2=80=98Look, the reason for our problems is because of Mexica=
+ns.=E2=80=99 =E2=80=A6 For his working class and middle class supporters, I=
+ think we can make the case that if we really want to address the issues th=
+at people are concerned about &#8230; we need policies that bring us togeth=
+er, that take on the greed of Wall Street, the greed of corporate America a=
+nd create a middle class that works for all of us, rather than an economy t=
+hat works just for a few.=E2=80=9D
+NEWS YOU CAN USE IF YOU LIVE IN D.C.:
+&#8212;=C2=A0=E2=80=9CIt=E2=80=99s noticeably colder with overcast skies fo=
+r much of the day,=E2=80=9D the Capital Weather Gang forecasts. =E2=80=9CTe=
+mperatures trickle down through the 40s. During the afternoon, some patchy =
+light rain and/or drizzle may develop from the southwest. Winds are from th=
+e east around 10 mph.=E2=80=9D
+DeSean Jackson and Trent Williams celebrate winning the NFC East division i=
+n Philadelphia Saturday. (Photo by Mitchell Leff/Getty Images)
+&#8212; Playoff bound:=C2=A0The Redskins clinched the NFC East title with a=
+ 38-24 win=C2=A0over=C2=A0the Philadelphia Eagles. (Liz Clarke spot story; =
+Mike Jones has=C2=A0five takeaways from the win; and=C2=A0the team savors t=
+he berth.)
+Meanwhile, the Carolina Panthers&#8216; bid for a perfect season ended with=
+ a 20-13 loss to the Falcons. (Mark Maske)
+&#8212; Are we less safe?=C2=A0The District now has=C2=A0fewer=C2=A0than 3,=
+800 police officers, the smallest force=C2=A0in a decade and a number that =
+city officials have previously suggested=C2=A0would be dangerous. &#8220;Di=
+strict officials blame the staffing shortfall almost entirely on retirement=
+s,&#8221;=C2=A0Peter Hermann reports.=C2=A0&#8220;But the union representin=
+g the rank and file says that the exodus also includes officers and street-=
+level supervisors who are leaving with fewer than 10 years on the force. Th=
+e union argues that this is evidence officers are fleeing a department and =
+a chief they do not like, as well as a crime plan they say will not make th=
+e District safer.&#8221;
+&#8212; =E2=80=9CA state advisory panel is calling for major changes to =E2=
+=80=98Maryland, My Maryland,=E2=80=99 a Civil War-era song that urges Maryl=
+and to join the Confederacy, bashes =E2=80=98Northern scum=E2=80=99 =E2=80=
+=94 and has survived as the state anthem despite six previous efforts to el=
+iminate it,&#8221;=C2=A0Ovetta Wiggins reports. The panel offered six recom=
+mendations, including the adoption of &#8220;The Star-Spangled Banner.&#822=
+1;
+&#8212; Seven hundred pounds of venison, taken from deer shot by sharp shoo=
+ters in Rock Creek Park, was used to feed the homeless at DC Central Kitche=
+n. (Tara Bahrampour)
+&#8212; Eight Republican candidates trying to unseat Rep.=C2=A0John Delaney=
+=C2=A0(D) in Maryland=E2=80=99s 6th Congressional District will face off in=
+ an=C2=A0April primary.=C2=A0But no top-tier Republicans are competing for =
+Chris Van Hollen=E2=80=99s open seat in Montgomery County, Bill Turque repo=
+rts.
+VIDEOS OF THE DAY:
+Ben Carson released a new ad=C2=A0titled &#8220;Our Hands,&#8221; a play on=
+ the neurosurgeon&#8217;s autobiography, &#8220;Gifted Hands.&#8221; The th=
+eme is for Americans to unite:
+(@realbencarson)
+Ted Cruz appealed to social conservatives in a new=C2=A0ad:
+(@tedcruz)
+Charlie Brown was apparently more religious than we remembered:
+(@funnyordie)
+George Lucas talks about what it was like to &#8220;break up&#8221; with &#=
+8220;The Force Awakens&#8221;:
+(@charlierose)
+Queen Elizabeth delivers her Christmas message:
+(@skynews)
+And watch people who received hoverboards and drones  for Christmas have so=
+me awkward accidents.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -=20
+
+Twitter <http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly90d2=
+l0dGVyLmNvbS9Qb3dlclBvc3Q_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0=
+d76d8c549cC69776156>
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -=20
+
+You are receiving this email because you signed up for the The Daily 202 or=
+ were registered on washingtonpost.com or were invited as a VIP. For additi=
+onal free newsletters or to manage your newsletters, click here: <http://li=
+nk.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly9zdWJzY3JpYmUud2FzaGlu=
+Z3RvbnBvc3QuY29tL25ld3NsZXR0ZXJzP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5b=
+c3b35d0d76d8c549cC8cc6990b>.
+
+We respect your privacy <http://link.washingtonpost.com/click/5808849.46730=
+6/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vcHJpdmFjeS1wb2xpY3kvMjAxMS8xMS8xO=
+C9nSVFBU0lpYWlOX3N0b3J5Lmh0bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3=
+b35d0d76d8c549cC50e50f24>. If you believe that this email has been sent to =
+you in error, or you no longer wish to receive email from The Washington Po=
+st, click here: <http://link.washingtonpost.com/oc/5483d5bc3b35d0d76d8c549c=
+3gi4x.a0kq/ac48787e>. Contact us <http://link.washingtonpost.com/click/5808=
+849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vYWN0bWdtdC9oZWxwLz93cG1t=
+PTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cCee5aeb13> for help.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -=20
+Copyright 2015=20
+The Washington Post, 1301 K St NW, Washington DC 20071
+------=_Part_168706097_794181399.1451306906692
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<base target=3D"_blank">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale-1.0,=
+ user-scalable=3Dyes" />
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+<meta name=3D"title" content=3D"The Daily 202 from PowerPost" />
+<meta name=3D"description" content=3D"Intelligence for leaders" />
+<title>The Daily 202 from PowerPost</title>
+</head>
+<body bgcolor=3D"#ffffff" leftmargin=3D"0" link=3D"#005b88" marginheight=3D=
+"0" marginwidth=3D"0" style=3D"background-color: #ffffff; height: 100%; mar=
+gin: 0; min-width: 100%; padding: 0; width: 100%; -ms-text-size-adjust: non=
+e; -webkit-text-size-adjust: none;" topmargin=3D"0">
+<!-- If you are seeing this message, you may have trouble viewing and inter=
+acting with this email. Change your device's email settings to view HTML in=
+ email or request text-only email from The Washington Post at http://help.w=
+ashingtonpost.com. To view this email in your device's browser, try the fol=
+lowing link: http://link.washingtonpost.com/view/5483d5bc3b35d0d76d8c549c3g=
+i4x.a0kq/a86590a8 -->
+<style type=3D"text/css">
+@import url(http://www.washingtonpost.com/wp-adv/emails/newsletters/auto/fr=
+anklin.css);
+/* body resets */
+body {=20
+background-color: #ffffff;
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f;=20
+height: 100%;
+margin: 0;
+min-width: 100%;
+padding: 0;
+width: 100% !important;
+-ms-text-size-adjust: none;=20
+-webkit-text-size-adjust: none;
+}
+/* override any browser link colors for hover, active, visited */
+a:hover, a:active, a:visited {=20
+color: inherit; /* not set to important to allow inline overrides */
+}
+/* Hotmail-specific fixes */
+.ReadMsgBody, .ExternalClass { width: 100%; }
+.ExternalClass, .ExternalClass div, .ExternalClass span, .ExternalClass td,=
+ .ExternalClass p, .ExternalClass font {=20
+font-size: inherit;
+line-height: inherit;=20
+}
+/* Outlook fixes */
+table {=20
+border-collapse: collapse;=20
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+/* MSIE image rendering fix */
+img { -ms-interpolation-mode: bicubic; }
+/* Yahoo margin fix + Post type styles */
+p, .summary p {
+color: #2a2a2a;=20
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f;=20
+font-size: 18px;
+margin-bottom: 1em;
+margin-top: 1em;
+}
+/* Hotmail heading fix + Post type styles */
+h1, h2, h3, h4, h5, h6 {=20
+color: #2a2a2a;=20
+font-family: FranklinITCProBold, FranklinITCStdBold, HelveticaNeueBold, 'He=
+lveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Bold', 'Helvetica Neue=
+', Helvetica, Arial, 'Lucida Grande', sans-serif;
+font-weight: bold;
+line-height: 100%;=20
+}
+/* Post standard link styles */
+a {=20
+color: #005b88;=20
+text-decoration: none;=20
+word-wrap: break-word;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {=20
+color: #2a2a2a !important;=20
+text-decoration: none !important;=20
+}
+a:hover {=20
+color: #5a5a5a;=20
+text-decoration: none;=20
+}
+/* Styles for Twitter blockquote */
+blockquote.twitter-tweet {
+display: inline-block;
+font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+font-size: 12px;
+font-weight: bold;
+line-height: 16px;
+border-color: #eee #ddd #bbb;
+border-radius: 5px;
+border-style: solid;
+border-width: 1px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+margin: 10px 5px;
+padding: 0 16px 16px 16px;
+max-width: 468px;
+}
+blockquote.twitter-tweet p {
+font-size: 16px;
+font-weight: normal;
+line-height: 20px;
+}
+blockquote.twitter-tweet a {
+font-weight: normal;
+text-decoration: none;
+outline: 0 none;
+}
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+text-decoration: underline;
+}
+/* Classes */
+.wp-caption-text {
+color: #5a5a5a;
+font-size: 15px !important;
+line-height: 1.4em !important;
+}
+.page-gutter { width: 30px; }
+.reverse, .reverse p  {=20
+color: #ffffff !important;
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f;
+}
+.reverse a {=20
+border: none !important;
+color: #ffffff !important;
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f;
+text-decoration: underline !important;
+}
+.tagline {
+color: #2a2a2a;
+font-family: FranklinITCProLight, FranklinITCStdLight, 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 16px;
+font-weight: 300;
+}
+.hosted-link {
+color: #4b4b4b;
+font-family: FranklinITCProLight, FranklinITCStdLight, 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 12px;
+font-weight: 200;
+}
+.note {
+color: #2a2a2a;
+font-family: FranklinITCProLight, FranklinITCStdLight, 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.125em;
+}
+.caption {
+color: #6e6e6e;
+font-family: FranklinITCProLight, FranklinITCStdLight, 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 12px;
+font-weight: 200;
+}
+.section-head {
+color: #005b88;
+font-family: FranklinITCProBold, FranklinITCStdBold, HelveticaNeueBold, 'He=
+lveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif;
+font-size: 15px;
+font-weight: bold;
+text-align: left;
+text-transform: uppercase;
+}
+.headline {
+color: #2a2a2a;
+font-family: HelveticaNeueBold, 'HelveticaNeue-Bold', 'Helvetica Neue Bold'=
+, 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 22px;
+font-weight: bold;
+line-height: 1.1875em;
+text-align: left;
+}
+.headline a {
+color: #2a2a2a !important;
+text-decoration: none !important;
+}
+.summary {
+color: #2a2a2a;
+font-size: 18px;
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f;
+line-height: 32px;
+}
+.note a, .summary a {
+color: #005b88;=20
+border-bottom-color: #d4d4d4;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+text-decoration: none;=20
+word-wrap: break-word;
+}
+.byline {
+color: #6a6a69;=20
+font-family: HelveticaNeueBold, 'HelveticaNeue-Bold', 'Helvetica Neue Bold'=
+, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;=20
+font-size: 14px;=20
+font-weight: 600;
+}
+.fine-print {
+color: #6a6a6a;
+font-family: FranklinITCProLight, FranklinITCStdLight, 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 12px;
+}
+/* fixes iOS adding links to address, etc. */
+.fine-print a {=20
+color: #6a6a6a !important;
+text-decoration: none !important;
+}
+/* small screen styles */
+.mobile-only {
+display: none;
+max-height: 0px;
+mso-hide: all;
+overflow: hidden;
+visibility: hidden;
+}
+@media only screen and (max-device-width: 700px), only screen and (max-widt=
+h: 700px) {
+td[class~=3D"page-gutter"] { width: 5px !important; }
+*[class~=3D"mobile-only"] {
+display: block !important;
+max-height: none !important;
+overflow: visible !important;
+visibility: visible !important;
+}
+*[class~=3D"mobile-hide"] {=20
+display: none !important;=20
+height: 0 !important;
+margin: 0 !important;
+max-height: 0 !important;
+overflow: hidden !important;
+padding: 0 !important;
+visibility: hidden !important;=20
+width: 0 !important;=20
+}
+*[class~=3D"mobile-expanding"] {
+clear: both !important;=20
+float: none !important;=20
+width: 100% !important;=20
+}
+*[class~=3D"mobile-block-full-width"] {=20
+clear: both !important;=20
+display: block !important;
+float: none !important;=20
+height: auto !important;=20
+width: 100% !important;=20
+}
+*[class~=3D"mobile-enlarge"] { font-size: 120% !important; }
+*[class~=3D"mobile-shrink"] { font-size: 80% !important; }
+img[class~=3D"mobile-enlarge"] {
+height: auto;
+width: 120%;
+}
+img[class~=3D"mobile-shrink"] {
+height: auto;
+width: 80%;
+}
+*[class~=3D"mobile-border-bottom"] {
+border-bottom-color: #e4e4e4 !important;
+border-bottom-style: solid !important;
+border-bottom-width: 1px !important;
+}
+*[class~=3D"mobile-border-top"] {
+border-top-color: #e4e4d4 !important;
+border-top-style: solid !important;
+border-top-width: 1px !important;
+}
+*[class~=3D"pad-reset"] {
+padding-bottom: 30px !important;
+padding-left: 6px !important;
+padding-right: 6px !important;
+padding-top: 30px !important;
+}
+*[class~=3D"pad-reduce"] {
+padding-bottom: 20px !important;
+padding-top: 20px !important;
+}
+*[class~=3D"pad-bottom-reduce"] {
+padding-bottom: 20px !important;
+}
+*[class~=3D"pad-top-reduce"] {
+padding-top: 20px !important;
+}
+*[class~=3D"pad-collapse"] {
+padding-bottom: 0 !important;
+padding-top: 0 !important;
+}
+*[class~=3D"headline"] {
+font-size: 18px !important;
+}
+*[class~=3D"summary"] {
+font-size: 16px !important;
+line-height: 22px !important;
+}
+}
+@media only screen and (max-device-width: 450px), only screen and (max-widt=
+h: 450px) {
+*[class~=3D"tagline"] {
+font-size: 12px !important;
+}
+td[class~=3D"page-gutter"] {=20
+display: none !important;=20
+height: 0 !important;
+margin: 0 !important;
+max-height: 0 !important;
+overflow: hidden !important;
+padding: 0 !important;
+visibility: hidden !important;=20
+width: 0 !important;=20
+}
+}
+</style>
+<div style=3D"background-color: #ffffff; color: #ffffff; display: none; fon=
+t-size: 1px; line-height: 0; max-height: 0; max-width: 0px; overflow: hidde=
+n; mso-hide: all; visibility: hidden;">THE BIG IDEA: &#8212;=C2=A0Because o=
+f ISIS and the threat of attacks on the homeland, Syria has been on the fro=
+nt burner and Afghanistan has been on the back burner during the presidenti=
+al campaign. That=E2=80=99s about to change. In the last few hours, a Talib=
+an suicide bomber killed at least one person and injured 13 more [&hellip;]=
+</div>
+<table id=3D"body_table" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"margin: 0; padding: 0; table-layout: fixed; width: 100%" width=3D"1=
+00%">
+<tr>
+<td align=3D"center" bgcolor=3D"#f9f9f9">
+<table id=3D"outer_table" align=3D"center" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0">
+<tr>
+<td align=3D"right" bgcolor=3D"#ffffff" valign=3D"top"><a href=3Dhttp://li.=
+washingtonpost.com/click?s=3D105695&layout=3Dleft&li=3Ddaily202&m=3D30a1421=
+67a399d9be2c1b7c32e192bd2&p=3D5808849 rel=3D"nofollow"><img border=3D"0" sr=
+c=3Dhttp://li.washingtonpost.com/imp?s=3D105695&layout=3Dleft&li=3Ddaily202=
+&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 /></a></td>
+<td bgcolor=3D"#ffffff" class=3D"page-gutter">&nbsp;</td>
+<td align=3D"center" bgcolor=3D"#ffffff" valign=3D"top" width=3D"750">
+<table id=3D"header" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" width=3D"100%">
+<tr>
+<tr><td align=3D"center" bgcolor=3D"#ffffff" style=3D"height: 1px; line-hei=
+ght: 1px; font-size: 1px;"><img border=3D"0" height=3D"1" src=3D"http://lin=
+k.washingtonpost.com/img/5483d5bc3b35d0d76d8c549c3gi4x.a0kq/2cb9c690.gif" w=
+idth=3D"6" /></td></tr>
+<td align=3D"center" bgcolor=3D"#ffffff" style=3D"color: #4b4b4b; font-fami=
+ly: FranklinITCProLight, FranklinITCStdLight, 'Helvetica Neue', Helvetica, =
+Arial, 'Lucida Grande', sans-serif; font-size: 12px; font-weight: 200; padd=
+ing-bottom: 20px; padding-top: 20px;" valign=3D"middle">View <a href=3D"htt=
+p://link.washingtonpost.com/view/5483d5bc3b35d0d76d8c549c3gi4x.a0kq/a86590a=
+8" style=3D"border: none !important; color: #4b4b4b !important; font-family=
+: sans-serif; text-decoration: underline;">The Daily 202</a> on the Web</td=
+>   =20
+</tr>
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"pad-reduce" style=3D"bord=
+er-top-color: #000000; border-top-style: solid; border-top-width: 3px; colo=
+r: #333333; font-family: FranklinITCProBold, FranklinITCStdBold, HelveticaN=
+eueBold, 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Bold', 'He=
+lvetica Neue', Helvetica, Arial, sans-serif; font-size: 3.625em; padding-bo=
+ttom: 30px; padding-top: 20px; text-align: center;" valign=3D"middle"><a hr=
+ef=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cDovL3d3dy53Y=
+XNoaW5ndG9ucG9zdC5jb20vbmV3cy9wb3dlcnBvc3Qvd3AvY2F0ZWdvcnkvdGhlLWRhaWx5LTIw=
+Mi8_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBac7bc2f3" s=
+tyle=3D"color: #333333; font-family: sans-serif; font-weight: bold; text-de=
+coration: none;"><img id=3D"product_banner" alt=3D"The Daily 202" border=3D=
+"0" src=3D"http://media.sailthru.com/3to/1jz/6/8/5575d7640191b.png" style=
+=3D"height: auto; max-width: 600px; width: 100%;" width=3D"600" /></a></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center" style=3D"color: #6b6b6b; font-family: 'Helvetica Neue'=
+, Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; padding-b=
+ottom: 30px;" valign=3D"middle"><a href=3D"http://link.washingtonpost.com/c=
+lick/5808849.467306/aHR0cHM6Ly90d2l0dGVyLmNvbS8_c3RhdHVzPUNoZWNrJTIwb3V0JTI=
+wVGhlJTIwRGFpbHklMjAyMDIlMjBmcm9tJTIwJTQwUG93ZXJQb3N0JTIwaHR0cDovL2xpbmsud2=
+FzaGluZ3RvbnBvc3QuY29tL3B1YmxpYy81ODA4ODQ5JndwbW09MSZ3cGlzcmM9bmxfZGFpbHkyM=
+DI/5483d5bc3b35d0d76d8c549cBed844e0d" style=3D"border: none !important; col=
+or: #6b6b6b !important; font-family: sans-serif; text-decoration: none !imp=
+ortant"><img src=3D"http://media.sailthru.com/3to/1jz/6/9/557779376d0cd.png=
+" width=3D"15" border=3D"0" class=3D"share-btn" height=3D"14" style=3D"vert=
+ical-align: middle;" />&nbsp;&nbsp;Share on Twitter</a></td>
+<td align=3D"center" style=3D"color: #6b6b6b; font-family: 'Helvetica Neue'=
+, Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; padding-b=
+ottom: 30px;" valign=3D"middle"><a href=3D"http://link.washingtonpost.com/c=
+lick/5808849.467306/aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3NoYXJlci5waHA_dT1odHR=
+wOi8vbGluay53YXNoaW5ndG9ucG9zdC5jb20vcHVibGljLzU4MDg4NDkmd3BtbT0xJndwaXNyYz=
+1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBf4fa62e7" style=3D"border: none !=
+important; color: #6b6b6b !important; font-family: sans-serif; text-decorat=
+ion: none !important;"><img src=3D"http://media.sailthru.com/3to/1jz/6/9/55=
+77792d3e785.png" width=3D"14" border=3D"0" class=3D"share-btn" height=3D"14=
+" style=3D"vertical-align: middle;" />&nbsp;&nbsp;Share on Facebook</a></td=
+>
+</tr>
+</table>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"margin-left: auto; margin-right: auto;">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" colspan=3D"2"><a href=3Dhttp://li.=
+washingtonpost.com/click?s=3D137373&layout=3Dmarquee&li=3Ddaily202&m=3D30a1=
+42167a399d9be2c1b7c32e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp:/=
+/li.washingtonpost.com/imp?s=3D137373&layout=3Dmarquee&li=3Ddaily202&m=3D30=
+a142167a399d9be2c1b7c32e192bd2&p=3D5808849 border=3D"0" style=3D"display: b=
+lock; height: auto; max-width: 730px; width: 100%;" width=3D"730" /></a></t=
+d>
+</tr>
+<tr style=3D"display: block; height: 1px; line-height: 1px;">
+<td align=3D"left" bgcolor=3D"#ffffff" height=3D"1"><img src=3Dhttp://li.wa=
+shingtonpost.com/imp?s=3D137374&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9b=
+e2c1b7c32e192bd2&p=3D5808849 height=3D"1" width=3D"10" /></td>
+<td align=3D"left" bgcolor=3D"#ffffff" height=3D"1"><img src=3Dhttp://li.wa=
+shingtonpost.com/imp?s=3D137375&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9b=
+e2c1b7c32e192bd2&p=3D5808849 height=3D"1" width=3D"10" /></td>
+</tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.c=
+om/click?s=3D137376&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32=
+e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D137376&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e19=
+2bd2&p=3D5808849 border=3D"0"/></a></td>
+<td align=3D"right" bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.=
+com/click?s=3D137377&sz=3D69x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32=
+e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D137377&sz=3D69x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192=
+bd2&p=3D5808849 border=3D"0"/></a></td>
+</tr>
+</table>
+<table border=3D"0" cellpadding=3D"10" cellspacing=3D"0" class=3D"article" =
+style=3D"clear: both; float: none;" width=3D"100%">
+<tr><td align=3D"left" bgcolor=3D"#ffffff" class=3D"headline  pad-top-reduc=
+e" style=3D"color: #2a2a2a; font-family: sans-serif; font-size: 22px; font-=
+weight: bold; line-height: 28px; padding-top: 30px;"><a href=3D"http://link=
+.washingtonpost.com/click/5808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC=
+5jb20vbmV3cy9wb3dlcnBvc3Qvd3AvMjAxNS8xMi8yOC90aGUtZGFpbHktMjAyLWFyZS13ZS1nb=
+2luZy10by1sb3NlLWFmZ2hhbmlzdGFuLz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5b=
+c3b35d0d76d8c549cBd6c4f18e" style=3D"color: #2a2a2a; font-family: sans-seri=
+f; text-decoration: none !important;">Are we going to lose Afghanistan?</a>=
+</td></tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff" class=3D"summary" style=3D"color: #2=
+a2a2a; font-family: sans-serif; font-size: 18px; line-height: 32px;"><small=
+ id=3D"attachment_23614" style=3D"width: 610px" class=3D"wp-caption alignce=
+nter"><img style=3D"height: auto !important; max-width: 730px !important; w=
+idth: 100%; " width=3D"730" class=3D"wp-image-23614" src=3D"http://www.wash=
+ingtonpost.com/rf/image_908w/2010-2019/Wires/Images/2015-12-28/AP/APTOPIX_A=
+fghanistan_Blast-0f444.jpg" alt=3D"" "600" "400" /><p class=3D"wp-caption-t=
+ext">An Afghan shopkeeper watches this morning from a broken window of his =
+shop near the site of suicide car bomb attack in Kabul. (AP Photo/Rahmat Gu=
+l)</p></small>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff" class=3D"pad-reduce" style=3D"color:=
+ #000000; font-family: sans-serif; font-size: 1em; line-height: 1.3; paddin=
+g-bottom: 30px; padding-top: 30px;" valign=3D"middle"><img src=3D"http://me=
+dia.sailthru.com/3to/1jz/6/9/5577347f582af.jpg" width=3D"250" border=3D"0" =
+height=3D"63" alt=3D"By James Hohmann" style=3D"height: auto; max-width: 25=
+0px !important;" /></td>
+</tr>   =20
+</table>
+<p><b>THE BIG IDEA:</b></p>
+<p><b>&#8212;=C2=A0</b><strong>Because of ISIS and the threat of attacks on=
+ the homeland, Syria has been on the front burner and Afghanistan has been =
+on the back burner during the presidential campaign. That=E2=80=99s about t=
+o change.</strong></p>
+<p>In the last few hours, <a href=3D"http://link.washingtonpost.com/click/5=
+808849.467306/aHR0cDovL3d3dy5uYmNuZXdzLmNvbS9uZXdzL3dvcmxkL2thYnVsLWF0dGFja=
+y10YWxpYmFuLXN1aWNpZGUtYm9tYi1uZWFyLWFpcnBvcnQta2lsbHMtY2l2aWxpYW4taW5qdXJl=
+cy1uNDg2NTgxP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cB1e=
+350a24">a Taliban suicide bomber</a> killed at least one person and injured=
+ 13 more near the airport in Kabul. The incident, just two weeks after a ma=
+jor assault on the city and a week after six U.S. soldiers were killed in a=
+nother bombing near Bagram air base, underscores the extent to which the si=
+tuation continues to deteriorate.</p>
+<p><strong>&#8212; =E2=80=9CIn private, top Afghan and American officials h=
+ave begun to voice increasingly grim assessments of the resurgent Taliban t=
+hreat,=E2=80=9D <a href=3D"http://link.washingtonpost.com/click/5808849.467=
+306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3dvcmxkL2FzaWFfcGFjaWZpYy9hLXl=
+lYXItb2YtdGFsaWJhbi1nYWlucy1zaG93cy10aGF0LXdlLWhhdmVudC1kZWxpdmVyZWQtdG9wLW=
+FmZ2hhbi1vZmZpY2lhbC1zYXlzLzIwMTUvMTIvMjcvMTcyMjEzZTgtOWNmYi0xMWU1LTlhZDItN=
+TY4ZDgxNGJiZjNiX3N0b3J5Lmh0bWw_aHBpZD1ocF9ocC10b3AtdGFibGUtbWFpbl9hZmdoYW50=
+YWxpYmFuLTQ1NXBtOmhvbWVwYWdlL3N0b3J5JndwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/548=
+3d5bc3b35d0d76d8c549cB889c93f3">The Post=E2=80=99s Sudarsan Raghavan report=
+s from Marja</a>.</strong> &#8220;With control of =E2=80=94 or a significan=
+t presence in =E2=80=94 roughly 30 percent of districts across the nation, =
+according to Western and Afghan officials, the Taliban now holds more terri=
+tory than in any year since 2001. =E2=80=A6 Deserters and injured Afghan so=
+ldiers say they are fighting a more sophisticated and well-armed insurgency=
+ than they have seen in years.&#8221;</p>
+<p><strong>&#8212;</strong> <strong>The Post=C2=A0</strong><strong>obtained=
+ an eye-opening transcript of a late-October meeting of the Afghan National=
+ Security Council that raises serious questions about whether the local gov=
+ernment is up for the challenge.=C2=A0</strong>=E2=80=9CWe have not met the=
+ people=E2=80=99s expectations. We haven=E2=80=99t delivered,=E2=80=9D Abdu=
+llah Abdullah, the country=E2=80=99s chief executive, told the high-level g=
+athering. =E2=80=9COur forces lack discipline. They lack rotation opportuni=
+ties. We haven=E2=80=99t taken care of our own policemen and soldiers. They=
+ continue to absorb enormous casualties.=E2=80=9D=C2=A0At the=C2=A0meeting,=
+ Gen. John F. Campbell, the commander of U.S. and allied forces in Afghanis=
+tan, told his Afghan counterparts that he was as guilty as they were of =E2=
+=80=9Cjust putting our finger in the dike in Helmand.=E2=80=9D</p>
+<p>&#8212; <strong>&#8220;For now, the top American and Afghan priority is =
+preventing Helmand, largely secured by U.S. Marines and British forces in 2=
+012, from again falling to the insurgency</strong>,&#8221; Raghavan reports=
+. &#8220;As of last month, about 7,000 members of the Afghan security force=
+s had been killed this year, with 12,000 injured, a 26 percent increase ove=
+r the total number of dead and wounded in all of 2014. &#8230;U.S. Special =
+Operations troops are increasingly being deployed into harm=E2=80=99s way t=
+o assist their Afghan counterparts. Since Nov.=C2=A04, four members of the =
+U.S.-led coalition have been wounded in Helmand.&#8221; <a href=3D"http://l=
+ink.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnB=
+vc3QuY29tL3dvcmxkL2FzaWFfcGFjaWZpYy9hLXllYXItb2YtdGFsaWJhbi1nYWlucy1zaG93cy=
+10aGF0LXdlLWhhdmVudC1kZWxpdmVyZWQtdG9wLWFmZ2hhbi1vZmZpY2lhbC1zYXlzLzIwMTUvM=
+TIvMjcvMTcyMjEzZTgtOWNmYi0xMWU1LTlhZDItNTY4ZDgxNGJiZjNiX3N0b3J5Lmh0bWw_d3Bt=
+bT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cCf8cd0df4">Read the =
+full story</a>.</p>
+<p><img style=3D"height: auto !important; max-width: 730px !important; widt=
+h: 100%; " width=3D"730" class=3D"aligncenter wp-image-23612" src=3D"http:/=
+/www.washingtonpost.com/news/powerpost/wp-content/uploads/sites/47/2015/12/=
+2300AfghanTaliban1224.jpg" alt=3D"2300AfghanTaliban1224" "564" "600" /></p>
+<p>&nbsp;</p>
+<p><b>&#8212;=C2=A0</b><strong>Afghanistan=E2=80=99s decline has serious im=
+plications for U.S. national security.</strong> One of President Obama=E2=
+=80=99s first major decisions was to expand the troop presence in the count=
+ry. This is a major legacy issue for him. How far are the 2016 candidates i=
+n both parties willing to go to stop the Taliban? The electorate remains re=
+luctant about open-ended deployments of U.S. boots on the ground. How much =
+more sacrifice Americans are willing to accept, even in this time of rising=
+ anxiety about terrorism, is very much an open question.</p>
+<p>&#8212; <strong>The Taliban is a barbaric foe&#8230;=C2=A0</strong>Pamel=
+a Constable=C2=A0reports from Kabul today=C2=A0on=C2=A0<a href=3D"http://li=
+nk.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBv=
+c3QuY29tL3dvcmxkL2FzaWFfcGFjaWZpYy9iZWhlYWRpbmctb2YtdGhpcmQtZ3JhZGUtZ2lybC1=
+3YXMtanVzdC10aGUtc3BhcmstZm9yLWFmZ2hhbi1taW5vcml0eS1ncm91cC8yMDE1LzEyLzI3Lz=
+FkNGI4M2Q4LWFhOTUtMTFlNS1iNTk2LTExM2Y1OWVlMDY5YV9zdG9yeS5odG1sP3RpZD1wbV93b=
+3JsZF9wb3BfYiZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBb9=
+460d9c">the beheading of a third-grade girl</a>.</p>
+<p>&#8212; <strong>&#8230;but can there be a negotiated peace? </strong>Fro=
+m <a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly=
+93d3cud2FzaGluZ3RvbnBvc3QuY29tL3dvcmxkL2FzaWFfcGFjaWZpYy9wYWtpc3RhbmktYXJte=
+S1jaGllZi1sZWF2ZXMtZm9yLWthYnVsLXRvLWRpc2N1c3MtcGVhY2UtdGFsa3MvMjAxNS8xMi8y=
+Ni83MGJkZjRkNC1hYzU2LTExZTUtYjU5Ni0xMTNmNTllZTA2OWFfc3RvcnkuaHRtbD93cG1tPTE=
+md3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBf425932a">the Associated=
+ Press: </a>&#8220;Afghanistan and Pakistan agreed on Sunday to meet with U=
+.S. and Chinese officials in the first weeks of the new year to discuss &#8=
+216;peace-related issues,&#8217; a move that could re-invigorate a stalled =
+peace process with the Taliban, the Afghan president=E2=80=99s office said.=
+=C2=A0The development came as Pakistan=E2=80=99s powerful army chief Gen. R=
+aheel Sharif met with senior officials in the Afghan capital.&#8221;</p>
+<small id=3D"attachment_23613" style=3D"width: 610px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23613" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/Wires/Images/2015-12-28/Getty/=
+ARP4354458.jpg" alt=3D"" "600" "387" /><p class=3D"wp-caption-text">An inju=
+red NATO soldier lies on the ground after a suicide car bomb attack targete=
+d foreign military vehicles in Kabul this June. (Wakil Kohsar/AFP/Getty Ima=
+ges</p></small>
+<table border=3D"0" cellpadding=3D"6" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"pad-reduce" style=3D"" va=
+lign=3D"middle">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" bgcolor=3D"#e1e1e1" class=3D"welcome  pad-top-reduce" st=
+yle=3D"color: #000000; font-family: sans-serif; font-size: 1em; line-height=
+: 1.3; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; paddin=
+g-top: 20px;" valign=3D"middle">
+Welcome to The Daily 202, <a href=3D"http://link.washingtonpost.com/click/5=
+808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vbmV3cy9wb3dlcnBvc3Q_d=
+3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBec97f1fc" style=
+=3D"color: #000000 !important; font-family: sans-serif; font-weight: bold; =
+text-decoration: none !important;">PowerPost</a>&rsquo;s morning newsletter=
+. <a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly=
+93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3MvcG93ZXJwb3N0L3dwL2NhdGVnb3J5L3RoZS1kY=
+WlseS0yMDIvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cB36b=
+7f837" style=3D"color: #000000 !important; font-family: sans-serif; text-de=
+coration: none !important;">Sign up to receive the newsletter</a>.
+</tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#e1e1e1" class=3D"welcome  pad-bottom-reduce"=
+ style=3D"color: #000000; font-family: sans-serif; font-size: 1em; line-hei=
+ght: 1.3; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; pa=
+dding-top: 5px;" valign=3D"middle">
+With contributions from <a href=3D"http://link.washingtonpost.com/click/580=
+8849.467306/aHR0cHM6Ly90d2l0dGVyLmNvbS9taWtlc21pdGhXUD93cG1tPTEmd3Bpc3JjPW5=
+sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBb05b50c2" style=3D"color: #000000 !i=
+mportant; font-family: sans-serif; text-decoration: none !important;">Micha=
+el Smith</a>.
+</td>
+</tr>
+</table>   =20
+</td>
+</tr>   =20
+</table>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"margin-left: auto; margin-right: auto;">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" colspan=3D"2"><a href=3Dhttp://li.=
+washingtonpost.com/click?s=3D142951&layout=3Dmarquee&li=3Ddaily202&m=3D30a1=
+42167a399d9be2c1b7c32e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp:/=
+/li.washingtonpost.com/imp?s=3D142951&layout=3Dmarquee&li=3Ddaily202&m=3D30=
+a142167a399d9be2c1b7c32e192bd2&p=3D5808849 border=3D"0" style=3D"display: b=
+lock; width:300px; height:auto;" width=3D"300" /></a></td>
+</tr>
+<tr style=3D"display:block; height:1px; line-height:1px;">
+<td align=3D"left" bgcolor=3D"#ffffff" height=3D"1"><img src=3Dhttp://li.wa=
+shingtonpost.com/imp?s=3D142952&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9b=
+e2c1b7c32e192bd2&p=3D5808849 height=3D"1" width=3D"10" /></td>
+<td align=3D"right" bgcolor=3D"#ffffff" height=3D"1"><img src=3Dhttp://li.w=
+ashingtonpost.com/imp?s=3D142953&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9=
+be2c1b7c32e192bd2&p=3D5808849 height=3D"1" width=3D"10" /></td>
+</tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.c=
+om/click?s=3D142954&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32=
+e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D142954&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e19=
+2bd2&p=3D5808849 border=3D"0"/></a></td>
+<td align=3D"right" bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.=
+com/click?s=3D142955&sz=3D69x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32=
+e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D142955&sz=3D69x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192=
+bd2&p=3D5808849 border=3D"0"/></a></td>
+</tr>
+</table><p><b>WHILE YOU WERE SLEEPING:</b></p>
+<small id=3D"attachment_23615" style=3D"width: 610px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23615" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/Wires/Images/2015-12-25/Reuter=
+s/2015-12-26T031738Z_01_WAS904_RTRIDSP_3_USA-AFGHANISTAN-OBAMA.jpg" alt=3D"=
+" "600" "400" /><p class=3D"wp-caption-text">President Obama speaks to troo=
+ps at a Marine Corps base on Christmas. (Reuters/Jonathan Ernst)</p></small=
+>
+<p><strong>&#8212;=C2=A0President and Mrs. Obama, along with a few friends,=
+ had a 4.5-hour dinner last night at Hoku&#8217;s, the flagship restaurant =
+at the Kahala Hotel.</strong> It came at the end of a day that included hou=
+rs on the beach and a stop for Hawaiian shave ice. See the dinner menu from=
+ where the Obamas ate <a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cDovL3d3dy5rYWhhbGFyZXNvcnQuY29tL2kvZG93bmxvYWRzL0hva3VzX0Rpb=
+m5lcl9NZW51LnBkZj93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549=
+cBf4ace64e">here</a>.</p>
+<p><strong>&#8212; Bernie Sanders, starting a two-day Nevada swing, ripped =
+into=C2=A0the Republican candidates who have kissed Sheldon Adelson&#8217;s=
+ ring.=C2=A0</strong>At an evening rally in Reno that drew more than 2,000 =
+people, Sanders spoke facetiously of an =E2=80=9CAdelson caucus,=E2=80=9D i=
+ncluding Marco Rubio and Donald Trump. =E2=80=9CSheldon Adelson has not inv=
+ited me to speak with him,=E2=80=9D he said. (<a href=3D"http://link.washin=
+gtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL=
+25ld3MvcG9zdC1wb2xpdGljcy93cC8yMDE1LzEyLzI3L2luLW5ldmFkYS1zYW5kZXJzLW1vY2tz=
+LXJlcHVibGljYW5zLWZvci1ydW5uaW5nLXRvLWNhc2luby1tb2d1bC1mb3ItYS1maW5hbmNpYWw=
+tbGlmdC8_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB8c7167=
+49">John Wagner</a>)</p>
+<p><em>&#8212; </em><strong>The old Axis powers are still grappling=C2=A0wi=
+th the consequences=C2=A0of World War II. </strong><em>Two stories on the w=
+ire this morning show how long it takes to heal wounds:</em></p>
+<ul>
+<li><strong><a href=3D"http://link.washingtonpost.com/click/5808849.467306/=
+aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3dvcmxkL2FzaWFfcGFjaWZpYy9zb3V0aC1=
+rb3JlYS1qYXBhbi10by1kaXNjdXNzLXdhcnRpbWUta29yZWFuLXNleC1zbGF2ZXMvMjAxNS8xMi=
+8yNy8wZGQwOGRmYS1hZDAwLTExZTUtYjI4MS00M2MwYjU2ZjYxZmFfc3RvcnkuaHRtbD9ocGlkP=
+WhwX2hwLW1vcmUtdG9wLXN0b3JpZXNfY29tZm9ydHdvbWVud2lyZS0zYW06aG9tZXBhZ2Uvc3Rv=
+cnkmd3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB989f6ea0">J=
+apan will formally apologize to South Korea</a> for forcing its women to wo=
+rk in brothels during World War II.</strong>=C2=A0Tokyo=C2=A0will provide $=
+8.3 million toward the care of aging =E2=80=9Ccomfort women=E2=80=9D in a h=
+istoric agreement that could ease tensions between two key U.S. allies.</li=
+>
+<li><strong>For the first time in 70 years, <a href=3D"http://link.washingt=
+onpost.com/click/5808849.467306/aHR0cDovL25ld3MueWFob28uY29tL2hpdGxlcnMtbWV=
+pbi1rYW1wZi1yZXR1cm5zLWdlcm1hbi0xMzA0MTk3NDMuaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2=
+RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBc4fded08">a new edition=C2=A0of &#8220;=
+Mein Kampf&#8221;=C2=A0will be released in Germany</a> next week.=C2=A0</st=
+rong>The new edition, being released by a publicly funded institute, will i=
+nclude critical commentary about Adolph Hitler. =E2=80=9CWhile historians s=
+ay it could help fill a gap in Germans&#8217; knowledge of the era, Jewish =
+groups are wary,=E2=80=9D the AP reports from Berlin. =E2=80=9CUnder German=
+ law, a copyright expires at the end of the year 70 years after an author&#=
+8217;s death =E2=80=94 in this case, Hitler&#8217;s April 30, 1945, suicide=
+ in a Berlin bunker =E2=80=A6 That means Bavaria&#8217;s state finance mini=
+stry, which holds the copyright, can no longer use it to prevent the work&#=
+8217;s publication beyond Dec. 31.=E2=80=9D</li>
+</ul>
+<p><b>GET SMART FAST:</b></p>
+<ol>
+<li>At least 11 people died after <strong>tornadoes</strong> swept through =
+the <strong>Dallas</strong> area, bringing the total number of weather-rela=
+ted deaths in the country over=C2=A0the last week <a href=3D"http://link.wa=
+shingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY=
+29tL25hdGlvbmFsL2F0LWxlYXN0LTExLWRpZS1mcm9tLXRleGFzLXRvcm5hZG9lcy0xMy1pbi1t=
+aWR3ZXN0LWZsb29kaW5nLzIwMTUvMTIvMjcvMjMxYTI2NGEtYWNmYS0xMWU1LWIyODEtNDNjMGI=
+1NmY2MWZhX3N0b3J5Lmh0bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d=
+76d8c549cB4fe7ce44">to 43</a>. (<a href=3D"http://link.washingtonpost.com/c=
+lick/5808849.467306/aHR0cDovL3RoZXNjb29wYmxvZy5kYWxsYXNuZXdzLmNvbS8yMDE1LzE=
+yL3RvdGFsLWRldmFzdGF0aW9uLXJlc2lkZW50cy1lbWVyZ2VueS1jcmV3cy13b3JrLWZyYW50aW=
+NhbGx5LWFmdGVyLXRvcm5hZG9lcy5odG1sLz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483=
+d5bc3b35d0d76d8c549cBdb9dc6b6">Dallas Morning News</a>)</li>
+<li><strong>Chicago</strong> <strong>police</strong> accidentally shot and =
+killed a community activist after officers were called to her apartment com=
+plex because an emotionally-disturbed=C2=A019-year-old neighbor, also kille=
+d by cops, was wielding a baseball bat.=C2=A0(<a href=3D"http://link.washin=
+gtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL=
+25hdGlvbmFsL3Byb3Rlc3RlcnMta2VlcC12aWdpbC1mb3ItYWN0aXZpc3QtYWNjaWRlbnRhbGx5=
+LXNob3QtYnktY2hpY2Fnby1wb2xpY2UvMjAxNS8xMi8yNy80ZjYwYzNiOC1hY2VmLTExZTUtOWF=
+iMC04ODRkMWNjNGIzM2Vfc3RvcnkuaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d=
+5bc3b35d0d76d8c549cBb3d1ed95">Mark Guarino</a>)</li>
+<li>The fire that burned a <strong>Houston mosque</strong> on Christmas was=
+ definitely arson, investigators ruled=C2=A0Sunday. (<a href=3D"http://link=
+.washingtonpost.com/click/5808849.467306/aHR0cDovL3d3dy5jaHJvbi5jb20vbmV3cy=
+9ob3VzdG9uLXRleGFzL2hvdXN0b24vYXJ0aWNsZS9Nb3NxdWUtY2F0Y2hlcy1maXJlLWluLXNvd=
+XRod2VzdC1Ib3VzdG9uLTY3MjEwMzgucGhwP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483=
+d5bc3b35d0d76d8c549cBb7bc5d0d">Houston Chronicle</a>)</li>
+<li>The <strong>NFL</strong> and <strong>Major League Baseball</strong> wil=
+l investigate claims made in an <strong>Al Jazeera</strong> documentary tha=
+t an anti-aging clinic in Indianapolis provided <strong>steroids</strong> t=
+o numerous athletes, including <strong>Peyton Manning, Ryan Zimmerman</stro=
+ng> and <strong>James Harrison.</strong> Those three, and others, issued qu=
+ick denials. (<a href=3D"http://link.washingtonpost.com/click/5808849.46730=
+6/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3Mvc3BvcnRzL3dwLzIwMTUvMTIvM=
+jcvbmZsLW1sYi13aWxsLWludmVzdGlnYXRlLXBsYXllcnMtbmFtZWQtaW4tYWwtamF6ZWVyYS1y=
+ZXBvcnQvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBcbb401=
+dd">Barry Svrluga and Mark Maske</a>)</li>
+<li><strong>Iraqi</strong> forces reclaimed the main government center in <=
+strong>Ramadi</strong>, which was=C2=A0under <strong>ISIS</strong> control =
+for seven months. (<a href=3D"http://link.washingtonpost.com/click/5808849.=
+467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3dvcmxkL21pZGRsZV9lYXN0L2ly=
+YXFpLWZvcmNlcy1yZWFjaC1tYWluLWdvdmVybm1lbnQtY29tcG91bmQtaW4tcmFtYWRpLzIwMTU=
+vMTIvMjcvY2RlOTZlYjgtYWJlOC0xMWU1LWI1OTYtMTEzZjU5ZWUwNjlhX3N0b3J5Lmh0bWw_d3=
+BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB92712fb3">Mustafa=
+ Salim and Loveday Morris</a>)</li>
+<li>The <strong>Justice Department</strong> charged at least 60 people with=
+ terrorism-related charges in 2015, a record attributable to the rise of <s=
+trong>ISIS</strong> and its influence on social media. (<a href=3D"http://l=
+ink.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnB=
+vc3QuY29tL3dvcmxkL25hdGlvbmFsLXNlY3VyaXR5L2F0LWxlYXN0LTYwLXBlb3BsZS1jaGFyZ2=
+VkLXdpdGgtdGVycm9yaXNtLWxpbmtlZC1jcmltZXMtdGhpcy15ZWFyLS1hLXJlY29yZC8yMDE1L=
+zEyLzI1LzBhYThhY2RhLWFiNDItMTFlNS04MDU4LTQ4MGI1NzJiNGFhZV9zdG9yeS5odG1sP3dw=
+bW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cB7de17a10">Ellen Na=
+kashima</a>)</li>
+<li><strong>China</strong> has officially instituted a new <strong>two-chil=
+d policy</strong>, ending the one-child rule that was=C2=A0in place since t=
+he 1970s. (<a href=3D"http://link.washingtonpost.com/click/5808849.467306/a=
+HR0cDovL2NubnBoaWxpcHBpbmVzLmNvbS93b3JsZC8yMDE1LzEyLzI4L2NoaW5hLXR3by1jaGls=
+ZC1wb2xpY3ktYWdpbmctcG9wdWxhdGlvbi5odG1sP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI=
+/5483d5bc3b35d0d76d8c549cB2eab1b42">CNN</a>)</li>
+<li>The <strong>Chinese</strong> bureaucrat responsible for regulating the =
+waste heap that caused last week&#8217;s big=C2=A0<strong>landslide</strong=
+>=C2=A0committed suicide. (<a href=3D"http://link.washingtonpost.com/click/=
+5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3MvbW9ybmluZy1t=
+aXgvd3AvMjAxNS8xMi8yOC9mb3JtZXItY2hpbmVzZS1yZWd1bGF0b3ItY29tbWl0cy1zdWljaWR=
+lLWluLXdha2Utb2YtZGVhZGx5LWxhbmRzbGlkZS8_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg=
+/5483d5bc3b35d0d76d8c549cB8f74f3c7">Sarah Kaplan</a>)</li>
+<li>The <strong>Chinese Foreign Ministry</strong>=C2=A0expelled a <strong>F=
+rench</strong> journalist over=C2=A0an article that=C2=A0suggested=C2=A0Bei=
+jing&#8217;s expression of solidarity after the Paris attacks was really ab=
+out=C2=A0getting international support to crack down on the=C2=A0Uighurs.=
+=C2=A0(<a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0c=
+HM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3Mvd29ybGR2aWV3cy93cC8yMDE1LzEyLzI2=
+L2NoaW5hLWV4cGVscy1mcmVuY2gtam91cm5hbGlzdC1mb3ItdGVycm9yaXNtLWNvdmVyYWdlLz9=
+3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cB98dc193d">Emily =
+Rauhala</a>)</li>
+<li>The <strong>Virginia</strong> chamber of commerce official shot while b=
+eing interviewed on a <strong>Roanoke TV</strong> station =E2=80=93 during =
+which the reporter and cameraman were killed =E2=80=93 is done with her sur=
+geries and will soon return to work. (<a href=3D"http://link.washingtonpost=
+.com/click/5808849.467306/aHR0cDovL21vbmV5LmNubi5jb20vMjAxNS8xMi8yNy9tZWRpY=
+S93ZGJqLXNob290aW5nLXZpY2tpLWdhcmRuZXIvaW5kZXguaHRtbD93cG1tPTEmd3Bpc3JjPW5s=
+X2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBa66bf81c">CNN</a>)</li>
+<li>The <strong>Chipotle</strong> where 136 <strong>Boston College</strong>=
+ students got sick reopened this weekend after being closed for three weeks=
+. (<a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6L=
+y93d3cuYm9zdG9uZ2xvYmUuY29tL21ldHJvLzIwMTUvMTIvMjcvY2xldmVsYW5kLWNpcmNsZS1j=
+aGlwb3RsZS1vZmZpY2lhbGx5LW9wZW4vMUtEdHlORHptOVRZMHpuTnJ4VmxWSi9zdG9yeS5odG1=
+sP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBc8f9a56c">The=
+ Globe</a>)</li>
+<li>A mall in <strong>Louisville, Ky.,</strong> closed early and extra poli=
+ce officers were called in after up to 2,000 =E2=80=9Cunruly=E2=80=9D teena=
+gers engaged in fights, and harassed customers and store employees. (<a hre=
+f=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cDovL20udG9sZW=
+RvYmxhZGUuY29tL05hdGlvbi8yMDE1LzEyLzI3L0tlbnR1Y2t5LW1hbGwtcmVvcGVucy1hLWRhe=
+S1hZnRlci1kaXN0dXJiYW5jZXMuaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5b=
+c3b35d0d76d8c549cB12e885ca">Toledo Blade</a>)</li>
+<li>A 33-year-old visiting <strong>San Diego</strong> fell 40 feet off a cl=
+iff=C2=A0<span style=3D"line-height: 1.5;">to his death on Christmas becaus=
+e he was distracted while trying=C2=A0to take pictures on his=C2=A0cell pho=
+ne. (</span><a style=3D"line-height: 1.5;" href=3D"http://link.washingtonpo=
+st.com/click/5808849.467306/aHR0cDovL3d3dy5zYW5kaWVnb3VuaW9udHJpYnVuZS5jb20=
+vbmV3cy8yMDE1L2RlYy8yNy9zdW5zZXQtY2xpZmZzLWZhbGwtaW5kaWFuYS1tYW4tZGVhZC8_d3=
+BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB09b4b27d">Union T=
+ribune</a><span style=3D"line-height: 1.5;">)</span></li>
+<li>Eleven unrelated cold cases were solved by a man who investigated seria=
+l killer <strong>John Wayne Gacy=E2=80=99s</strong> unknown victims. (<a hr=
+ef=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud=
+2FzaGluZ3RvbnBvc3QuY29tL3BvbGl0aWNzL2dhY3ktaW52ZXN0aWdhdGlvbi10YWtlcy1zb21l=
+LXN1cnByaXNlLXR1cm5zLzIwMTUvMTIvMjcvNDE0YTg0NGEtYWMxYy0xMWU1LWJmZjUtOTA1Yjk=
+yZjVmOTRiX3N0b3J5Lmh0bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d=
+76d8c549cB1734627b">Sharon Cohen</a>)</li>
+<li>=E2=80=9C<strong>Star Wars:=C2=A0The Force Awakens=E2=80=9D</strong> ha=
+s already grossed $1.09-billion worldwide. (<a href=3D"http://link.washingt=
+onpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25=
+ld3MvY29taWMtcmlmZnMvd3AvMjAxNS8xMi8yNy9zdGFyLXdhcnMtdGhlLWZvcmNlLWF3YWtlbn=
+MtYmVjb21lcy10aGUtZmFzdGVzdC1maWxtLWV2ZXItdG8tMS1iaWxsaW9uLW1hcmsvP3dwbW09M=
+SZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBdc9014d0">Michael Cavna=
+</a>)</li>
+</ol>
+<p><b>POWER PLAYERS IN THE NEWS:</b></p>
+<ol>
+<li><strong>Trump</strong> slammed the Republican Party of Virginia for req=
+uiring that primary voters sign a statement saying they&#8217;re Republican=
+s, saying it discourages independent and first-time voters from participati=
+ng. (<a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM=
+6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL2xvY2FsL3ZpcmdpbmlhLXBvbGl0aWNzL29uLXR3aX=
+R0ZXItZG9uYWxkLXRydW1wLWJsYXN0cy12aXJnaW5pYS1nb3AtZm9yLWxveWFsdHktcGxlZGdlL=
+zIwMTUvMTIvMjcvOTY1NzRmOGMtYWNlMy0xMWU1LWI3MTEtMTk5ODI4OWZmY2VhX3N0b3J5Lmh0=
+bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBa7756f1b">J=
+enna Portnoy</a>)</li>
+<li><strong>Bill Gates</strong> donated $42 million in 2015 to groups suppo=
+rting Common Core. (<a href=3D"http://link.washingtonpost.com/click/5808849=
+.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3MvYW5zd2VyLXNoZWV0L3d=
+wLzIwMTUvMTIvMjcvYmlsbC1nYXRlcy1rZWVwcy1wdXNoaW5nLWNvbW1vbi1jb3JlLXdpdGgtYm=
+lnLW1vbmV5LWFuZC1hLWJpZC10by1nZXQtY2hhcmxlcy1rb2NoLXRvLWxpa2UtaXQvP3dwbW09M=
+SZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cB118a23eb">Valerie Strau=
+ss</a>)</li>
+<li>South Carolina Rep.<strong> Trey Gowdy (R)</strong>=C2=A0endorsed <stro=
+ng>Marco Rubio </strong>and will campaign with him this week in Iowa. &#822=
+0;It&#8217;s a major show of support from a Republican who had previously r=
+ecoiled at the idea of making a 2016 endorsement,&#8221; writes=C2=A0<a hre=
+f=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2=
+FzaGluZ3RvbnBvc3QuY29tL25ld3MvcG9zdC1wb2xpdGljcy93cC8yMDE1LzEyLzI2L2JlbmdoY=
+XppLWNvbW1pdHRlZS1jaGFpcm1hbi1iYWNrcy1ydWJpby1mb3ItcHJlc2lkZW50Lz93cG1tPTEm=
+d3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cB5ed815a8">David Weigel</a=
+>.</li>
+<li>The psychiatrist who urged the American Psychiatric Association to stop=
+ treating homosexuality as an illness, <strong>Robert Spitzer</strong>, die=
+d of heart disease at 83. (<a href=3D"http://link.washingtonpost.com/click/=
+5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25hdGlvbmFsL2hlYWx0=
+aC1zY2llbmNlL3JvYmVydC1zcGl0emVyLXBzeWNoaWF0cmlzdC1vZi10cmFuc2Zvcm1hdGl2ZS1=
+pbmZsdWVuY2UtZGllcy1hdC04My8yMDE1LzEyLzI2L2I2ODUxNzY0LWFjNDYtMTFlNS1iZmY1LT=
+kwNWI5MmY1Zjk0Yl9zdG9yeS5odG1sP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3=
+b35d0d76d8c549cB9e3fef29">Amy Argetsinger</a>)</li>
+</ol>
+<p><strong>SUNDAY SHOW HIGHLIGHTS:</strong></p>
+<ol>
+<li><strong>John Kasich</strong> refused to say he would endorse <strong>Tr=
+ump</strong> if he won the GOP nomination, attacking The Donald for complai=
+ning about everything. (<a href=3D"http://link.washingtonpost.com/click/580=
+8849.467306/aHR0cDovL2FiY25ld3MuZ28uY29tL1BvbGl0aWNzL3dlZWstdHJhbnNjcmlwdC1=
+nb3Ytam9obi1rYXNpY2gvc3Rvcnk_aWQ9MzU5NTkzNjcmd3BtbT0xJndwaXNyYz1ubF9kYWlseT=
+IwMg/5483d5bc3b35d0d76d8c549cBbd7683bd">ABC</a>)</li>
+<li>DNC chair<strong> Debbie Wasserman Schultz</strong> warned<strong>=C2=
+=A0Trump</strong> to attack <strong>Bill Clinton</strong> at &#8220;his own=
+ peril&#8221; after the GOP frontrunner=C2=A0tweeted that Clinton has a his=
+tory of sexism. (<a href=3D"http://link.washingtonpost.com/click/5808849.46=
+7306/aHR0cDovL3d3dy5uYmNuZXdzLmNvbS9tZWV0LXRoZS1wcmVzcy92aWRlby9kbmMtY2hhaX=
+ItdG8tdHJ1bXAtLWF0dGFjay1iaWxsLWNsaW50b24tYXQteW91ci1vd24tcGVyaWwtNTkyMDUyM=
+jkxODI5P3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBc2ad573=
+b">NBC</a>)</li>
+<li><strong>Mike Huckabee</strong> denied that his super PAC &#8220;selecti=
+vely edited&#8221; <a href=3D"http://link.washingtonpost.com/click/5808849.=
+467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj02UkNWV2tMMHlOayZ3cG1tPTEm=
+d3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cB33db4eb6">an ad </a>that =
+prematurely cut off <strong>Ted Cruz&#8217;s</strong> answer to a question =
+about the importance of fighting same-sex marriage. Unlike=C2=A0Kasich, <st=
+rong>Huckabee=C2=A0</strong>said he would support Trump if he were the GOP =
+nominee. (<a href=3D"http://link.washingtonpost.com/click/5808849.467306/aH=
+R0cDovL3d3dy5mb3huZXdzLmNvbS90cmFuc2NyaXB0LzIwMTUvMTIvMjcvd2lsbC1pb3dhLWJlL=
+WVuZC1yb2FkLWZvci1odWNrYWJlZS1yZXAta2luZy1vbi1uZWVkLWZvci1pbmNyZWFzZWQtc2Vj=
+dXJpdHkvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBc0810a=
+e3">Fox</a>)</li>
+<li><strong>Bernie Sanders</strong> said on <a href=3D"http://link.washingt=
+onpost.com/click/5808849.467306/aHR0cDovL3d3dy5uYmNuZXdzLmNvbS9tZWV0LXRoZS1=
+wcmVzcy92aWRlby9zYW5kZXJzLS13ZXJlLXdvcmtpbmctd2l0aC1kbmMtdG8tZGF0YS1icmVhY2=
+gtYmVoaW5kLXVzLTU5MjA1MTI2NzgzOT93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc=
+3b35d0d76d8c549cB261330b9">NBC</a>=C2=A0that he is working with the DNC to =
+put the Clinton data breach incident &#8220;behind us.&#8221;=C2=A0The Verm=
+ont senator also=C2=A0said on <a href=3D"http://link.washingtonpost.com/cli=
+ck/5808849.467306/aHR0cDovL3d3dy5jYnNuZXdzLmNvbS9uZXdzL2ZhY2UtdGhlLW5hdGlvb=
+i10cmFuc2NyaXB0cy1kZWNlbWJlci0yNy0yMDE1LWNvbGJlcnQtc2FuZGVycy1jYXJzb24ta2Vs=
+bHkvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBbe67c62a">=
+CBS</a>=C2=A0that=C2=A0<strong>Sandra Bland, </strong>who died in police cu=
+stody,<strong>=C2=A0</strong>would not have been arrested had=C2=A0she been=
+=C2=A0white.</li>
+</ol>
+<p><b>WAPO HIGHLIGHTS:</b></p>
+<p>&nbsp;</p>
+<small id=3D"attachment_23609" style=3D"width: 607px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D" wp-image-23609" src=3D"http://w=
+ww.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/12/23/Oth=
+ers/Images/2015-12-23/carson011450907110.jpg" alt=3D"" "597" "399" /><p cla=
+ss=3D"wp-caption-text">Ben Carson is photographed in his home in Upperco, M=
+d., on December 23, 2015. (Photo by Marvin Joseph/The Washington Post)</p><=
+/small>
+<p><strong>&#8212;=C2=A0<a href=3D"http://link.washingtonpost.com/click/580=
+8849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3BvbGl0aWNzL2Jlbi1jYXJ=
+zb24tb24tdGhlLWJyaW5rLWEtcHJvY2Vzcy1saWtlLXRoaXMtaXMtcHJldHR5LWJydXRhbC8yMD=
+E1LzEyLzI3L2QwYzVjMWJjLWE5ZTEtMTFlNS05YjkyLWRlYTdjZDRiMWE0ZF9zdG9yeS5odG1sP=
+3RpZD1wbV9wb3BfYiZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549=
+cB59fb3ed3">&#8220;Ben Carson on the brink: &#8220;A process like this is p=
+retty brutal,&#8221; </a>by Steven Ginsberg and Robert Costa:</strong> The =
+Post interviewed the famous neurosurgeon in his &#8220;manse in the country=
+side near Baltimore.&#8221; On attacks, Carson said &#8220;it&#8217;s not p=
+leasant&#8230;But it=E2=80=99s discouraging to know that we=E2=80=99re at t=
+hat stage in our country where people don=E2=80=99t care so much about the =
+truth. It=E2=80=99s just what=E2=80=99s sensational, what=E2=80=99s the shi=
+ny object. It=E2=80=99s all &#8216;Who=E2=80=99s in the football game? Who=
+=E2=80=99s on =E2=80=98Dancing With the Stars=E2=80=99? Who=E2=80=99s yelli=
+ng the loudest?&#8217; And I=E2=80=99m not sure that=E2=80=99s what we need=
+ right now because we=E2=80=99ve got some real big problems in our country.=
+&#8221; He his decline in the polls is because a narrative is being pushed =
+that &#8220;if you=E2=80=99re soft-spoken and mild-mannered, there is no wa=
+y you can deal with terrorism, with national security, that you=E2=80=99re =
+not a strong person &#8230;=C2=A0We want to be comforted, we want to be com=
+forted quickly, and we go for the bright, shiny object as the solution rath=
+er than being a little more cerebral &#8230;=C2=A0What I=E2=80=99ve been em=
+phasizing on the road lately is that strength is not defined by the decibel=
+s of which you say something or by the gesticulations associated with it, b=
+ut by the accomplishments of one=E2=80=99s life. What have you faced, and h=
+ow have you faced those things?&#8221;</p>
+<p><strong>&#8212;=C2=A0=E2=80=9C<a href=3D"http://link.washingtonpost.com/=
+click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3dvcmxkL2FzaW=
+FfcGFjaWZpYy9jaGluYXMtYWR2YW5jZS1pbnRvLWNlbnRyYWwtYXNpYS1ydWZmbGVzLXJ1c3NpY=
+W4tZmVhdGhlcnMvMjAxNS8xMi8yNy9jZmVkZWIyMi02MWZmLTExZTUtODQ3NS03ODFjYzk4NTE2=
+NTJfc3RvcnkuaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c54=
+9cB69713646">In Central Asia, Chinese inroads in Russia=E2=80=99s backyard,=
+</a>=E2=80=9D by Simon Denyer: =E2=80=9C</strong>The Silk Road slogan may b=
+e new, but many of its goals are not. Beijing has long been working to secu=
+re a share of the region=E2=80=99s rich natural resources to fuel China=E2=
+=80=99s industrial economy; it is building a network of security cooperatio=
+n in Central Asia as a bulwark against Islamist extremism that could leak i=
+nto China=E2=80=99s restive western province of Xinjiang, and it wants to c=
+reate alternative trading routes to Europe that bypass Asia=E2=80=99s narro=
+w, congested shipping lanes. Under the Silk Road plan, China also is promis=
+ing to spend hundreds of millions of dollars to build new infrastructure he=
+re, and it hopes to reap benefits of its own: to create new markets for Chi=
+nese goods, especially for heavy industries such as steel and cement that h=
+ave suffered as the Chinese economy has slowed.=E2=80=9D</p>
+<small id=3D"attachment_23605" style=3D"width: 614px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23605" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/06/17/Prod=
+uction/WashingtonPost/Images/2015-06-16T130033Z_01_MOS23_RTRIDSP_3_RUSSIA-N=
+UCLEAR-PUTIN.jpg" alt=3D"" "604" "423" /><p class=3D"wp-caption-text">Vladi=
+mir Putin has preciously said Russia will add more than 40 new intercontine=
+ntal ballistic missiles to its nuclear arsenal this year. (Reuters/Maxim Sh=
+emetov)</p></small>
+<p>&#8212; <strong><a href=3D"http://link.washingtonpost.com/click/5808849.=
+467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL29waW5pb25zL3J1c3NpYXMtc2hp=
+cC1vZi10ZXJyb3IvMjAxNS8xMi8yNy9iMjA4NWVlMC1hOWJiLTExZTUtYmZmNS05MDViOTJmNWY=
+5NGJfc3RvcnkuaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c5=
+49cBc1422b40">The Post&#8217;s editorial board expresses alarm</a> about Ru=
+ssia&#8217;s development of a=C2=A0<a title=3D"foreignpolicy.com" href=3D"h=
+ttp://link.washingtonpost.com/click/5808849.467306/aHR0cDovL2ZvcmVpZ25wb2xp=
+Y3kuY29tLzIwMTUvMTEvMTIvcHV0aW5zLWRvb21zZGF5LW1hY2hpbmUtbnVjbGVhci13ZWFwb24=
+tdXMtcnVzc2lhLz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cB=
+e89ff167">nuclear-armed, underwater, unmanned drone</a>:</strong>=C2=A0&#82=
+20;The new weapon was <a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDE1LzExLzEzL3dvcmxkL2V1cm9wZS9yd=
+XNzaWEtc2F5cy1sZWFrLW9mLXNlY3JldC1udWNsZWFyLXdlYXBvbi1kZXNpZ24td2FzLWFuLWFj=
+Y2lkZW50Lmh0bWw_X3I9MCZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d=
+8c549cB1a621d87">revealed</a>=C2=A0when Russian President Vladimir Putin <a=
+ title=3D"www.defencetalk.com" href=3D"http://link.washingtonpost.com/click=
+/5808849.467306/aHR0cDovL3d3dy5kZWZlbmNldGFsay5jb20va3JlbWxpbi1hZG1pdHMtdHY=
+tYWNjaWRlbnRhbGx5LXNob3dlZC1zZWNyZXQtd2VhcG9ucy1wbGFucy02NTgzMC8_d3BtbT0xJn=
+dwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBa81fd876">met with </a>mi=
+litary chiefs in Sochi in November and television news footage captured a p=
+age being used in the briefing. The Kremlin later said the video &#8230; sh=
+ould not have been broadcast, and the <a href=3D"http://link.washingtonpost=
+.com/click/5808849.467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1fRmdQQ=
+kd0ZUx6VSZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cCba2ae3=
+c5">video </a>was deleted &#8230;=C2=A0Russia appears to be creating a tact=
+ical nuclear weapon that could be slipped into a harbor, unleashing a tidal=
+ wave as well as the devastating effects of a nuclear explosion. It might b=
+e used to attack a military target, such as a submarine or naval base, but =
+cities and industry could also be hit. &#8230;=C2=A0There are no arms contr=
+ol treaties in place to stop this; smaller tactical nuclear weapons have ne=
+ver been limited by treaty.&#8221;=C2=A0<em>Wonder if Trump will weigh in&#=
+8230;</em></p>
+<p><strong>&#8212; =E2=80=9C<a href=3D"http://link.washingtonpost.com/click=
+/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL2xvY2FsL3NvY2lhbC1=
+pc3N1ZXMvdGhlLWZsYXdlZC1zeXN0ZW0tdGhhdC1hbGxvd3MtY29tcGFuaWVzLXRvLW1ha2UtbW=
+lsbGlvbnMtb2ZmLXRoZS1pbmp1cmVkLzIwMTUvMTIvMjcvY2NlMTY0MzQtOTIxMi0xMWU1LWEyZ=
+DYtZjU3OTA4NTgwYjFmX3N0b3J5Lmh0bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d=
+5bc3b35d0d76d8c549cB50f8b1fa">The flawed system that allows companies to ma=
+ke millions off the injured,</a>=E2=80=9D by Terrence McCoy: =E2=80=9C</str=
+ong>In all, according to Terrence Taylor=E2=80=99s bank records and court d=
+ocuments, the burn survivor sold $11 million of his structured settlement =
+=E2=80=94 which had a present value of about $8.5 million =E2=80=94 for rou=
+ghly $1.4 million, or 16 cents on the present dollar. He has sued the compa=
+nies, focusing on a South Florida firm named Structured Asset Funding, whic=
+h did six deals with him. That Taylor, who had received diagnoses of learni=
+ng and emotional disabilities, could so quickly hemorrhage 30 years=E2=80=
+=99 worth of income in deals approved in a courthouse he never visited is t=
+he result of Virginia=E2=80=99s failure to properly regulate and monitor an=
+ industry that makes tens of millions off some of the state=E2=80=99s most =
+vulnerable residents, a Washington Post investigation has found. Unlike tra=
+ditional settlements, which are paid out in one sum, structured settlements=
+ dispense the payout in portions over a lifetime to protect vulnerable peop=
+le from immediately spending it all.=E2=80=9D</p>
+<p><strong>&#8212; =E2=80=9C<a href=3D"http://link.washingtonpost.com/click=
+/5808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vc2YvbmF0aW9uYWwvMjA=
+xNS8xMi8yNy9haWFueGlldHkvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0=
+d76d8c549cB3aefc431">The A.I. anxiety,</a>=E2=80=9D by Joel Achenbach: =E2=
+=80=9C</strong>Nick Bostrom=E2=80=99s underlying concerns about machine int=
+elligence, unintended consequences and potentially malevolent computers hav=
+e gone mainstream. You can=E2=80=99t attend a technology conference these d=
+ays without someone bringing up the A.I. anxiety. It hovers over the tech c=
+onversation with the high-pitched whine of a 1950s-era Hollywood flying sau=
+cer. People will tell you that even Stephen Hawking is worried about it. An=
+d Bill Gates. And that Elon Musk gave $10 million for research on how to ke=
+ep machine intelligence under control. All that is true. =E2=80=A6 This is =
+a topic rife with speculation and perhaps a whiff of hysteria. But the disc=
+ussion reflects a broader truth: We live in an age in which machine intelli=
+gence has become a part of daily life. Computers fly planes and soon will d=
+rive cars. Computer algorithms anticipate our needs and decide which advert=
+isements to show us. Machines create news stories without human interventio=
+n. Machines can recognize your face in a crowd. &#8230; We don=E2=80=99t kn=
+ow how this will play out. But some of the most serious thinkers on Earth w=
+orry about potential hazards =E2=80=94 and wonder whether we remain fully i=
+n control of our inventions.=E2=80=9D</p>
+<p><b>SOCIAL MEDIA SPEED READ:</b></p>
+<p><b>&#8212; Pictures of the day:</b></p>
+<p>2016 presidential candidates wished voters a Merry Christmas via social =
+media, with some fun family photos and some throwbacks:</p>
+<small style=3D"width: 510px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190NWNnb0doVUMvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cBaf7e97fd"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xfp1/t51.2885-15/s750x750/sh0.08/e35/12=
+338658_1507734112890265_2055283346_n.jpg" alt=3D"" "500" "419" /></a><p cla=
+ss=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/5808=
+849.467306/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190NWNnb0doVUMvP3dwbW09MSZ3=
+cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cCaf7e97fd">(@realdonaldtrum=
+p)</a></p></small>
+<small style=3D"width: 509px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190Ny1mMEVQcF8vP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cBd30ab27d"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xtp1/t51.2885-15/sh0.08/e35/p750x750/12=
+338850_535156103318953_1864868001_n.jpg" alt=3D"" "499" "623" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190Ny1mMEVQcF8vP3dwbW09MSZ3c=
+GlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cCd30ab27d">(@hillaryclinton)=
+</a></p></small>
+<small style=3D"width: 511px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190NWdyS3pldjEvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB481fdb8d"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xat1/t51.2885-15/e35/12345708_162725837=
+420929_227029793_n.jpg" alt=3D"" "501" "501" /></a><p class=3D"wp-caption-t=
+ext"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM=
+6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190NWdyS3pldjEvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbH=
+kyMDI/5483d5bc3b35d0d76d8c549cC481fdb8d">(@chrischristie)</a></p></small>
+<small style=3D"width: 512px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190NXROeVRWM2wvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cBdcf140ec"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xfp1/t51.2885-15/e35/12339029_166018829=
+4246259_1565347750_n.jpg" alt=3D"" "502" "502" /></a><p class=3D"wp-caption=
+-text"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0c=
+HM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190NXROeVRWM2wvP3dwbW09MSZ3cGlzcmM9bmxfZGFp=
+bHkyMDI/5483d5bc3b35d0d76d8c549cCdcf140ec">(@marcorubiofla)</a></p></small>
+<small style=3D"width: 510px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190N2VZMVFFV3gvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB32e7d211"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xpf1/t51.2885-15/s750x750/sh0.08/e35/12=
+353925_1536856279964121_1739320467_n.jpg" alt=3D"" "500" "304" /></a><p cla=
+ss=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/5808=
+849.467306/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190N2VZMVFFV3gvP3dwbW09MSZ3=
+cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cC32e7d211">(@jebbush)</a></=
+p></small>
+<small style=3D"width: 510px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL19zU0wwTnZBaVAvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB76913600"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12338483_174313016=
+5918973_782707587_n.jpg" alt=3D"" "500" "386" /></a><p class=3D"wp-caption-=
+text"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cH=
+M6Ly93d3cuaW5zdGFncmFtLmNvbS9wL19zU0wwTnZBaVAvP3dwbW09MSZ3cGlzcmM9bmxfZGFpb=
+HkyMDI/5483d5bc3b35d0d76d8c549cC76913600">(@realbencarson)</a></p></small>
+<p>And President Obama, plus some former residents of the White House, exte=
+nded their Season&#8217;s Greetings:</p>
+<small style=3D"width: 510px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL191VDRSX3dpbjYvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB560ff936"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xap1/t51.2885-15/s750x750/sh0.08/e35/12=
+362267_1750664795161686_254435496_n.jpg" alt=3D"" "500" "333" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL191VDRSX3dpbjYvP3dwbW09MSZ3c=
+GlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cC560ff936">(@thewhitehouse)<=
+/a></p></small>
+<small style=3D"width: 512px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190NjE4OGdtOEIvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB7cc6cd42"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xaf1/t51.2885-15/e35/12357262_166829649=
+6771321_316452850_n.jpg" alt=3D"" "502" "502" /></a><p class=3D"wp-caption-=
+text"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cH=
+M6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190NjE4OGdtOEIvP3dwbW09MSZ3cGlzcmM9bmxfZGFpb=
+HkyMDI/5483d5bc3b35d0d76d8c549cC7cc6cd42">(@georgewbush)</a></p></small>
+<p>Jacqueline Kennedy, John Jr., and Caroline, on Christmas Day in Palm Bea=
+ch, Fla., in 1962:</p>
+<small style=3D"width: 503px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL191TUFWZ0tvV3ovP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB1926cc86"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xta1/t51.2885-15/s750x750/sh0.08/e35/12=
+362372_571163689705970_1563603832_n.jpg" alt=3D"" "493" "493" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL191TUFWZ0tvV3ovP3dwbW09MSZ3c=
+GlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cC1926cc86">(@whitehousehisto=
+ry)</a></p></small>
+<p><b>&#8211;Tweets of the day:</b></p>
+<p>Rep. Donna Edwards (D-Md.), seeking the Maryland Senate seat being vacat=
+ed by Barbara Mikulski (D-Md.), sent her own wishes for a Happy Kwanzaa:</p=
+>
+<small id=3D"attachment_23585" style=3D"width: 410px" class=3D"wp-caption a=
+lignnone"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9yZXBkb25uYWVkd2FyZHMvc3RhdHVzLzY4MDcyODA4NDUxODE1N=
+DI0MD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBe7281de1">=
+<img style=3D"height: auto !important; max-width: 730px !important; width: =
+100%; " width=3D"730" class=3D"size-full wp-image-23585" src=3D"http://www.=
+washingtonpost.com/news/powerpost/wp-content/uploads/sites/47/2015/12/kwanz=
+aa.jpg" alt=3D"(@repdonnaedwards)" "400" "300" /></a><p class=3D"wp-caption=
+-text"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0c=
+HM6Ly90d2l0dGVyLmNvbS9yZXBkb25uYWVkd2FyZHMvc3RhdHVzLzY4MDcyODA4NDUxODE1NDI0=
+MD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cCe7281de1">(@r=
+epdonnaedwards)</a></p></small>
+<p>Rep. David Cicilline (D-R.I.) celebrated Christmas with the troops in Ir=
+aq:</p>
+<small id=3D"attachment_23586" style=3D"width: 509px" class=3D"wp-caption a=
+lignnone"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9SZXBDaWNpbGxpbmUvc3RhdHVzLzY4MDQ3MjI1MjcxNDk3OTMyO=
+D93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cB83808eac"><img=
+ style=3D"height: auto !important; max-width: 730px !important; width: 100%=
+; " width=3D"730" class=3D" wp-image-23586" src=3D"http://www.washingtonpos=
+t.com/news/powerpost/wp-content/uploads/sites/47/2015/12/cicill.jpg" alt=3D=
+"(@repcicilline)" "499" "281" /></a><p class=3D"wp-caption-text"><a href=3D=
+"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly90d2l0dGVyLm=
+NvbS9SZXBDaWNpbGxpbmUvc3RhdHVzLzY4MDQ3MjI1MjcxNDk3OTMyOD93cG1tPTEmd3Bpc3JjP=
+W5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cC83808eac">(@repcicilline)</a></p><=
+/small>
+<p>Rep. Justin Amash (R-Mich.) offered Clinton and Sanders a libertarian ec=
+onomics lesson:</p>
+<small id=3D"attachment_23584" style=3D"width: 511px" class=3D"wp-caption a=
+lignnone"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9qdXN0aW5hbWFzaC9zdGF0dXMvNjgwOTA5NDQ3NzQ1NTY4NzY4P=
+3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBd8cf34ee"><img =
+style=3D"height: auto !important; max-width: 730px !important; width: 100%;=
+ " width=3D"730" class=3D" wp-image-23584" src=3D"http://www.washingtonpost=
+.com/news/powerpost/wp-content/uploads/sites/47/2015/12/amash.jpg" alt=3D"(=
+@justinamash)" "501" "501" /></a><p class=3D"wp-caption-text"><a href=3D"ht=
+tp://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly90d2l0dGVyLmNvb=
+S9qdXN0aW5hbWFzaC9zdGF0dXMvNjgwOTA5NDQ3NzQ1NTY4NzY4P3dwbW09MSZ3cGlzcmM9bmxf=
+ZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cCd8cf34ee">(@justinamash)</a></p></smal=
+l>
+<p>Rep. Kristi Noem (R-S.D.) got a practical gift from her sister. &#8220;I=
+ think I&#8217;m offended,&#8221; she tweeted:</p>
+<small id=3D"attachment_23587" style=3D"width: 510px" class=3D"wp-caption a=
+lignnone"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9SZXBLcmlzdGlOb2VtL3N0YXR1cy82ODA1NDE5MTM4Njc1MTM4N=
+Tc_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB94c15ccd"><i=
+mg style=3D"height: auto !important; max-width: 730px !important; width: 10=
+0%; " width=3D"730" class=3D" wp-image-23587" src=3D"http://www.washingtonp=
+ost.com/news/powerpost/wp-content/uploads/sites/47/2015/12/noem.jpg" alt=3D=
+"(@repkristinoem)" "500" "895" /></a><p class=3D"wp-caption-text"><a href=
+=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly90d2l0dGV=
+yLmNvbS9SZXBLcmlzdGlOb2VtL3N0YXR1cy82ODA1NDE5MTM4Njc1MTM4NTc_d3BtbT0xJndwaX=
+NyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cC94c15ccd">(@repkristinoem)</a=
+></p></small>
+<p>Sen. John Thune (R-S.D.) tweeted that his dad celebrated his 96th birthd=
+ay by getting &#8220;stuck being our driver:&#8221;</p>
+<small id=3D"attachment_23589" style=3D"width: 510px" class=3D"wp-caption a=
+lignnone"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9TZW5Kb2huVGh1bmUvc3RhdHVzLzY4MDkzMTgyOTc2ODA2MDkyO=
+D93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBc2adb305"><img=
+ style=3D"height: auto !important; max-width: 730px !important; width: 100%=
+; " width=3D"730" class=3D" wp-image-23589" src=3D"http://www.washingtonpos=
+t.com/news/powerpost/wp-content/uploads/sites/47/2015/12/thune.jpg" alt=3D"=
+(@SenJonThune)" "500" "375" /></a><p class=3D"wp-caption-text"><a href=3D"h=
+ttp://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly90d2l0dGVyLmNv=
+bS9TZW5Kb2huVGh1bmUvc3RhdHVzLzY4MDkzMTgyOTc2ODA2MDkyOD93cG1tPTEmd3Bpc3JjPW5=
+sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cCc2adb305">(@SenJohnThune)</a></p></s=
+mall>
+<p><b>&#8212; Instagrams of the day:</b></p>
+<p>Dogs were a constant &#8212; and of course cute &#8212; theme on Instagr=
+am over the holidays.</p>
+<p>&#8220;Bart,&#8221; an explosives detection trained canine, found Santa =
+instead at the Kansas City International airport:</p>
+<small style=3D"width: 330px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL19zWFFRNmw5eE0vP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB3e08ffee"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xpf1/t51.2885-15/s320x320/e35/12345829_=
+566350896861916_1851842524_n.jpg" alt=3D"" "320" "320" /></a><p class=3D"wp=
+-caption-text"><a href=3D"http://link.washingtonpost.com/click/5808849.4673=
+06/aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL19zWFFRNmw5eE0vP3dwbW09MSZ3cGlzcmM9=
+bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cC3e08ffee">(@TSA)</a></p></small>
+<p>Sen. Steve Daines (R-Mont.) took a walk in the snow with his dogs on Chr=
+istmas Day:</p>
+<small style=3D"width: 511px" class=3D"wp-caption alignnone"><img style=3D"=
+height: auto !important; max-width: 730px !important; width: 100%; " width=
+=3D"730" class=3D"" src=3D"https://scontent-iad3-1.cdninstagram.com/hphotos=
+-xpa1/t51.2885-15/sh0.08/e35/p750x750/12338761_528517463991811_988841121_n.=
+jpg" alt=3D"" "501" "505" /><p class=3D"wp-caption-text">(@stevedaines)</p>=
+</small>
+<p>Ben Carson noted that pet lovers could get animal swag at his online sto=
+re:</p>
+<small style=3D"width: 491px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL193a3pCclBBaDgvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB1bf90b0d"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xpf1/t51.2885-15/e35/12339015_150716059=
+6255494_29540002_n.jpg" alt=3D"" "481" "481" /></a><p class=3D"wp-caption-t=
+ext"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM=
+6Ly93d3cuaW5zdGFncmFtLmNvbS9wL193a3pCclBBaDgvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbH=
+kyMDI/5483d5bc3b35d0d76d8c549cC1bf90b0d">(@realbencarson)</a></p></small>
+<p>Former reality TV star=C2=A0Sean Duffy, now a GOP congressman from Wisco=
+nsin, showed off his family:</p>
+<small style=3D"width: 512px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL193dHFGNml2ZUYvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB0e10a9eb"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xpa1/t51.2885-15/e35/12353216_154221455=
+9428869_479721425_n.jpg" alt=3D"" "502" "502" /></a><p class=3D"wp-caption-=
+text"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cH=
+M6Ly93d3cuaW5zdGFncmFtLmNvbS9wL193dHFGNml2ZUYvP3dwbW09MSZ3cGlzcmM9bmxfZGFpb=
+HkyMDI/5483d5bc3b35d0d76d8c549cC0e10a9eb">(repseanduffy)</a></p></small>
+<p>The Sanders campaign posted this picture of a little Bernie and his big =
+brother, Larry, growing up in Brooklyn:</p>
+<small style=3D"width: 507px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL19zYk8wTUF3X0wvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cBeb64bcfb"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xat1/t51.2885-15/e35/926975_48747994809=
+8294_599631640_n.jpg" alt=3D"" "497" "497" /></a><p class=3D"wp-caption-tex=
+t"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6L=
+y93d3cuaW5zdGFncmFtLmNvbS9wL19zYk8wTUF3X0wvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHky=
+MDI/5483d5bc3b35d0d76d8c549cCeb64bcfb">(@berniesanders)</a></p></small>
+<p>Rep. Eric Swalwell (D-Calif.) warned his nephew, Nolan, that he was &#82=
+20;not to cool&#8221; to be picked up, no matter how old he is:</p>
+<small style=3D"width: 510px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL191d0xPVlFhVW0vP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB00ae7af9"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xft1/t51.2885-15/e35/12393870_150512588=
+3121916_1752472410_n.jpg" alt=3D"" "500" "625" /></a><p class=3D"wp-caption=
+-text"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0c=
+HM6Ly93d3cuaW5zdGFncmFtLmNvbS9wL191d0xPVlFhVW0vP3dwbW09MSZ3cGlzcmM9bmxfZGFp=
+bHkyMDI/5483d5bc3b35d0d76d8c549cC00ae7af9">(@repswalwell)</a></p></small>
+<p>And Sen. Martin Heinrich (D-N.M.) showed=C2=A0the holiday lights along C=
+anyon Road in Santa Fe:</p>
+<small style=3D"width: 510px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cuaW5zdGFncm=
+FtLmNvbS9wL190S2FUX3ZsTncvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d=
+0d76d8c549cB1c9f5f18"><img style=3D"height: auto !important; max-width: 730=
+px !important; width: 100%; " width=3D"730" class=3D"" src=3D"https://scont=
+ent-iad3-1.cdninstagram.com/hphotos-xap1/t51.2885-15/e35/12393665_791100067=
+682455_947702173_n.jpg" alt=3D"" "500" "500" /></a><p class=3D"wp-caption-t=
+ext"><a href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM=
+6Ly93d3cuaW5zdGFncmFtLmNvbS9wL190S2FUX3ZsTncvP3dwbW09MSZ3cGlzcmM9bmxfZGFpbH=
+kyMDI/5483d5bc3b35d0d76d8c549cC1c9f5f18">(@senatormartinheinrich)</a></p></=
+small>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"margin-left:auto; margin-right:auto;">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" colspan=3D"2"><a href=3Dhttp://li.=
+washingtonpost.com/click?s=3D142956&layout=3Dmarquee&li=3Ddaily202&m=3D30a1=
+42167a399d9be2c1b7c32e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp:/=
+/li.washingtonpost.com/imp?s=3D142956&layout=3Dmarquee&li=3Ddaily202&m=3D30=
+a142167a399d9be2c1b7c32e192bd2&p=3D5808849 border=3D"0" style=3D"display: b=
+lock; width:300px; height:auto;" width=3D"300" /></a></td>
+</tr>
+<tr style=3D"display:block; height:1px; line-height:1px;">
+<td align=3D"left" bgcolor=3D"#ffffff" height=3D"1"><img src=3Dhttp://li.wa=
+shingtonpost.com/imp?s=3D142957&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9b=
+e2c1b7c32e192bd2&p=3D5808849 height=3D"1" width=3D"10" /></td>
+<td align=3D"right" bgcolor=3D"#ffffff" height=3D"1"><img src=3Dhttp://li.w=
+ashingtonpost.com/imp?s=3D142958&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9=
+be2c1b7c32e192bd2&p=3D5808849 height=3D"1" width=3D"10" /></td>
+</tr>
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.c=
+om/click?s=3D142959&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32=
+e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D142959&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e19=
+2bd2&p=3D5808849 border=3D"0"/></a></td>
+<td align=3D"right" bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.=
+com/click?s=3D142960&sz=3D69x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32=
+e192bd2&p=3D5808849 rel=3D"nofollow"><img src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D142960&sz=3D69x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192=
+bd2&p=3D5808849 border=3D"0"/></a></td>
+</tr>
+</table>
+<p><b>GOOD READS FROM ELSEWHERE:</b></p>
+<small id=3D"attachment_23602" style=3D"width: 610px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23602" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/04/07/Loca=
+l/Images/beforetheyran-0071428369431.jpg" alt=3D"" "600" "414" /><p class=
+=3D"wp-caption-text">Bill, with Hillary, campaigning for governor of Arkans=
+as in 1978. (The Washington Post)</p></small>
+<p><b>&#8212; New York Times, &#8220;<a href=3D"http://link.washingtonpost.=
+com/click/5808849.467306/aHR0cDovL3d3dy5ueXRpbWVzLmNvbS8yMDE1LzEyLzI4L3VzL3=
+BvbGl0aWNzL2hvdy1oaWxsYXJ5LWNsaW50b24td2VudC11bmRlcmNvdmVyLXRvLWV4YW1pbmUtc=
+mFjZS1pbi1lZHVjYXRpb24uaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b3=
+5d0d76d8c549cBd0fdd92c">How Hillary Clinton went undercover to examine race=
+ in education</a>,&#8221; by Amy Chozick in Dothan, Ala.: </b>&#8220;On a h=
+umid summer day in 1972, Hillary Rodham walked into this town=E2=80=99s new=
+ private academy, a couple of cinder-block classrooms erected hurriedly ami=
+d fields of farmland, and pretended to be someone else.=C2=A0Playing down h=
+er flat Chicago accent, she told the school=E2=80=99s guidance counselor th=
+at her husband had just taken a job in Dothan, that they were a churchgoing=
+ family and that they were looking for a school for their son.=C2=A0The fut=
+ure Mrs. Clinton, then a 24-year-old law student, was working for Marian Wr=
+ight Edelman, the civil rights activist and prominent advocate for children=
+. Mrs. Edelman had sent her to Alabama to help prove that the Nixon adminis=
+tration was not enforcing the legal ban on granting tax-exempt status to so=
+-called segregation academies, the estimated 200 private academies that spr=
+ang up in the South to cater to white families after a 1969 Supreme Court d=
+ecision forced public schools to integrate.=C2=A0Her mission was simple: Es=
+tablish whether the Dothan school was discriminating based on race. &#8230;=
+ =C2=A0A look at Mrs. Clinton=E2=80=99s efforts that summer, through archiv=
+es and interviews with more than 50 local officials, civil rights activists=
+ and people who knew her, reveals a summer job that was both out of charact=
+er for the bookish law student and a moment of awakening.&#8221;</p>
+<small id=3D"attachment_23603" style=3D"width: 548px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23603" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/09/17/Inte=
+ractivity/Images/GettyImages-117257200.jpg" alt=3D"" "538" "600" /><p class=
+=3D"wp-caption-text">Donald Trump at Taj Mahal in Atlantic City (Photo by T=
+om Briglia/FilmMagic)</p></small>
+<p><b>&#8212; Los Angeles Times, &#8220;<a href=3D"http://link.washingtonpo=
+st.com/click/5808849.467306/aHR0cDovL3d3dy5sYXRpbWVzLmNvbS9uYXRpb24vcG9saXR=
+pY3MvbGEtbmEtdHJ1bXAtYXRsYW50aWMtY2l0eS0yMDE1MTIyNy1zdG9yeS5odG1sP3dwbW09MS=
+Z3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cB141d5484">Trump left his=
+ mark on Atlantic City =E2=80=94 for better and for worse,</a>&#8221; by Jo=
+seph Tanfani:</b><span style=3D"font-weight: 400;">=C2=A0&#8220;With his sh=
+owman&#8217;s knack for positive spin, he depicts his history in Atlantic C=
+ity, bankruptcies and all, as more proof of his genius for timing. &#8230;=
+=C2=A0</span>The real story of Trump&#8217;s rise and fall in Atlantic City=
+ is more complicated. His casinos were profitable early. As he expanded, th=
+ough, Trump&#8217;s aggressive borrowing and go-go strategy left them labor=
+ing under high-interest debt. When he decided to leave, in 2009, the exit w=
+as far from smooth and graceful; he gave up after last-ditch battles with b=
+ondholders.=C2=A0Today, some still love him here, even people who lost mone=
+y. Others have bitter memories. &#8216;He trampled everyone: the shareholde=
+rs, the bondholders, the employees, the contractors,&#8217; said Sebastian =
+Pignatello, who lives in Flushing, N.Y., near where Trump grew up. An inves=
+tor who headed a stockholders&#8217; committee that tried to recover losses=
+ in one Trump bankruptcy, Pignatello says many small businesses had to sett=
+le for &#8216;pennies on the dollar.'&#8221;</p>
+<small id=3D"attachment_23604" style=3D"width: 609px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23604" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/Wires/Images/2015-12-09/Getty/=
+Was8988081.jpg" alt=3D"" "599" "372" /><p class=3D"wp-caption-text">John Ka=
+sich leaves a birthday message for the father of a voter attending his town=
+ hall in Salem, New Hampshire, on December 3. (Michael Mathes/AFP/Getty Ima=
+ges)</p></small>
+<p><b>Kasich campaign touts analytics=C2=A0&#8211;&gt; New Hampshire Union =
+Leader, &#8220;<a href=3D"http://link.washingtonpost.com/click/5808849.4673=
+06/aHR0cDovL3d3dy51bmlvbmxlYWRlci5jb20vYXJ0aWNsZS8yMDE1MTIyNy9ORVdTMDYwNS8x=
+NTEyMjk0MTkvMTAxMC9uZXdzMDY_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35=
+d0d76d8c549cB44100c87">Primary &#8216;ground games&#8217; delve deep into d=
+ata mining,</a>&#8221; by Dan Tuohy: </b>&#8220;Talking about &#8216;ground=
+ game&#8217; ahead of New Hampshire&#8217;s first-in-the-nation Presidentia=
+l Primary, it seemed appropriate to hear Tom Rath refer to &#8216;Sabermetr=
+ics,&#8217; =C2=A0the statistical study of baseball to identify player perf=
+ormance. &#8216;It&#8217;s become more like the analytics approach to baseb=
+all,&#8217; he said. &#8216;Analytics really drives a lot of the tactical d=
+ecisions.&#8217;=C2=A0His player is John Kasich, the Ohio governor. Rath, a=
+ state co-chairman, shared some insight into the Republican presidential ho=
+peful&#8217;s organization and the use of data-mining technology to target =
+likely voters. &#8230; The technology indicates where a campaign is stronge=
+st and drills down to the demographics, said John E. Sununu, a former U.S. =
+senator who is Kasich&#8217;s state chairman. He said the data provides a m=
+ore objective layer, but experience and expertise remain key to the roadmap=
+.&#8221;</p>
+<small id=3D"attachment_23606" style=3D"width: 610px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23606" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/12/22/Heal=
+th-Environment-Science/Images/2015-12-22T044741Z_01_SRR01_RTRIDSP_3_USA-SPA=
+CEX.jpg" alt=3D"" "600" "423" /><p class=3D"wp-caption-text">A long exposur=
+e photograph from last week shows the SpaceX Falcon 9 lifting off (L) from =
+its launch pad and then returning to a landing zone (R) at the Cape Canaver=
+al Air Force Station. (Reuters/Mike Brown)</p></small>
+<p>&#8212;=C2=A0<strong>Daily Beast, =E2=80=9C<a href=3D"http://link.washin=
+gtonpost.com/click/5808849.467306/aHR0cDovL3d3dy50aGVkYWlseWJlYXN0LmNvbS9hc=
+nRpY2xlcy8yMDE1LzEyLzI4L3doYXQtcy1uZXh0LWZvci1vdXRlci1zcGFjZS5odG1sP3dwbW09=
+MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cB3efeaeb7">What=E2=80=
+=99s next for outer space?</a>=E2=80=9D By David Axe</strong>: =E2=80=9CElo=
+n Musk has called reusability =E2=80=98the fundamental breakthrough needed =
+to revolutionize access to space.=E2=80=99 For decades, government and priv=
+ate space organizations have dreamed of possessing such a multiple-use rock=
+et, believing it will cut down on the high cost=E2=80=94hundreds of million=
+s of dollars per launch=E2=80=94of getting to, and beyond, Earth=E2=80=99s =
+orbit. Governments have repeatedly tried and failed to design a launch-and-=
+land rocket. It took a private company headed by an eccentric billionaire i=
+nventor to actually get it done following years of experimentation and one =
+high-profile crash in April. Musk and SpaceX=E2=80=99s December feat was mo=
+re than just a technological milestone=E2=80=94it also signaled the coming =
+of age of private space exploration. If 2015 was the year private space fir=
+ms such as SpaceX, Blue Origin, Virgin Galactic and lunar mining concern Mo=
+on Express blasted into the headlines, 2016 could be the year these extrate=
+rrestrial companies make substantial progress toward reaching, exploring an=
+d profiting from space.=E2=80=9D</p>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"pad-reduce" style=3D"padd=
+ing-bottom: 30px; padding-top: 30px;" valign=3D"middle">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center" bgcolor=3D"#2646a0" class=3D"mobile-block-full-width" =
+valign=3D"top" width=3D"47%">
+<table border=3D"0" cellpadding=3D"6" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" bgcolor=3D"#2646a0" class=3D"reverse" style=3D"color: #f=
+fffff !important; font-family: sans-serif; padding-bottom: 15px; padding-le=
+ft: 30px; padding-right: 30px; padding-top: 15px;" valign=3D"top"><p><b>HOT=
+ ON THE LEFT</b></p>
+<p><strong>The University of California school system will no longer invest=
+ in private prisons after its administrators met with black student groups=
+=C2=A0who were lobbying for the change. </strong>From <a href=3D"http://lin=
+k.washingtonpost.com/click/5808849.467306/aHR0cDovL3RoaW5rcHJvZ3Jlc3Mub3JnL=
+2p1c3RpY2UvMjAxNS8xMi8yNy8zNzM1MTMwL3VjLXByaXNvbi1kaXZlc3RtZW50Lz93cG1tPTEm=
+d3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBcb51617d">Think Progress<=
+/a>: &#8220;As a result of mounting student pressure to divest, UC removed =
+its $25 million shares from the Geo Group Inc and Corrections Corporation o=
+f America (CCA) =E2=80=94 controversial companies linked to human rights ab=
+uses across the country.&#8221;</p>
+</td></tr></table>
+</td>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"mobile-block-full-width">=
+&nbsp;</td>
+<td align=3D"center" bgcolor=3D"#dc1400" class=3D"mobile-block-full-width" =
+valign=3D"top" width=3D"47%">
+<table border=3D"0" cellpadding=3D"6" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" bgcolor=3D"#dc1400"class=3D"reverse" style=3D"color: #ff=
+ffff !important; font-family: sans-serif; padding-bottom: 15px; padding-lef=
+t: 30px; padding-right: 30px; padding-top: 15px;" valign=3D"top"><p><b>HOT =
+ON THE RIGHT</b></p>
+<p><strong>Trump, in response to Trey Gowdy&#8217;s endorsement of Rubio, c=
+alled the Benghazi hearings a &#8220;disaster.&#8221;</strong> From the <a =
+href=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cDovL3d3dy5=
+3YXNoaW5ndG9uZXhhbWluZXIuY29tL3RydW1wLWJlbmdoYXppLWhlYXJpbmdzLWEtZGlzYXN0ZX=
+IvYXJ0aWNsZS8yNTc5MTE0P3dwbW09MSZ3cGlzcmM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76=
+d8c549cB217b821d">Washington Examiner</a>: &#8220;He=C2=A0did not win with =
+those hearings,&#8221; Trump said. &#8220;It was not good for Republicans a=
+nd for the country. I hope he does a lot better for Marco than he did with =
+the Benghazi hearings.&#8221;</p>
+</td></tr></table></td></tr></table></td></tr></table><p><b>DAYBOOK:</b></p=
+>
+<p><b>&#8211;What&#8217;s happening today on the campaign trail: </b>Donald=
+ Trump is holding a rally at 7 p.m. in Nashua, New Hampshire.=C2=A0Marco Ru=
+bio holds a town hall in Burlington, Iowa. Chris Christie is campaigning in=
+ Dubuque in the afternoon before holding a town hall in Davenport in the ev=
+ening. Martin O&#8217;Malley will attend a leadership forum in Iowa Falls b=
+efore campaigning in Waterloo and Tama later in the day. John Kasich stops =
+in Manchester and Derry, N.H.</p>
+<p><b>&#8212; On the Hill: </b><span style=3D"font-weight: 400;">Recess</sp=
+an></p>
+<p><b>&#8211;At the White House:=C2=A0</b>President Obama is vacationing in=
+ Hawaii.</p>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td align=3D"left" bgcolor=3D"#1e6df0" class=3D"reverse" style=3D"color: #f=
+fffff !important; font-family: sans-serif; padding-bottom: 15px; padding-le=
+ft: 30px; padding-right: 30px; padding-top: 15px;" valign=3D"middle"><p><b>=
+QUOTE OF THE DAY:</b></p>
+<p>This summer <strong>Bernie Sanders</strong> got angry when=C2=A0intervie=
+wers suggested he and Trump were both outsiders tapping into discontent wit=
+h the status quo. Now, a month out from Iowa, he=E2=80=99s changing his tun=
+e. =E2=80=9CMany of Trump&#8217;s supporters are working class people and t=
+hey&#8217;re angry,=E2=80=9D the democratic socialist said on CBS Sunday. =
+=E2=80=9CAnd they&#8217;re angry because they&#8217;re working longer hours=
+ for lower wages. They&#8217;re angry because their jobs have left this cou=
+ntry and gone to China or other low wage countries. They&#8217;re angry bec=
+ause they can&#8217;t afford to send their kids to college or they can&#821=
+7;t retire with dignity. And I think what Trump has done successfully, I wo=
+uld say, is take that anger, take that anxiety about terrorism and say to a=
+ lot of people in this country, =E2=80=98Look, the reason for our problems =
+is because of Mexicans.=E2=80=99 =E2=80=A6 For his working class and middle=
+ class supporters, I think we can make the case that if we really want to a=
+ddress the issues that people are concerned about &#8230; we need policies =
+that bring us together, that take on the greed of Wall Street, the greed of=
+ corporate America and create a middle class that works for all of us, rath=
+er than an economy that works just for a few.=E2=80=9D</p>
+</td></tr></table><p><b>NEWS YOU CAN USE IF YOU LIVE IN D.C.:</b></p>
+<p>&#8212;=C2=A0<strong>=E2=80=9CIt=E2=80=99s noticeably colder with overca=
+st skies for much of the day,=E2=80=9D <a href=3D"http://link.washingtonpos=
+t.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3Mv=
+Y2FwaXRhbC13ZWF0aGVyLWdhbmcvd3AvMjAxNS8xMi8yOC9kLWMtYXJlYS1mb3JlY2FzdC1kYW1=
+wLXdpdGgtZmx1Y3R1YXRpbmctdGVtcHMtZWFybHktdGhpcy13ZWVrLXRoZW4tc2hpZnRpbmctY2=
+FsbS1hbmQtY29sZGVyLz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c=
+549cB6fe7ff6b">the Capital Weather Gang forecasts</a>.</strong> =E2=80=9CTe=
+mperatures trickle down through the 40s. During the afternoon, some patchy =
+light rain and/or drizzle may develop from the southwest. Winds are from th=
+e east around 10 mph.=E2=80=9D</p>
+<small id=3D"attachment_23599" style=3D"width: 610px" class=3D"wp-caption a=
+ligncenter"><img style=3D"height: auto !important; max-width: 730px !import=
+ant; width: 100%; " width=3D"730" class=3D"wp-image-23599" src=3D"http://ww=
+w.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/12/27/Prod=
+uction/Daily/Sports/Images/502568222-1270.jpg" alt=3D"" "600" "386" /><p cl=
+ass=3D"wp-caption-text">DeSean Jackson and Trent Williams celebrate winning=
+ the NFC East division in Philadelphia Saturday. (Photo by Mitchell Leff/Ge=
+tty Images)</p></small>
+<p><b>&#8212; Playoff bound:=C2=A0</b>The Redskins clinched the NFC East ti=
+tle with a 38-24 win=C2=A0over=C2=A0the Philadelphia Eagles. (<a href=3D"ht=
+tp://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ=
+3RvbnBvc3QuY29tL3Nwb3J0cy9yZWRza2lucy9yZWRza2lucy1jbGluY2gtbmZjLWVhc3QtdGl0=
+bGUtYW5kLWEtcGxheW9mZi1zcG90LWJ5LWJlYXRpbmctZWFnbGVzLTM4LTI0LzIwMTUvMTIvMjc=
+vNzBjODk2Y2MtYWM1Mi0xMWU1LTgwNTgtNDgwYjU3MmI0YWFlX3N0b3J5Lmh0bWw_d3BtbT0xJn=
+dwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBec821870">Liz Clarke spot=
+ story; </a>Mike Jones has=C2=A0<a href=3D"http://link.washingtonpost.com/c=
+lick/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3MvZm9vdGJ=
+hbGwtaW5zaWRlci93cC8yMDE1LzEyLzI3L2ZpdmUtb2JzZXJ2YXRpb25zLWZyb20tdGhlLXJlZH=
+NraW5zLXdpbi1vdmVyLXRoZS1lYWdsZXMtNS8_dGlkPXBtX3Nwb3J0c19wb3BfYiZ3cG1tPTEmd=
+3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cBd135be1c">five takeaways <=
+/a>from the win; and=C2=A0<a href=3D"http://link.washingtonpost.com/click/5=
+808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL25ld3MvZm9vdGJhbGwta=
+W5zaWRlci93cC8yMDE1LzEyLzI3L3dpdGgtdGl0bGVzLWZldy1hbmQtZmFyLWJldHdlZW4tcmVk=
+c2tpbnMtdmV0ZXJhbnMtc2F2b3ItcGxheW9mZi1iZXJ0aC8_dGlkPXBtX3Nwb3J0c19wb3BfYiZ=
+3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cB87ae9f91">the te=
+am savors the berth.</a>)</p>
+<p>Meanwhile, the <strong>Carolina Panthers</strong>&#8216; bid for a perfe=
+ct season ended with a 20-13 loss to the Falcons. (<a href=3D"http://link.w=
+ashingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3Qu=
+Y29tL25ld3Mvc3BvcnRzL3dwLzIwMTUvMTIvMjcvcGFudGhlcnMtcHVyc3VpdC1vZi11bmRlZmV=
+hdGVkLXNlYXNvbi13aXRoLWxvc3MtdG8tZmFsY29ucy8_aHBpZD1ocF9ocC1tb3JlLXRvcC1zdG=
+9yaWVzX3BhbnRoZXJzLTQyMHBtOmhvbWVwYWdlL3N0b3J5JndwbW09MSZ3cGlzcmM9bmxfZGFpb=
+HkyMDI/5483d5bc3b35d0d76d8c549cBb52cbd80">Mark Maske</a>)</p>
+<p><b>&#8212; Are we less safe?=C2=A0</b><strong>The District now has=C2=A0=
+fewer=C2=A0than 3,800 police officers, the smallest force=C2=A0in a decade =
+and a number that city officials have previously suggested=C2=A0would be da=
+ngerous.</strong><b> </b>&#8220;District officials blame the staffing short=
+fall almost entirely on retirements,&#8221;=C2=A0<a href=3D"http://link.was=
+hingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY2=
+9tL2xvY2FsL3B1YmxpYy1zYWZldHkvZGMtcG9saWNlLWZvcmNlLWZhbGxzLXVuZGVyLTM4MDAtZ=
+m9yLWZpcnN0LXRpbWUtaW4tYS1kZWNhZGUvMjAxNS8xMi8yNi84MDA5NTU1NC05ZGIxLTExZTUt=
+YmNlNC03MDhmZTMzZTMyODhfc3RvcnkuaHRtbD93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/54=
+83d5bc3b35d0d76d8c549cBc961575d">Peter Hermann reports</a>.=C2=A0&#8220;But=
+ the union representing the rank and file says that the exodus also include=
+s officers and street-level supervisors who are leaving with fewer than 10 =
+years on the force. The union argues that this is evidence officers are fle=
+eing a department and a chief they do not like, as well as a crime plan the=
+y say will not make the District safer.&#8221;</p>
+<p>&#8212; <strong>=E2=80=9CA state advisory panel is calling for major cha=
+nges to =E2=80=98Maryland, My Maryland,=E2=80=99 a Civil War-era song that =
+urges Maryland to join the Confederacy, bashes =E2=80=98Northern scum=E2=80=
+=99 =E2=80=94 and has survived as the state anthem despite six previous eff=
+orts to eliminate it,&#8221;=C2=A0<a href=3D"http://link.washingtonpost.com=
+/click/5808849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL2xvY2FsL21kL=
+XBvbGl0aWNzL21hcnlsYW5kcy1zdGF0ZS1zb25nLWlzLXdheS1vZmYta2V5LXBhbmVscy1zYXlz=
+LzIwMTUvMTIvMjcvNjkxOTMyMjAtYTk5MC0xMWU1LWJmZjUtOTA1YjkyZjVmOTRiX3N0b3J5Lmh=
+0bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB0f1f56eb">=
+Ovetta Wiggins reports</a>. </strong>The panel offered six recommendations,=
+ including the adoption of &#8220;The Star-Spangled Banner.&#8221;</p>
+<p>&#8212; <strong>Seven hundred pounds of venison, taken from deer shot by=
+ sharp shooters in Rock Creek Park, was used to feed the homeless at DC Cen=
+tral Kitchen.</strong> (<a href=3D"http://link.washingtonpost.com/click/580=
+8849.467306/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL2xvY2FsL3NvY2lhbC1pc3N=
+1ZXMvZnJvbS1yb2NrLWNyZWVrLXBhcmstdG8tYS1ob21lbGVzcy1wZXJzb25zLXBsYXRlLWZyZX=
+NoLWtpbGxlZC12ZW5pc29uLzIwMTUvMTIvMjQvYzFmZWE5MzQtYTkyYi0xMWU1LTliOTItZGVhN=
+2NkNGIxYTRkX3N0b3J5Lmh0bWw_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d=
+0d76d8c549cB134911cf">Tara Bahrampour</a>)</p>
+<p>&#8212; <strong>Eight Republican candidates trying to unseat Rep.=C2=A0J=
+ohn Delaney=C2=A0(D) in Maryland=E2=80=99s 6<sup>th</sup> Congressional Dis=
+trict will face off in an=C2=A0April primary.</strong>=C2=A0But no top-tier=
+ Republicans are competing for Chris Van Hollen=E2=80=99s open seat in Mont=
+gomery County, <a href=3D"http://link.washingtonpost.com/click/5808849.4673=
+06/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL2xvY2FsL21kLXBvbGl0aWNzL21kLXJl=
+cHVibGljYW5zLXN0aWxsLWV5ZWluZy1yZXAtZGVsYW5leXMtY29uZ3Jlc3Npb25hbC1zZWF0LzI=
+wMTUvMTIvMjYvNTJkYWIyNzYtOWVhNi0xMWU1LWJjZTQtNzA4ZmUzM2UzMjg4X3N0b3J5Lmh0bW=
+w_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cBfc2556ba">Bil=
+l Turque reports</a>.</p>
+<p><b>VIDEOS OF THE DAY:</b></p>
+<p>Ben Carson released a new ad=C2=A0titled &#8220;Our Hands,&#8221; a play=
+ on the neurosurgeon&#8217;s autobiography, &#8220;Gifted Hands.&#8221; The=
+ theme is for Americans to unite:</p>
+<small style=3D"width: 479px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cueW91dHViZS=
+5jb20vd2F0Y2g_dj0xeENCR3VNUkNWWSZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc=
+3b35d0d76d8c549cDa298025b"><img style=3D"height: auto !important; max-width=
+: 730px !important; width: 100%; " width=3D"730" class=3D"" src=3D"http://i=
+.ytimg.com/vi/1xCBGuMRCVY/hqdefault.jpg" alt=3D"" "469" "352" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj0xeENCR3VNUkNWWSZ3cG1tP=
+TEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cEa298025b">(@realbencar=
+son)</a></p></small>
+<p>Ted Cruz appealed to social conservatives in a new=C2=A0ad:</p>
+<small style=3D"width: 490px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cueW91dHViZS=
+5jb20vd2F0Y2g_dj1sT2l0MDN2VDFuOCZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc=
+3b35d0d76d8c549cF4e24f712"><img style=3D"height: auto !important; max-width=
+: 730px !important; width: 100%; " width=3D"730" class=3D"" src=3D"http://i=
+.ytimg.com/vi/lOit03vT1n8/hqdefault.jpg" alt=3D"" "480" "360" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1sT2l0MDN2VDFuOCZ3cG1tP=
+TEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cG4e24f712">(@tedcruz)</=
+a></p></small>
+<p>Charlie Brown was apparently more religious than we remembered:</p>
+<small style=3D"width: 483px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cueW91dHViZS=
+5jb20vd2F0Y2g_dj1KVDFINW93c28wWSZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc=
+3b35d0d76d8c549cH683bde68"><img style=3D"height: auto !important; max-width=
+: 730px !important; width: 100%; " width=3D"730" class=3D"" src=3D"http://i=
+.ytimg.com/vi/JT1H5owso0Y/hqdefault.jpg" alt=3D"" "473" "355" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1KVDFINW93c28wWSZ3cG1tP=
+TEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cI683bde68">(@funnyordie=
+)</a></p></small>
+<p>George Lucas talks about what it was like to &#8220;break up&#8221; with=
+ &#8220;The Force Awakens&#8221;:</p>
+<small style=3D"width: 483px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cueW91dHViZS=
+5jb20vd2F0Y2g_dj1POGhRVmxSZ0ZsVSZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc=
+3b35d0d76d8c549cJd0092716"><img style=3D"height: auto !important; max-width=
+: 730px !important; width: 100%; " width=3D"730" class=3D"" src=3D"http://i=
+.ytimg.com/vi/O8hQVlRgFlU/hqdefault.jpg" alt=3D"" "473" "355" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1POGhRVmxSZ0ZsVSZ3cG1tP=
+TEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cKd0092716">(@charlieros=
+e)</a></p></small>
+<p>Queen Elizabeth delivers her Christmas message:</p>
+<small style=3D"width: 490px" class=3D"wp-caption alignnone"><a href=3D"htt=
+p://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly93d3cueW91dHViZS=
+5jb20vd2F0Y2g_dj1MRzlJdjNITVdXMCZ3cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc=
+3b35d0d76d8c549cL783438b6"><img style=3D"height: auto !important; max-width=
+: 730px !important; width: 100%; " width=3D"730" class=3D"" src=3D"http://i=
+.ytimg.com/vi/LG9Iv3HMWW0/hqdefault.jpg" alt=3D"" "480" "360" /></a><p clas=
+s=3D"wp-caption-text"><a href=3D"http://link.washingtonpost.com/click/58088=
+49.467306/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1MRzlJdjNITVdXMCZ3cG1tP=
+TEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549cM783438b6">(@skynews)</=
+a></p></small>
+<p>And watch people who received <a href=3D"http://link.washingtonpost.com/=
+click/5808849.467306/aHR0cDovL3d3dy5idXp6ZmVlZC5jb20vZGF2aWRtYWNrL2hvdmVyYm=
+9hcmQteG1hcy1mYWlscz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAyIy5hdGdrSm9QUDg/5483d=
+5bc3b35d0d76d8c549cBbbe43a7b">hoverboards</a> and <a href=3D"http://link.wa=
+shingtonpost.com/click/5808849.467306/aHR0cDovL3d3dy5idXp6ZmVlZC5jb20vZGF2a=
+WRtYWNrL2Ryb25lLXhtYXMtZmFpbHM_d3BtbT0xJndwaXNyYz1ubF9kYWlseTIwMiMuaGRBVzZk=
+Tk5N/5483d5bc3b35d0d76d8c549cBb7ada9a0">drones </a> for Christmas have some=
+ awkward accidents.</p></td>
+</tr>
+</table>
+<table id=3D"footer" align=3D"center" cellpadding=3D"6" cellspacing=3D"0" w=
+idth=3D"100%">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"pad-reduce" style=3D"bord=
+er-top-color: #e4e4e4; border-top-style: solid; border-top-width: 1px; padd=
+ing-bottom: 30px; padding-top: 60px;" valign=3D"middle">
+&nbsp;&nbsp;&nbsp;<a href=3D"http://link.washingtonpost.com/click/5808849.4=
+67306/aHR0cHM6Ly90d2l0dGVyLmNvbS9Qb3dlclBvc3Q_d3BtbT0xJndwaXNyYz1ubF9kYWlse=
+TIwMg/5483d5bc3b35d0d76d8c549cB69776156" style=3D"color: #2a2a2a; font-fami=
+ly: sans-serif; font-size: 16px; font-weight: 200; text-decoration: none;">=
+<img alt=3D"Twitter" border=3D"0" height=3D"22" src=3D"http://media.sailthr=
+u.com/3to/1jy/b/c/5463cf89480ed.gif" width=3D"22" /></a>&nbsp;&nbsp;&nbsp;
+</td>
+</tr>
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"fine-print" style=3D"colo=
+r: #6a6a6a; font-family: sans-serif; font-size: 12px; " valign=3D"middle">Y=
+ou are receiving this email because you signed up for the The Daily 202 new=
+sletter or were registered on <a href=3D"http://link.washingtonpost.com/cli=
+ck/5808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vP3dwbW09MSZ3cGlzc=
+mM9bmxfZGFpbHkyMDI/5483d5bc3b35d0d76d8c549cBb3695f99" style=3D"border: none=
+ !important; color: #6a6a6a; font-weight: bold; text-decoration: none !impo=
+rtant;">washingtonpost.com</a> or were invited as a VIP. For additional fre=
+e&nbsp;newsletters or to&nbsp;manage your&nbsp;newsletters, click&nbsp;<a h=
+ref=3D"http://link.washingtonpost.com/click/5808849.467306/aHR0cHM6Ly9zdWJz=
+Y3JpYmUud2FzaGluZ3RvbnBvc3QuY29tL25ld3NsZXR0ZXJzP3dwbW09MSZ3cGlzcmM9bmxfZGF=
+pbHkyMDI/5483d5bc3b35d0d76d8c549cB8cc6990b" style=3D"border: none !importan=
+t; color: #6a6a6a; font-family: sans-serif; font-weight: bold; text-decorat=
+ion: none !important;">here</a>.</td>
+</tr>
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"fine-print" style=3D"bord=
+er-bottom-color: #e4e4e4; border-bottom-style: solid; border-bottom-width: =
+1px; color: #6a6a6a; font-family: sans-serif; font-size: 12px; padding-bott=
+om: 20px;" valign=3D"middle">We respect your <a href=3D"http://link.washing=
+tonpost.com/click/5808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vcH=
+JpdmFjeS1wb2xpY3kvMjAxMS8xMS8xOC9nSVFBU0lpYWlOX3N0b3J5Lmh0bWw_d3BtbT0xJndwa=
+XNyYz1ubF9kYWlseTIwMg/5483d5bc3b35d0d76d8c549cB50e50f24" style=3D"border: n=
+one !important; color: #6a6a6a; font-family: sans-serif; font-weight: bold;=
+ text-decoration: none !important;">privacy</a>. If you believe that this e=
+mail has been sent to you in error, or you no longer wish to receive email =
+from The&nbsp;Washington&nbsp;Post, <a href=3D"http://link.washingtonpost.c=
+om/oc/5483d5bc3b35d0d76d8c549c3gi4x.a0kq/ac48787e" style=3D"border: none !i=
+mportant; color: #6a6a6a; font-family: sans-serif; font-weight: bold; text-=
+decoration: none !important;">click here</a>. <a href=3D"http://link.washin=
+gtonpost.com/click/5808849.467306/aHR0cDovL3d3dy53YXNoaW5ndG9ucG9zdC5jb20vY=
+WN0bWdtdC9oZWxwLz93cG1tPTEmd3Bpc3JjPW5sX2RhaWx5MjAy/5483d5bc3b35d0d76d8c549=
+cBee5aeb13"style=3D"border: none !important; color: #6a6a6a; font-family: s=
+ans-serif; font-weight: bold; text-decoration: none !important;">Contact us=
+</a> for help.</td>=20
+</tr>
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" class=3D"fine-print" style=3D"colo=
+r: #6a6a6a; font-family: sans-serif; font-size: 12px; padding-top: 20px;" v=
+align=3D"middle">&copy;2015 The&nbsp;Washington&nbsp;Post, 1301 K&nbsp;St&n=
+bsp;NW, Washington&nbsp;DC 20071</td>
+</tr>
+</table>
+<table id=3D"beacon" align=3D"center" cellpadding=3D"6" cellspacing=3D"0" w=
+idth=3D"100%">
+<tr>
+<td align=3D"center" bgcolor=3D"#ffffff" style=3D"color: #6a6a6a; font-fami=
+ly: sans-serif; font-size: 12px; " valign=3D"middle"><a href=3D"http://link=
+.washingtonpost.com/view/5483d5bc3b35d0d76d8c549c3gi4x.a0kq/a86590a8" style=
+=3D"color: #b2b2b2; font-family: sans-serif; text-decoration: none;"></a></=
+td>
+</tr>
+</table>
+</td>
+<td bgcolor=3D"#ffffff" class=3D"page-gutter">&nbsp;</td>
+<td align=3D"left" bgcolor=3D"#ffffff" valign=3D"top">
+<table id=3D"takeover_halfpage" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0">
+<tr>
+<td align=3D"left" bgcolor=3D"#ffffff" colspan=3D"2" valign=3D"top"><a href=
+=3Dhttp://li.washingtonpost.com/click?s=3D105696&layout=3Dright&li=3Ddaily2=
+02&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 rel=3D"nofollow"><img b=
+order=3D"0" src=3Dhttp://li.washingtonpost.com/imp?s=3D105696&layout=3Drigh=
+t&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 /></a></td=
+>
+</tr>
+<tr>
+<td bgcolor=3D"#ffffff"><img border=3D"0" src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D105698&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd=
+2&p=3D5808849 /></td>
+<td bgcolor=3D"#ffffff"><img border=3D"0" src=3Dhttp://li.washingtonpost.co=
+m/imp?s=3D105699&sz=3D1x1&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd=
+2&p=3D5808849 /></td>
+</tr>
+<tr>
+<td bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.com/click?s=3D10=
+5701&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D580=
+8849 rel=3D"nofollow"><img border=3D"0" src=3Dhttp://li.washingtonpost.com/=
+imp?s=3D105701&sz=3D116x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192b=
+d2&p=3D5808849 /></a></td>
+<td bgcolor=3D"#ffffff"><a href=3Dhttp://li.washingtonpost.com/click?s=3D10=
+5700&sz=3D19x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808=
+849 rel=3D"nofollow"><img border=3D"0" src=3Dhttp://li.washingtonpost.com/i=
+mp?s=3D105700&sz=3D19x15&li=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2=
+&p=3D5808849 /></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"40" height=
+=3D"6"><tr>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599700&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599701&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599702&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599703&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599704&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599705&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599706&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599707&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599708&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599709&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599710&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599711&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599712&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599713&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599714&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599715&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599716&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599717&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599718&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+<td><img src=3Dhttp://li.washingtonpost.com/imp?s=3D123599719&sz=3D2x1&li=
+=3Ddaily202&m=3D30a142167a399d9be2c1b7c32e192bd2&p=3D5808849 width=3D"2" he=
+ight=3D"6" border=3D"0" /></td>
+</tr>
+</table>
+</body>
+</html>
+------=_Part_168706097_794181399.1451306906692--
