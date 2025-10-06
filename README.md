@@ -6,8 +6,6 @@ A new and exciting area of research for me. This repo is dedicated to understand
 
 The end goal is simple - to build an "electro-gravitic" flying craft. But in order to do that successfully, many other things may need to be understood.
 
-![](img/fractal3.jpg)
-
 ## Contents
 
 Background knowledge:
@@ -44,6 +42,8 @@ Since this is such a broad topic, it will be easy to drift down bottomless "rabb
 Therefore the inquiry should be structured around understanding the principles of electro-gravitic propulsion so far as they can help us construct a working electro-gravitic propulsion craft.
 
 # Basic working principles
+
+![](img/fractal3.jpg)
 
 ## 1. Everything is in plain sight waiting for us to see it.
 
