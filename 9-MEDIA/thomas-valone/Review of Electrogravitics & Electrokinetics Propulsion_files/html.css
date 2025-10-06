@@ -1,0 +1,224 @@
+﻿.jcl  p{float:left;width:100%;}
+
+
+
+
+.Css_sac{/*float:left;width:100%;padding:10px; background:#fffee4; border:1px solid #d5d5d5;margin:10px 0;*/}
+.Css_sac .imgMarkCss{/*width:105px;height:85px;*/border:0; /*cursor:pointer;*/ padding:1px; border:1px solid #ccc;margin-bottom:10px;}
+/*.Css_sac .imgMarkCss:hover{ border:1px solid #ff3300;}*/
+.Css_sac p.sacImgMarkCss  { line-height:1.7em;}
+.Css_sac .cs_fig_con{font-weight:bold}
+.Css_sac .imgGroupCss {/*width:110px;margin-right:10px;*/ text-align:center;}
+.Css_sac .imgGroupCss_v { /*float:left;width:110px;margin-right: 10px;*/  text-align: center;}
+.Css_sac .imgGroupCss_a{}
+.Css_sac .imgGroupCss_h { text-align: center;}
+.Css_sac .imgGroupCss_h img{/*width:105px;height:85px;*/ /*cursor:pointer; padding:1px; border:1px solid #ccc;margin:0 0 10px 0;*/border:0;display:block !important; margin: auto;}
+.Css_sac .imgGroupCss_v img {/*width: 105px;height: 80px;*//*cursor: pointer;padding: 1px;border: 1px solid #ccc;margin: 0 10px 5px 0;*/border: 0;display:block !important; margin: auto;}
+
+
+
+
+
+
+
+
+#htmlContent p{padding: 10px 0;}/*20200513 添加正文段落间距*/
+#htmlContent p{overflow-x:auto;}/*20210430 公式太长超出范围后 左右滚动*/
+/*#htmlContent .Css_sac p{overflow:initial;}*/
+
+
+#htmlContent table td p {padding:0 !important; line-height:1.6em !important;}
+
+
+.Css_sac > .imgGroupCss_v > table {margin-left: 0 !important; margin: 0 auto !important; width:100% !important; }/*20210705 html正文表格样式调整*/
+.Css_sac > .imgGroupCss_h > table {margin-left: 0 !important; margin: 0 auto !important; width:100% !important; }
+
+
+
+.Css_sac > .imgGroupCss_v > p > table {margin-left: 0 !important; margin: 0 auto !important; width:100% !important; }/*20210705 html正文表格样式调整*/
+.Css_sac > .imgGroupCss_h > p > table {margin-left: 0 !important; margin: 0 auto !important; width:100% !important; }
+
+/*.Css_sac{float:left;width:658px;padding:10px; background:#fffee4; border:1px solid #d5d5d5;margin:10px 0;}
+.Css_sac p.sacImgMarkCss {float:left;width:530px}
+.Css_sac .imgGroupCss_v{width:110px;text-align:center;margin-right:10px;}
+.Css_sac .imgGroupCss_v img{width:105px;height:85px;border:0; cursor:pointer; padding:1px; border:1px solid #ccc;margin:0 10px 10px 0;}*/
+
+
+
+
+/*margin:15px 0 12px 0;*/
+.E-Title1 {font-size:19px;font-weight:bold;border-bottom:1px solid #ccc;line-height:30px;padding:0;text-align:left;color: #31849B;}
+.E-Title1 a { color:#31849B;}
+
+.E-Title2 {font-size:16px;font-weight:bold;line-height:24px;text-align:left;color: #31849B;}
+.E-Title3 {font-size:14px;font-weight:bold;line-height:24px;text-align:left;color: #31849B;}
+/*img {height:auto;vertical-align:middle;line-height:1.7}*/
+img {vertical-align:middle;line-height:1.7}
+
+
+
+#imgdiv 
+{
+     margin: 0 auto;
+     border: 1px solid #0F0F0F;
+     padding: 15px;
+     width: 410px;
+     background: #FFFFFF;
+     display: none;
+     position: absolute;
+     vertical-align: middle;
+     text-align: left; 
+     font-family: Arial;
+     z-index:99999999;
+	font-size: 12px;
+    line-height: 20px;
+	border: 2px solid #006699;
+	overflow: auto;
+ }
+
+.bracketMark{float:right;min-width:60px;  text-align:right}
+
+.imgGroupCss_v img {
+    margin-top: 8px;
+    max-width: 400px;
+    min-width: 30px;
+    padding: 8px;
+    background: rgb(255, 255, 255);
+}
+
+/*img.imgMarkCss.lazy {
+    max-width: 600px;
+    min-width: 200px;
+}*/
+
+.custom-table {
+    width: 100%; /* 表格宽度占据父容器的100% */
+    border-collapse: collapse; /* 合并单元格边框 */
+    table-layout: fixed;
+}
+
+.custom-table th, .custom-table td {
+    /*padding: 1px; !* 设置单元格内边距 *!*/
+    /*min-width:70px;*/
+    max-width: 550px;
+    /*text-align: center; !* 文本居中对齐 *!*/
+    word-wrap: break-word; /* 当单词太长时自动换行 */
+    white-space: normal; /* 设置空白符如何处理，这里是正常处理 */
+}
+
+.custom-top-td {
+    border-top: solid #943634 1.0pt;
+}
+
+.custom-left-td {
+    border-left: solid #943634 1.0pt;
+}
+
+.custom-right-td {
+    border-right: solid #943634 1.0pt;
+}
+
+.custom-bottom-td {
+    border-bottom: solid #943634 1.0pt;
+}
+/* 前两行边框样式 */
+.custom-table tr:nth-child(1) th,
+.custom-table tr:nth-child(1) td {
+    border-top: solid #943634 1.0pt;
+}
+/* 最后一行边框样式 */
+.custom-table tr:last-child,
+.custom-table tr:last-child {
+    border-bottom: solid #943634 1.0pt;
+}
+
+.aleft {
+    text-align: left;
+}
+
+.aright {
+    text-align: right;
+}
+
+.aboth {
+    text-align: justify;
+}
+
+.acenter {
+    text-align: center;
+}
+
+
+
+
+/*2024.08.15*/
+.lid {
+    list-style-type: disc;
+}
+
+.lig {
+    list-style-type: '✔ ';
+}
+
+.lih {
+    list-style-type: '- ';
+}
+
+/*2024.09.13*/
+/*.pli::before {
+    content: "●";
+    display: inline-block;
+    width: 1em;*/ /* 调整圆点与文本之间的间距 */
+    /*margin-right: 2px;*/ /* 调整圆点与文本之间的间距 */
+/*}*/
+
+/*.plig::before {
+    content: "✔ ";
+    display: inline-block;
+    width: 1em;*/ /* 调整圆点与文本之间的间距 */
+    /*margin-right: 2px;*/ /* 调整圆点与文本之间的间距 */
+/*}*/
+
+/*.plih::before {
+    content: "- ";
+    display: inline-block;
+    width: 1em;*/ /* 调整圆点与文本之间的间距 */
+    /*margin-right: 2px;*/ /* 调整圆点与文本之间的间距 */
+/*}*/
+
+
+/*2024.10.25*/
+.pli p {
+    margin: 0; /* 去掉每个p的外边距 */
+    position: relative; /* 使得伪元素相对于p定位 */
+}
+
+.pli p::before {
+    content: "●"; /* 使用圆点作为列表项符号 */
+    left: -20px; /* 调整位置 */
+    color: black; /* 符号颜色 */
+}
+
+.plig p {
+    margin: 0; /* 去掉每个p的外边距 */
+    position: relative; /* 使得伪元素相对于p定位 */
+}
+
+.plig p::before {
+    content: "✔ "; /* 使用圆点作为列表项符号 */
+    left: -20px; /* 调整位置 */
+    color: black; /* 符号颜色 */
+}
+
+.plih p {
+    margin: 0; /* 去掉每个p的外边距 */
+    position: relative; /* 使得伪元素相对于p定位 */
+}
+
+.plih p::before {
+    content: "- "; /* 使用圆点作为列表项符号 */
+    left: -20px; /* 调整位置 */
+    color: black; /* 符号颜色 */
+}
+
+
