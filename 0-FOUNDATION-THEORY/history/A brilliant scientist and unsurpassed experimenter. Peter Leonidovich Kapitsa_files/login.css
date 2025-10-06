@@ -1,0 +1,235 @@
+﻿/* =========== © 2023 Centroarts.com =========== */
+
+/* - Modal - */
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	display: none;
+	outline: 0;
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.modal-box {
+	transition: opacity .2s ease, transform .2s ease;
+	position: relative;
+	z-index: 1051;
+	width: 100%;
+	outline: 0;
+	transform: translateY(8px);
+	opacity: 0;
+}
+
+html.lo body {
+	overflow: hidden;
+}
+
+html.lo .modal-box {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.modal-head {
+	height: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.modal-cont {
+	padding-top: 48px;
+}
+
+.modal-title {
+	font-size: var(--fs-xl);
+	font-weight: bold;
+	line-height: 1.3;
+	margin-bottom: 24px;
+}
+
+.modal-close {
+	padding: 8px;
+	width: 40px;
+	height: 40px;
+	margin: 8px;
+	cursor: pointer;
+	opacity: .5;
+	transition: var(--opacity-animation);
+}
+
+@media (min-width: 992px) {
+	.modal-close:hover {
+		opacity: .7;
+	}
+}
+
+.modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #000;
+}
+
+.modal-backdrop.fade {
+	opacity: 0;
+}
+
+.modal-backdrop.in {
+	opacity: .3;
+}
+
+@media (max-width: 459px) {
+	.modal {
+		background-color: var(--page-bg);
+	}
+}
+
+@media (min-width: 460px) {
+	.modal-out {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		pointer-events: none;
+		margin: 0 auto;
+		min-height: 100%;
+		padding: 32px 16px;
+	}
+
+	.modal-box {
+		pointer-events: auto;
+		max-width: 380px;
+		border-radius: var(--modal-radius);
+		background-color: var(--page-bg);
+	}
+
+	html.lo .modal .modal-over {
+		opacity: .5;
+	}
+
+	.modal-over {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-color: #000;
+		opacity: 0;
+		transition: opacity .4s ease;
+		pointer-events: auto;
+	}
+}
+
+/* - Login - */
+.login-form {
+	padding: var(--gap);
+	padding-top: 0;
+}
+
+.login-lost-link {
+	margin-top: 24px;
+}
+
+.login-lost-link a {
+	padding: 8px 0;
+}
+
+.login-social {
+	background-image: linear-gradient(to right, transparent 50%, rgba(var(--primary-color-rgb), .1) 50%);
+	background-size: 4px 10px;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+
+	padding: var(--gap);
+	padding-top: calc(var(--gap) + 10px);
+}
+
+.login-social-title {
+	font-size: var(--fs-lg);
+	margin-bottom: 16px;
+}
+
+.login-social-list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 16px;
+}
+
+.soc-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 44px;
+	padding: 6px;
+	border-radius: 6px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.soc-item svg {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	z-index: 1;
+}
+
+.soc-item::after {
+	content: "";
+	border-radius: inherit;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: .1;
+	transition: var(--opacity-animation);
+}
+
+.soc-item:hover::after {
+	opacity: .2;
+}
+
+.soc-yandex {
+	color: #FC3F1D !important;
+}
+
+.soc-vk {
+	color: #0277FF !important;
+}
+
+.soc-ok {
+	color: #F77B20 !important;
+}
+
+.soc-mail {
+	color: #015FF9 !important;
+}
+
+.soc-yandex::after {
+	background-color: #FC3F1D;
+}
+
+.soc-vk::after {
+	background-color: #0277FF;
+}
+
+.soc-ok::after {
+	background-color: #F77B20;
+}
+
+.soc-mail::after {
+	background-color: #015FF9;
+}
+
+.soc-google::after {
+	background-color: #A1A1B5;
+}

@@ -1,0 +1,1 @@
+German mathematician who lived from 1826 to 1866.

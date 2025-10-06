@@ -1,0 +1,247 @@
+/* =========== TOPWAR © 2024 Centroarts.com =========== */
+
+:root {
+	color-scheme: light;
+	
+	--font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--body-font: Arial, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+	--body-font-size: var(--fs-md);
+	--body-lineheight: 1.5;
+	--body-font-weight: 400;
+	--body-bg-color: #E4E3E1;
+	
+	--gap: 28px;
+	--gap-md: 24px;
+	--gap-min: 16px;
+	--page-maxwidth: 1320px;
+	--page-minwidth: 320px;
+
+	--sticky-top: calc(var(--gap) + 44px);
+	--sticky-coms: 0px;
+
+	--scrollbar-bg: #FAFAFA;
+	--scrollbar-thumb: #C1C1C1;
+	--scrollbar-track: #ededed;
+
+	--fs-xxl: 32px;
+	--fs-xl: 24px;
+	--fs-xlg: 22px;
+	--fs-lg: 17px;
+	--fs-md: 16px;
+	--fs-sm: 14px;
+	--fs-xsm: 12px;
+
+	--primary-color: #9C373A;
+	--primary-color-rgb: 156, 55, 58;
+
+	--primary-color-dark: #BC4A4D;
+	--primary-color-dark-rgb: 188, 74, 77;
+
+	--link-color: var(--primary-color);
+	--link-hover-color: #882024;
+	--link-color-rgb: var(--primary-color-rgb);
+	--link-hover-color-rgb: 136, 32, 36;
+
+	--link-head-color: var(--link-color);
+	--link-head-color-h: var(--link-hover-color);
+
+	--logo-color: var(--primary-color);
+
+	--form-header-height: 72px;
+	--form-header-padding: 16px 0;
+
+	--page-bg: #F7F7F7;
+	--page-bg-rgb: 247,247,247;
+	--page-shadow: 0 0 12px 0 #0000001A;
+
+	--text-color: #222222;
+	--text-color-rgb: 34, 34, 34;
+	--text-muted-color: #222222B3;
+
+	--num-icon-color: var(--primary-color);
+	--num-icon-label: var(--text-color);
+	--num-icon-label-text: #FFFFFF;
+	--new-label: #4CA9FF;
+
+	--menu-color: #9C373A;
+	--menu-color-rgb: 156, 55, 58;
+	--menu-link-color: #FFFFFF;
+
+	--border-width: 1px;
+	--border-white: #FFFFFF1A;
+	--border-color: #2222221A;
+
+	--quick-search-border: var(--primary-color);
+
+	--field-radius: 6px;
+	--field-bg: #EBEAE8;
+	--field-bg-f: var(--page-bg);
+	--field-text: var(--text-color);
+	--field-border: var(--border-color);
+
+	--btn-radius: 6px;
+	--btn-primary: var(--primary-color);
+	--btn-primary-h: #B43F41;
+	--btn-primary-a: #8A2C2F;
+	--btn-primary-text: #FFF;
+	--btn-primary-mono: #FFF;
+
+	--opacity-animation: opacity .2s ease;
+
+	--puser-avatar: 100px;
+	--noavatar-bg: #D9D9D9;
+	--noavatar-dark-bg: #616161;
+	--avatar-head-radius: 4px;
+
+	--grey-bg: #EBEAE8;
+	--dark-bg: #222222;
+	--dark-bg-rgb: 34,34,34;
+	--dark-color-text: #FFFFFF;
+	--deepdark-bg: #1C1C1C;
+	--bg-light: #FFFFFF;
+	--quote-bg: #00000008;
+	--alert-bg: #F8F0E9;
+	--alert-bg-rgb: 248,240,233;
+
+	--dark-drop-rgb: 34,34,34;
+	--dark-drop-text: var(--dark-color-text);
+	--dropdown-margin: 8px;
+	--dropdown-radius: 6px;
+	--dropdown-bg: var(--page-bg);
+
+	--modal-radius: 8px;
+	--post-scroll-radius: 8px;
+
+	--bg-avia: url(../images/branding/bg-wks--light.webp);
+	--bg-fleet: url(../images/branding/bg-wmf--light.webp);
+	--bg-ground: url(../images/branding/bg-sv--light.webp);
+
+	--head-msg-bg: var(--dark-bg);
+	--head-msg-bg2: var(--dark-bg);
+	--head-msg-text: #FFFFFF;
+	--head-msg-icon-color: inherit;
+	--head-msg-icon-opacity: .5;
+
+	--title-fs: var(--fs-lg);
+	--title-lh: 1.4122;
+
+	--title-lg-fs: var(--fs-xlg);
+	--title-lg-lh: 1.273;
+	--post-title-hover-color: var(--primary-color);
+	--poster-title-color: var(--dark-color-text);
+	--post-story-bg: #242424CC;
+	--poster-rate-one: #9C373A;
+
+	--label-bg: #FFFFFFCC;
+	--label-text: #222222;
+
+	--channels-icon: #FFFFFF;
+	--channels-icon-bg: var(--primary-color);
+
+	--comment-bg: #FAFAFA;
+	--foot-text-width: 340px;
+
+	--scrollup-fly-bg: #22222280;
+	--scrollup-fly-border: #FFFFFF0D;
+	--scrollup-fly-icon-color: #FFFFFF;
+}
+
+html.dark {
+	color-scheme: dark;
+
+	--body-bg-color: #151515;
+
+	--primary-color: #BC4A4D;
+	--primary-color-rgb: 188, 74, 77;
+
+	--link-color: var(--primary-color);
+	--link-hover-color: #CD5256;
+	--link-color-rgb: var(--primary-color-rgb);
+	--link-hover-color-rgb: 205, 82, 86;
+
+	--logo-color: #CCCCCC;
+
+	--link-head-color: #CCCCCC;
+	--link-head-color-h: #FFFFFF;
+
+	--scrollbar-thumb: #424242;
+	--scrollbar-track: #2C2C2C;
+
+	--page-bg: #222222;
+	--page-bg-rgb: 34,34,34;
+
+	--text-color: #E0E0E0;
+	--text-color-rgb: 224, 224, 224;
+	--text-muted-color: #E0E0E0B3;
+
+	--num-icon-color: var(--text-color);
+	--num-icon-label: var(--primary-color);
+
+	--border-color: #F0F0F01A;
+
+	--quick-search-border: #F0F0F01A;
+
+	--field-bg: #2C2C2C;
+	--field-bg-f: var(--page-bg);
+	--field-text: var(--text-color);
+	--field-border: var(--border-color);
+
+	--btn-primary: var(--primary-color);
+	--btn-primary-h: #CD5256;
+	--btn-primary-a: #9C373A;
+	--btn-primary-mono: var(--text-color);
+
+	--noavatar-bg: #616161;
+	--noavatar-dark-bg: #616161;
+	--grey-bg: #2C2C2C;
+	--dark-bg: #1B1B1B;
+	--dark-bg-rgb: 27,27,27;
+	--dark-color-text: #FFFFFF;
+	--deepdark-bg: #141414;
+	--bg-light: var(--grey-bg);
+	--quote-bg: #F0F0F008;
+	--alert-bg: #FFCBBA1A;
+	--alert-bg-rgb: 255,203,186;
+
+	--dark-drop-rgb: 27,27,27;
+	--dark-drop-text: var(--dark-color-text);
+	--dropdown-bg: #1B1B1B;
+
+	--bg-avia: url(../images/branding/bg-wks--dark.webp);
+	--bg-fleet: url(../images/branding/bg-wmf--dark.webp);
+	--bg-ground: url(../images/branding/bg-sv--dark.webp);
+
+	--head-msg-bg: var(--text-color);
+	--head-msg-text: var(--page-bg);
+
+	--channels-icon: var(--primary-color);
+	--channels-icon-bg: rgba(var(--primary-color-rgb),0.2);
+
+	--comment-bg: #272727;
+
+	--p-overlay-color: var(--page-bg);
+	--post-overlay: .2;
+	--poster-overlay: .3;
+	--post-overlay-h: .1;
+	--poster-overlay-h: .5;
+}
+
+/* - Logo - */
+.logo {
+	--logo-width: 264px;
+	--logo-height: 40px;
+
+	display: block; position: relative; text-align: center; color: var(--logo-color) !important; margin-left: auto; margin-right: auto;
+	max-width: var(--logo-width) !important; width: var(--logo-width); height: var(--logo-height); text-decoration: none !important;
+}
+@media (max-width: 991px) {
+	.logo { margin-top: 12px; margin-bottom: 8px; }
+}
+
+.logo > svg { height: inherit; pointer-events: none; }
+.logo-icon { color: var(--primary-color); position: absolute; left: 50%; top: 0; margin-left: -3px; transform: translateX(-50%); }
+.logo-text { fill: currentColor; }
+
+html[lang=ru] .logo-icon { margin-left: -13px; }
+html:not([lang=ru]) .logotext-ru { display: none !important; }
+html:not([lang=ru]) .logotext-en { display: block !important; }

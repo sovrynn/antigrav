@@ -1,0 +1,57 @@
+﻿.ya-page_js_yes .ya-site-form_inited_no { display: none !important; }
+.qsearch-ya-form #ya-site-form0 .ya-site-form__search-input { padding: 0 !important; }
+
+.qsearch-ya-form #ya-site-form0, .qsearch-ya-form #ya-site-form0 .ya-site-form__form, .qsearch-ya-form #ya-site-form0 .ya-site-form__input,
+.qsearch-ya-form #ya-site-form0 .ya-site-form__input-text, #ya-site-form0 .ya-site-form__search-precise,
+.qsearch-ya-form #ya-site-form0 .ya-site-form__submit { color: inherit !important; }
+.qsearch-ya-form #ya-site-form0 .ya-site-form__submit {
+    font-weight: bold !important; text-transform: uppercase !important; font-size: 14px !important; height: 44px !important; line-height: 24px !important;
+    margin: 0 !important; padding: 10px 0 !important; background: none !important; border: 0 none !important;
+}
+.qsearch-ya-form #ya-site-form0 .ya-site-form__submit:hover { opacity: 1 !important; }
+.qsearch-ya-form #ya-site-form0 .ya-site-form__form .ya-site-form__input-text {
+    background: none !important; color: inherit !important; border: 0 none !important;
+    border-radius: 0 !important; padding: 10px 16px !important; height: 44px !important;
+}
+.qsearch-ya-form #ya-site-form0, .qsearch-ya-form #ya-site-form0 .ya-site-form__form, .qsearch-ya-form #ya-site-form0 .ya-site-form__input,
+.qsearch-ya-form #ya-site-form0 .ya-site-form__input-text, .qsearch-ya-form #ya-site-form0 .ya-site-form__search-precise,
+.qsearch-ya-form #ya-site-form0 .ya-site-form__submit { color: inherit !important; }
+
+/* Drop */
+.qsearch-ya-form .ya-site-suggest-popup { margin-top: 4px !important; }
+.qsearch-ya-form #ya-site-form0 .ya-site-suggest-list {
+    border-radius: 12px !important; border: 0 none !important;
+    color: var(--dark-color-text) !important;
+    -webkit-box-shadow: 0 8px 24px -6px rgba(0,0,0,0.3) !important;
+    -moz-box-shadow: 0 8px 24px -6px rgba(0,0,0,0.3) !important;
+    box-shadow: 0 8px 24px -6px rgba(0,0,0,0.3) !important;
+}
+.qsearch-ya-form #ya-site-form0 .ya-site-suggest__iframe {
+    background: rgba(var(--dark-drop-rgb), 0.9) !important;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1) !important; border-radius: inherit !important;
+}
+html body .qsearch-ya-form #ya-site-form0 .ya-site-suggest-elem-link, html body .qsearch-ya-form #ya-site-form0 .ya-site-suggest-elem:link { color: inherit !important; }
+.qsearch-ya-form #ya-site-form0 .ya-site-suggest-elem { padding: 6px 12px !important; opacity: 0.8 !important; }
+.qsearch-ya-form #ya-site-form0 .ya-site-suggest-elem:hover { background: rgb(var(--primary-color-dark-rgb),0.2) !important; opacity: 1 !important; }
+
+.qsearch-ya-form #ya-site-form0 .ya-site-suggest-list,
+.qsearch-ya-form #ya-site-form0 .ya-site-suggest-list * { min-width: 0 !important; }
+.qsearch-ya-form .ya-site-suggest__content { display: block !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }
+
+@media (min-width: 992px) {
+    .qsearch-ya-form .ya-site-form__search-input-layout tr { border-bottom: 1px solid rgba(255,255,255,0.2) !important; transition: border-bottom-color .2s ease !important; }
+    .qsearch-ya-form .ya-site-form__search-input-layout tr:has(.ya-site-form__input-text:focus) { border-bottom-color: rgba(255,255,255,0.5) !important; }
+    .qsearch-ya-form #ya-site-form0 .ya-site-form__form .ya-site-form__input-text { padding-left: 0 !important; }
+    .qsearch-ya-form #ya-site-form0 .ya-site-form__submit { opacity: .8 !important; transition: var(--opacity-animation) !important; }
+    .qsearch-ya-form #ya-site-form0 .ya-site-form__submit:hover { opacity: 1 !important; }
+}
+@media (max-width: 991px) {
+    .qsearch-ya-form .ya-site-form__form { position: relative !important; z-index: 1 !important; height: 44px !important; background-color: var(--page-bg) !important; }
+    .qsearch-ya-form .ya-site-form__form::after {
+        content: "" !important; position: absolute !important; inset: 0 !important; z-index: -1 !important; height: inherit !important; pointer-events: none !important;
+        border: 1px solid var(--quick-search-border);  border-radius: inherit !important; transition: var(--opacity-animation) !important;
+        border-radius: 22px !important;
+    }
+    .qsearch-ya-form #ya-site-form0 .ya-site-form__form .ya-site-form__input-text { padding-right: 0 !important; }
+    .qsearch-ya-form #ya-site-form0 .ya-site-form__submit { padding: 10px 16px !important; color: var(--primary-color) !important; opacity: 1 !important; }
+}

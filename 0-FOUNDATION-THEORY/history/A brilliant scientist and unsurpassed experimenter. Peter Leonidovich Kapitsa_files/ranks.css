@@ -1,0 +1,73 @@
+/* =========== TOPWAR © 2024 Centroarts.com =========== */
+
+/* - Select Rank - */
+.rank-select { position: relative; }
+#rank-select-btn { cursor: pointer; }
+.rank-select-drop::before { content: attr(title); font-weight: bold; text-transform: uppercase; display: block; margin-bottom: 8px; }
+.rank-select-drop-item { position: relative; }
+.rank-select-drop-item + .rank-select-drop-item { margin-top: 8px; }
+.rank-select-drop-item > input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.rank-select-drop-item > label { border-radius: 4px; padding: 4px; margin: 0; }
+.rank-select-drop-item > input:checked + label { box-shadow: inset 0 0 0 1px rgba(255,255,255, .3); }
+.rank-select-drop-item .rank { margin-left: auto; margin-right: auto; cursor: pointer; }
+
+.rank-select-drop {
+	display: block !important;
+	position: absolute; top: 100%; left: 50%; width: 140px; z-index: 99; margin-left: -70px; border-radius: 12px; padding: 16px;
+	font-size: var(--fs-xsm); background-color: rgba(var(--dark-drop-rgb), 0.8); color: var(--dark-drop-text);
+	-webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); opacity: 0; visibility: hidden; transform: translateY(-4px);
+	transition: transform ease .2s, visibility ease .2s, opacity ease .2s;
+}
+.rank-select-drop::after {
+	content: ""; width: 16px; height: 8px; position: absolute; left: 50%; bottom: 100%; margin-left: -8px;
+	mask-image: url(../images/stringi2.svg); -webkit-mask-image: url(../images/stringi2.svg);
+	mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat;
+	mask-size: contain; -webkit-mask-size: contain;
+	background-color: rgba(var(--dark-drop-rgb), 0.8);
+}
+.rank-select.open .rank-select-drop { opacity: 1; visibility: visible; transform: translateY(4px); pointer-events: auto; }
+
+/* Ranks */
+.popup_userinfo .rank { margin: .5rem auto; }
+.rank_type_list div {margin: 10px auto; padding: 10px 0px;}
+
+.rank { width: 100px; height: 30px; display: block; position: relative; overflow: hidden; }
+.rank > img { width: 100% !important; height: auto !important; pointer-events: none; user-select: none; }
+
+.rank-captain > img { transform: translateY(0); }
+.rank-colonel > img { transform: translateY(-5%); }
+.rank-colonel-general > img { transform: translateY(-10%); }
+.rank-general > img { transform: translateY(-15%); }
+.rank-head-lieutenant > img { transform: translateY(-20%); }
+.rank-lance-corporal > img { transform: translateY(-25%); }
+.rank-lance-sergeant > img { transform: translateY(-30%); }
+.rank-lieutenant > img { transform: translateY(-35%); }
+.rank-lieutenant-colonel > img { transform: translateY(-40%); }
+.rank-lieutenant-general > img { transform: translateY(-45%); }
+.rank-major > img { transform: translateY(-50%); }
+.rank-major-general > img { transform: translateY(-55%); }
+.rank-marshal > img { transform: translateY(-60%); }
+.rank-petty-officer > img { transform: translateY(-65%); }
+.rank-sergeant > img { transform: translateY(-70%); }
+.rank-soldier > img { transform: translateY(-75%); }
+.rank-staff-sergeant > img { transform: translateY(-80%); }
+.rank-sublieutenant > img { transform: translateY(-85%); }
+.rank- > img { transform: translateY(-95%); }
+
+/* Годички  */
+.gdki { width: 16px; height: 24px; display: block !important; overflow: hidden; }
+.gdki > svg { width: calc(100% * 10); height: inherit; display: block; pointer-events: none; user-select: none; }
+
+.gdki-0 { display: none !important; }
+.gdki-1 > svg { transform: translateX(0); }
+.gdki-2 > svg { transform: translateX(-10%); }
+.gdki-3 > svg { transform: translateX(-20%); }
+.gdki-4 > svg { transform: translateX(-30%); }
+.gdki-5 > svg { transform: translateX(-40%); }
+.gdki-6 > svg { transform: translateX(-50%); }
+.gdki-7 > svg { transform: translateX(-60%); }
+.gdki-8 > svg { transform: translateX(-70%); }
+.gdki-9 > svg { transform: translateX(-80%); }
+.gdki-10 > svg, .gdki-11 > svg, .gdki-12 > svg, .gdki-13 > svg,
+.gdki-14 > svg, .gdki-15 > svg, .gdki-16 > svg, .gdki-17 > svg,
+.gdki-18 > svg, .gdki-19 > svg, .gdki-20 > svg { transform: translateX(-90%); }

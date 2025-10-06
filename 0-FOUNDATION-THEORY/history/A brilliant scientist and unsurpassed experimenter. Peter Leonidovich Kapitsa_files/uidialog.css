@@ -1,0 +1,507 @@
+/* =========== © 2023 Centroarts.com =========== */
+
+:root {
+	--uidialog-bg: var(--page-bg);
+	--uidialog-gap: var(--gap-min);
+}
+
+@media (min-width: 576px) {
+	:root {
+		--uidialog-gap: var(--gap);
+	}
+}
+
+html.dark {
+	--uidialog-bg: #272727;
+}
+
+/* - Диалоговые и всплывающие окна jQuery UI - */
+.ui-widget-overlay,
+#modal-overlay {
+	position: fixed;
+	background: #000 !important;
+	opacity: 0.5 !important;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+* html .ui-helper-clearfix {
+	height: 1%
+}
+
+.ui-helper-clearfix {
+	display: block
+}
+
+.ui-dialog {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	z-index: 1000;
+	border-radius: var(--modal-radius);
+	background-clip: padding-box;
+	max-width: 428px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 64px -10px rgba(0, 0, 0, 0.4);
+	background-color: var(--uidialog-bg);
+	text-align: left;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+@media (max-width: 575px) {
+	.ui-dialog.dle-popup-quickedit {
+		position: fixed !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		max-height: 100% !important;
+		left: 0 !important;
+		top: 0 !important;
+		bottom: 0 !important;
+		border: 0 none;
+		border-radius: 0;
+	}
+
+	.ui-dialog.dle-popup-quickedit .ui-dialog-content {
+		flex: 1 1 auto;
+	}
+}
+
+.ui-dialog-titlebar {
+	display: flex;
+	height: 48px;
+	padding: 8px;
+	padding-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.ui-dialog-title {
+	display: none;
+}
+
+.ui-dialog-titlebar-close {
+	margin-left: auto;
+	height: 0 !important;
+	width: 40px !important;
+	padding: 40px 0 0 0 !important;
+	opacity: .7;
+	background: none;
+	border: 0 none;
+	color: inherit !important;
+	position: relative;
+	z-index: 1;
+	white-space: nowrap;
+	text-indent: 9999px;
+	overflow: hidden;
+	transition: var(--opacity-animation);
+}
+
+.ui-dialog-titlebar-close:hover {
+	opacity: 1;
+}
+
+.ui-dialog-titlebar-close>span,
+.ui-icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 24px;
+	height: 0;
+	padding-top: 24px;
+	overflow: hidden;
+	margin-left: -12px;
+	margin-top: -12px;
+}
+
+.ui-dialog-titlebar-close>span {
+	display: none;
+}
+
+.ui-dialog-titlebar-close>span:first-child {
+	display: block;
+}
+
+.ui-dialog-content {
+	padding: 0 var(--uidialog-gap);
+	padding-top: 8px;
+	overflow: auto;
+	position: relative;
+	zoom: 1;
+}
+
+.ui-dialog-content h2 {
+	display: inline;
+	font-size: inherit;
+	font-weight: bold
+}
+
+.ui-dialog-buttonpane {
+	display: flex;
+	flex-wrap: wrap;
+	padding: var(--uidialog-gap);
+}
+
+.ui-dialog-buttonset {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 auto;
+}
+
+.ui-dialog .ui-resizable-se {
+	bottom: 3px;
+	height: 14px;
+	right: 3px;
+	width: 14px;
+}
+
+.ui-state-error {
+	background: #fef1ec 50% 50% repeat-x !important;
+	border: 1px solid #cd0a0a;
+	color: #cd0a0a;
+}
+
+.ui-helper-hidden-accessible {
+	display: none;
+}
+
+.ui-dialog-buttonset .ui-button {
+	background-color: var(--btn-primary);
+	box-shadow: 0 8px 18px -4px rgba(var(--primary-color-rgb), .2);
+	color: var(--btn-primary-text);
+}
+
+.ui-dialog-buttonset .ui-button:hover {
+	background-color: var(--btn-primary-h);
+}
+
+.ui-dialog-buttonset .ui-button:active {
+	background-color: var(--btn-primary-a);
+	box-shadow: 0 2px 8px -4px rgba(var(--primary-color-rgb), .2);
+}
+
+@media (min-width: 576px) {
+	.ui-dialog-buttonset .ui-button {
+		flex: 1;
+	}
+
+	.ui-dialog-buttonset .ui-button+.ui-button {
+		margin-left: 8px;
+	}
+}
+
+@media (max-width: 575px) {
+	.ui-dialog-buttonset .ui-button {
+		width: 100%;
+	}
+
+	.ui-dialog-buttonset .ui-button+.ui-button {
+		margin-top: 8px;
+	}
+}
+
+.ui-dialog-buttonset .ui-button:nth-child(3) {
+	margin-left: 0;
+	margin-top: 8px;
+	flex: 0 0 100%;
+}
+
+.ui-dialog-buttonset .ui-button:first-child {
+	background-color: rgba(var(--primary-color-rgb), 0.1);
+	color: var(--primary-color) !important;
+	box-shadow: none !important;
+	transition: background-color .2s ease;
+}
+
+.ui-dialog-buttonset .ui-button:first-child:hover {
+	background-color: rgba(var(--primary-color-rgb), 0.2);
+}
+
+.ui-dialog-buttonset .ui-button:first-child:active {
+	background-color: rgba(var(--primary-color-rgb), 0.3);
+}
+
+/* - Быстрое редактирование - */
+.dle-popup-quickedit {
+	max-width: 584px;
+}
+
+/* - Уведомление автору - */
+#dle-promt-text {
+	width: 100% !important;
+}
+
+/* - Окно пользователя - */
+.dle-popup-userprofile,
+.dle-popup-userprofileadmin {
+	position: fixed;
+	max-width: 584px;
+	background-color: var(--dark-bg);
+	color: var(--dark-color-text);
+	--uidialog-gap: var(--gap);
+}
+
+.dle-popup-userprofile .ui-dialog-titlebar {
+	height: 0;
+	padding-top: 0;
+}
+
+.dle-popup-userprofile .ui-dialog-titlebar .ui-dialog-titlebar-close {
+	margin-top: 8px;
+}
+
+.dle-popup-userprofile .ui-dialog-content,
+.dle-popup-userprofile .puser {
+	position: static;
+}
+
+.dle-popup-userprofile .puser {
+	background: none !important;
+	padding-bottom: calc(var(--gap) + 8px);
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+@media (min-width: 576px) {
+	.dle-popup-userprofile .puser {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 8px;
+	}
+
+	.dle-popup-userprofile .puser-first {
+		min-width: 0;
+	}
+
+	.dle-popup-userprofile .puser-second {
+		margin-top: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	.dle-popup-userprofile .puser-data-list {
+		display: block;
+		width: 100%
+	}
+
+	.dle-popup-userprofile .puser-data-item {
+		padding: 12px 0;
+		border-top: 1px solid var(--border-white);
+	}
+
+	.dle-popup-userprofile .puser-data-item:first-child {
+		border-top-width: 0;
+	}
+}
+
+@media (max-width: 575px) {
+	.dle-popup-userprofile {
+		top: auto !important;
+		bottom: 0 !important;
+		border: 0 none !important;
+		border-radius: 12px 12px 0 0;
+	}
+
+	.dle-popup-userprofile .puser-second {
+		margin-left: calc(var(--uidialog-gap) * -1);
+		margin-right: calc(var(--uidialog-gap) * -1);
+		overflow: hidden;
+	}
+
+	.dle-popup-userprofile .puser-data-list {
+		padding-bottom: 20px;
+		margin-bottom: -20px;
+		padding-left: var(--uidialog-gap);
+		padding-right: var(--uidialog-gap);
+		overflow: hidden;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.dle-popup-userprofile .puser-data-item {
+		padding: 12px;
+		min-width: 240px;
+		border: 0 solid var(--border-white);
+		border-width: 1px 0;
+		position: relative;
+	}
+
+	.dle-popup-userprofile .puser-data-item::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 50%;
+		width: 10px;
+		height: 10px;
+		margin-top: -5px;
+		margin-left: -6px;
+		pointer-events: none;
+		border: 2px solid;
+		border-bottom-width: 0;
+		border-right-width: 0;
+		opacity: .2;
+		transform: rotate(-45deg);
+	}
+}
+
+.dle-popup-userprofile .ui-dialog-buttonpane {
+	padding-top: 0;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button {
+	background-color: var(--btn-primary-mono) !important;
+	color: var(--text-color);
+	box-shadow: none !important;
+	opacity: 1;
+	transition: opacity .2s ease, background-color .2s ease;
+}
+
+@media (min-width: 576px) {
+
+	.dle-popup-userprofile .ui-dialog-buttonset .ui-button,
+	.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button {
+		flex: 1;
+	}
+}
+
+html.dark .dle-popup-userprofile .ui-dialog-buttonset .ui-button,
+html.dark .dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button {
+	color: var(--page-bg);
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:hover,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:hover {
+	opacity: .9;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:active,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:active {
+	opacity: .7;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:first-child,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:first-child {
+	background-color: rgba(255, 255, 255, 0.1) !important;
+	color: inherit !important;
+	opacity: 1 !important;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:first-child:hover,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:first-child:hover {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:first-child:active,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:first-child:active {
+	background-color: rgba(255, 255, 255, 0.075) !important;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:nth-child(3),
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:nth-child(3) {
+	box-shadow: inset 0 0 0 1px var(--border-white) !important;
+	background-color: transparent !important;
+	color: inherit !important;
+	opacity: .8;
+	flex: 0 0 100% !important;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:nth-child(3):hover,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:nth-child(3):hover {
+	box-shadow: inset 0 0 0 1px var(--border-white) !important;
+	opacity: 1;
+}
+
+.dle-popup-userprofile .ui-dialog-buttonset .ui-button:nth-child(3):active,
+.dle-popup-userprofileadmin .ui-dialog-buttonset .ui-button:nth-child(3):active {
+	box-shadow: inset 0 0 0 2px var(--border-white) !important;
+	opacity: .7;
+}
+
+/* - Лог жалоб - */
+.dle-popup-alert {
+	max-width: 584px;
+}
+
+.warn-list {
+	counter-reset: warn-counter;
+}
+
+.warn-item {
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+}
+
+.warn-item:last-child {
+	border-bottom: 0 none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.warn-item-head {
+	display: flex;
+	font-size: var(--fs-xsm);
+	line-height: 16px;
+	color: var(--text-muted-color);
+	user-select: none;
+	margin-bottom: 4px;
+}
+
+.warn-item-head::before {
+	content: "#" counter(warn-counter);
+	counter-increment: warn-counter;
+	font-weight: bold;
+}
+
+.warn-item-head::before,
+.warn-item-head>* {
+	margin-right: 8px;
+}
+
+.warn-item-head>*:last-child {
+	margin-right: 0;
+}
+
+.warn-item-text a {
+	display: block;
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.warn-item-text a:hover {
+	color: var(--primary-color);
+}
+
+/* - Жалоба на комментарий - */
+.dle-popup-complaint #dle-promt-text {
+	margin-top: 8px;
+}
+
+/* - Настройка профиля пользователя - */
+.dle-popup-userprofileadmin .ui-dialog-content {
+	overflow: visible !important;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.dle-popup-userprofileadmin .ui-dialog-buttonpane {
+	padding-top: var(--gap-min);
+}
+
+.dle-popup-userprofileadmin .ui-dialog-content #edituserframe {
+	max-height: 100%;
+}
+
+/* - Минимальный размер блока подтвержения - */
+.ui-dialog-content.dle-confirm {
+	min-height: 72px !important;
+}
+
+/* - Загрузчик изображений - */
+.dle-popup-mediaupload .mediaupload-body {
+	height: 400px !important;
+}

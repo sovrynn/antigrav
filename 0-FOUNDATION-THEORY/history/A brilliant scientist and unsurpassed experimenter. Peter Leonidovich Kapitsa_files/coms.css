@@ -1,0 +1,484 @@
+/* =========== © 2024 Centroarts.com =========== */
+
+.comments-tree-list,
+.comments-tree-item {
+	list-style: none;
+}
+
+#dle-comments-list>.comments-tree-list>.comments-tree-item {
+	padding-left: var(--com-pad);
+}
+
+.comments-tree-item {
+	border: 0 solid var(--border-color);
+	border-top-width: 1px;
+}
+
+.comment {
+	padding: var(--com-pad) 0;
+	border-top: 1px solid var(--border-color);
+}
+
+.comments-tree-item .comment {
+	border-top-width: 0;
+	padding-right: var(--com-pad);
+}
+
+.comment.comment-del {
+	display: block;
+	min-height: 0 !important;
+	padding: var(--com-pad);
+	text-align: center;
+	color: var(--text-muted-color);
+}
+
+.com-foot,
+.com-head {
+	display: flex;
+	align-items: center;
+	font-size: var(--fs-sm);
+	line-height: 24px;
+}
+
+.com-head {
+	margin-bottom: 8px;
+	align-items: flex-start;
+}
+
+.com-head-data {
+	display: flex;
+	align-items: flex-start;
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+	white-space: nowrap;
+}
+
+.com-name {
+	display: flex;
+	align-items: center;
+	margin-top: 2px;
+	margin-right: 12px;
+	line-height: 16px;
+}
+
+.com-name a {
+	color: inherit;
+	padding: 2px 0;
+	font-weight: bold;
+}
+
+.com-name-comments-author {
+	display: flex;
+	align-items: center;
+	margin-top: 2px;
+	margin-right: 12px;
+	line-height: 16px;
+}
+
+.com-name-comments-author a {
+	color: inherit;
+	padding: 2px 0;
+	font-weight: bold;
+	color: var(--link-color);
+}
+
+.com-name-author a {
+	border-radius: 4px;
+	padding: 2px 4px;
+	color: #fff !important;
+	background-color: #28A745;
+	text-decoration: none !important;
+}
+
+.com-avatar {
+	position: relative;
+	width: var(--com-avatar);
+}
+
+.com-avatar>a {
+	display: block;
+	position: relative;
+	text-decoration: none !important;
+}
+
+.com-avatar .fit-cover {
+	width: 100%;
+	padding-top: 100%;
+	background-color: var(--noavatar-bg);
+	content-visibility: auto;
+}
+
+.com-date {
+	display: flex;
+	align-items: center;
+}
+
+.com-date-new {
+	content: "";
+	width: 12px;
+	padding-top: 12px;
+	height: 0;
+	border-radius: 50%;
+	background-color: var(--new-label);
+	margin-left: 6px;
+	overflow: hidden;
+}
+
+.com-date>a {
+	width: 24px;
+	height: 24px;
+	margin-left: 6px;
+}
+
+.com-date>a svg {
+	width: inherit;
+	height: inherit;
+	display: block;
+}
+
+.com-cont {
+	word-wrap: break-word;
+	font-size: 1.125rem;
+}
+
+.com-cont iframe,
+.com-cont video,
+.com-cont img {
+	max-width: 100% !important;
+}
+
+.com-cont iframe,
+.com-cont video {
+	min-height: 320px;
+}
+
+.com-clearfix {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.com-images {
+	margin-top: var(--gap-min);
+	overflow: hidden;
+}
+
+.comments-image-gallery {
+	display: flex;
+	margin: -4px;
+}
+
+.comments-image-gallery>li {
+	padding: 4px;
+}
+
+.comments-image-gallery>li>a {
+	position: relative;
+	display: flex;
+	border-radius: 6px;
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.comments-image-gallery>li>a img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	display: block;
+	min-width: calc(100% + 1px);
+	width: auto;
+	height: 100%;
+	transform: translateX(-50%);
+	object-fit: cover;
+	object-position: center center;
+	-o-object-position: center center;
+	-o-object-fit: cover;
+}
+
+@media (max-width: 991px) {
+	.comments-image-gallery {
+		padding-bottom: 24px;
+		margin-bottom: -24px;
+		overflow: hidden;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}
+
+@media (min-width: 992px) {
+	.comments-image-gallery {
+		flex-wrap: wrap;
+	}
+}
+
+.com-foot {
+	margin-top: 8px;
+	content-visibility: auto;
+}
+
+.com-reply,
+.com-recover {
+	margin-right: 12px;
+}
+
+.com-reply a,
+.com-recover a {
+	display: block;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+
+.com-foot-right {
+	margin-left: auto;
+	display: flex;
+}
+
+.com-foot-right>a,
+.com-foot>a {
+	display: block;
+	padding: 2px 0;
+	color: inherit !important;
+	opacity: .7;
+}
+
+.com-foot-right>a:hover,
+.com-foot>a:hover {
+	opacity: 1;
+}
+
+.com-foot-right>a svg,
+.com-foot>a svg {
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.com-foot>a+a,
+.com-foot-right>a+a {
+	margin-left: 12px;
+}
+
+@media (max-width: 767px) {
+	.com-name {
+		flex: 1 1 auto;
+	}
+
+	.com-date {
+		flex: 0 0 100%;
+		margin-top: -4px;
+	}
+}
+
+@media (max-width: 575px) {
+
+	#dle-comments-list>.comments-tree-list>.comments-tree-item>.comments-tree-list,
+	#dle-comments-list>.comments-tree-list>.comments-tree-item>.comments-tree-list>.comments-tree-item>.comments-tree-list {
+		padding-left: 0;
+	}
+
+	.com-head-data {
+		padding-left: 16px;
+	}
+}
+
+@media (min-width: 576px) {
+	.comments-tree-list .comments-tree-list {
+		padding-left: calc(var(--com-pad) / 2);
+	}
+
+	#dle-comments-list>.comments-tree-list>.comments-tree-item {
+		border-radius: 6px;
+		border-width: 1px;
+		background-color: var(--com-bg);
+	}
+
+	#dle-comments-list>.comments-tree-list>.comments-tree-item+.comments-tree-item {
+		margin-top: 8px;
+	}
+
+	#dle-comments-list>.comments-tree-list+.comments-tree-list {
+		padding-top: 8px;
+	}
+
+	.comment {
+		padding-left: calc(var(--com-avatar) + var(--com-pad));
+		min-height: calc((var(--com-pad) * 2) + var(--com-avatar));
+		position: relative;
+	}
+
+	.com-avatar {
+		position: absolute;
+		left: 0;
+		top: 0;
+		margin-top: var(--com-pad);
+	}
+
+	.com-foot {
+		opacity: .7;
+		transition: var(--opacity-animation);
+	}
+
+	.comment:hover .com-foot {
+		opacity: 1;
+	}
+}
+
+@media (min-width: 768px) {
+	.comments-tree-list .comments-tree-list {
+		padding-left: var(--com-pad);
+	}
+
+	.com-rate {
+		order: 13;
+	}
+
+	.com-warnings {
+		display: inline-block !important;
+		padding: 2px 6px;
+		line-height: 16px;
+		margin-left: 6px;
+		font-style: normal;
+		font-weight: bold;
+		border-radius: 4px;
+		font-size: var(--fs-xsm);
+		color: var(--primary-color) !important;
+		background-color: rgba(var(--primary-color-rgb), 0.1);
+		cursor: pointer;
+	}
+
+	.com-warnings:empty {
+		display: none !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.com-fullname {
+		display: inline !important;
+		font-style: normal !important;
+		margin-left: .3em;
+	}
+
+	*:not(.comments-tree-item) .comment:hover,
+	#dle-comments-list>.comments-tree-list>.comments-tree-item:hover {
+		border-color: rgba(var(--primary-color-rgb), 0.3);
+	}
+}
+
+/* Нравится / Не нравится*/
+.com-rate {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	position: relative;
+}
+
+.rate-plusminus {
+	display: flex;
+	align-items: center;
+	font-size: var(--fs-md);
+	line-height: 24px;
+	height: 24px;
+}
+
+.rate-plusminus-num {
+	color: var(--text-color);
+	margin: 0 4px;
+	text-align: center;
+	min-width: 24px;
+	opacity: .7;
+	transition: var(--opacity-animation);
+}
+
+.com-rate:hover .rate-plusminus-num {
+	opacity: 1;
+}
+
+.comment .warnings.delete {
+	color: var(--primary-color);
+}
+
+.comment.disabled .com-head,
+.comment.disabled .com-cont {
+	opacity: .45;
+	transition: opacity .2s ease;
+}
+
+.comment.disabled .com-foot:not(.com-foot-delete) {
+	display: none !important;
+}
+
+.com-cont .deleted {
+	font-size: var(--fs-xsm);
+	font-weight: bold;
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+/* - Заголовок - */
+.com-title {
+	margin-bottom: 8px;
+}
+
+.com-title a {
+	color: inherit;
+	display: block;
+	text-decoration: none !important;
+}
+
+@media (min-width: 992px) {
+	.comment:hover .com-title a {
+		transition: color .2s ease;
+	}
+
+	.com-title a:hover {
+		color: var(--primary-color);
+	}
+}
+
+/* - Ответ на комментарии - */
+#dlefastreplycomments {
+	padding-right: var(--com-pad);
+}
+
+.mass_comments_action {
+	display: none !important;
+}
+
+/* - Выделение активного комментария - */
+.comment {
+	position: relative;
+}
+
+div:target>.comment::after {
+	animation-name: com-target;
+	animation-duration: 1s;
+	animation-iteration-count: 4;
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 20%;
+	pointer-events: none;
+	opacity: 0;
+	background: linear-gradient(90deg, rgba(var(--primary-color-rgb), 0.0) 0%, rgba(var(--primary-color-rgb), 0.2) 100%);
+	transition: opacity .2s ease, visibility .2s ease;
+}
+
+@keyframes com-target {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}

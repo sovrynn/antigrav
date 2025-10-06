@@ -1,0 +1,1 @@
+Devices engineered in such a way to release only a certain kind of light - light that's bouncing back and forth between two parallel surfaces, absorbing energy, until they are strong enough to escape one side. The parallel surfaces and stepwise amplification ensures only light in the same direction and wavelength gets to pass.

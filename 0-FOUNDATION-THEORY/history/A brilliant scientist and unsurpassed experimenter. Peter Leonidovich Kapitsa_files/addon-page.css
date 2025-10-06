@@ -1,0 +1,300 @@
+/* =========== © 2023 Centroarts.com =========== */
+
+/* - Sidebar - */
+@media (min-width: 992px) {
+	.str {
+		display: flex;
+	}
+
+	.str-side {
+		min-width: 300px;
+		max-width: 300px;
+		margin-left: var(--gap);
+		display: block !important;
+	}
+
+	.str-cont {
+		flex: 1 1 auto;
+		min-width: 0;
+		max-width: 936px;
+	}
+
+	.sticky {
+		position: sticky;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		top: var(--sticky-top);
+		max-width: 380px;
+		flex-flow: wrap;
+	}
+
+	.str-side .block {
+		overflow-x: hidden;
+	}
+
+	.block+.block {
+		margin-top: var(--gap);
+	}
+}
+
+@media (min-width: 1240px) {
+	.str-cont {
+		max-width: 856px;
+	}
+
+	.str-side {
+		min-width: 380px;
+		max-width: 380px;
+	}
+}
+
+@media (min-width: 576px) {
+	.str {
+		padding: var(--gap);
+	}
+}
+
+/* - Banner Blocks - */
+.heading {
+	font-size: var(--fs-xl);
+	font-weight: bold;
+	line-height: 1.25;
+	margin: 0 0 var(--gap) 0;
+}
+
+@media (min-width: 576px) {
+	.heading {
+		font-size: var(--fs-xxl);
+	}
+}
+
+/* - Breadcrumbs - */
+.breadcrumbs {
+	display: flex;
+	white-space: nowrap;
+	font-size: var(--fs-sm);
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.breadcrumbs>li {
+	display: flex;
+	align-items: center;
+}
+
+.breadcrumbs>li * {
+	display: block;
+	text-decoration: none !important;
+}
+
+@media (min-width: 768px) {
+	.breadcrumbs {
+		margin-bottom: var(--gap);
+	}
+
+	.breadcrumbs>li:first-child {
+		display: inline !important;
+	}
+
+	.breadcrumbs>li:not(:first-child)::before {
+		content: "";
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		margin: 0 6px;
+		opacity: .7;
+		background-color: var(--text-color);
+	}
+}
+
+@media (max-width: 767px) {
+	.breadcrumbs>li a {
+		padding: 8px;
+		margin: -8px;
+	}
+
+	.breadcrumbs {
+		text-transform: uppercase;
+		margin-bottom: 12px;
+	}
+}
+
+/* - PAGES - */
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navigation * {
+	display: block;
+}
+
+.navigation a {
+	color: inherit;
+	text-decoration: none !important;
+}
+
+.pages-list {
+	display: flex;
+	margin: 0 auto;
+}
+
+.pages-list>*,
+.page_prev>*,
+.page_next>* {
+	line-height: 24px;
+	font-size: var(--fs-lg);
+	padding: 16px 12px;
+}
+
+.pages-list>* {
+	opacity: .7;
+}
+
+.navigation-line .pages-list>* {
+	position: relative;
+}
+
+.navigation .pages-list>*::after {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	height: 0;
+	border-top: 2px solid;
+	opacity: 0;
+}
+
+.pages-list span:not(.nav_ext),
+.navigation-line .pages-list span:not(.nav_ext)::after {
+	opacity: 1;
+}
+
+.page_prev>span,
+.page_next>span {
+	opacity: .3;
+}
+
+@media (min-width: 992px) {
+
+	.pages-list>a:hover,
+	.page_prev>a:hover,
+	.page_next>a:hover {
+		color: var(--primary-color);
+	}
+
+	.pages-list>a:hover,
+	.navigation-line .pages-list>a:hover::after {
+		opacity: 1;
+	}
+}
+
+@media (min-width: 768px) {
+	.navigation-line {
+		box-shadow: inset 0 2px 0 0 var(--border-color);
+		padding-top: 2px;
+	}
+
+	.navigation-line .pages-list>*::after {
+		content: "";
+		top: auto;
+		bottom: 100%;
+	}
+
+	.pages-list>*,
+	.page_prev>*,
+	.page_next>* {
+		padding: 6px 8px;
+	}
+
+	.navigation-line .pages-list>*,
+	.navigation-line .page_prev>*,
+	.navigation-line .page_next>* {
+		padding-top: calc(var(--gap) + 8px);
+	}
+
+	.pages {
+		margin: 0 auto;
+	}
+
+	.page_prev {
+		order: -1;
+	}
+}
+
+@media (max-width: 767px) {
+	.navigation .pages {
+		box-shadow: inset 0 -2px 0 0 var(--border-color);
+		padding-bottom: 2px;
+		overflow: hidden;
+	}
+
+	.navigation .pages-list>*::after {
+		content: "";
+	}
+
+	.pages {
+		order: -1;
+		position: relative;
+		width: 100%;
+	}
+
+	.pages::after,
+	.pages::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 2px;
+		width: var(--gap-min);
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.pages::after {
+		left: 0;
+		background-image: linear-gradient(90deg, var(--page-bg) 0%, rgba(var(--page-bg-rgb), 0) 100%);
+	}
+
+	.pages::before {
+		right: 0;
+		background-image: linear-gradient(90deg, rgba(var(--page-bg-rgb), 0) 0%, var(--page-bg) 100%);
+	}
+
+	.page_prev,
+	.page_next {
+		width: 100%;
+		max-width: 50%;
+		flex: 0 0 50%;
+	}
+
+	.page_prev svg,
+	.page_next svg {
+		margin: 0 auto;
+	}
+
+	.pages-list::after,
+	.pages-list::before {
+		content: "";
+		flex: 1 1 auto;
+		min-width: .75rem;
+		height: 1rem;
+	}
+
+	.pages-list>*,
+	.page_prev>*,
+	.page_next>* {
+		padding: 1rem .75rem;
+	}
+
+	.pages-list {
+		padding-bottom: 22px;
+		margin-bottom: -22px;
+		overflow: hidden;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+}

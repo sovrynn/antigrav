@@ -1,0 +1,3 @@
+# Quantum Mechanics
+
+"Quantum mechanics is a fundamental theory in physics that describes the behavior of matter and energy at the atomic and subatomic levels. It differs from classical mechanics by introducing concepts like wave-particle duality, superposition, and quantum entanglement, which are not observed in everyday macroscopic objects. These concepts explain phenomena like the structure of atoms, the photoelectric effect, and the behavior of lasers and semiconductors."

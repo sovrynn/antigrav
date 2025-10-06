@@ -1,0 +1,376 @@
+/* =========== © 2023 Centroarts.com =========== */
+
+.text {
+  font-size: 1.125rem;
+}
+
+@media (max-width: 575px) {
+  .text {
+    font-size: 1.125rem;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+  }
+}
+
+.text #ul,
+.text ul,
+.text #ol,
+.text ol {
+  padding-left: 1.5em;
+}
+
+.text #ul,
+.text ul {
+  list-style: disc outside;
+}
+
+.text #ol,
+.text ol {
+  list-style: decimal outside;
+}
+
+.text h2,
+.text h3,
+.text h4,
+.text h5 {
+  margin-bottom: -.5em;
+  margin-top: .5em;
+}
+
+img.fr-dii {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: 100% !important;
+}
+
+img.fr-dii.fr-fil {
+  float: left;
+  margin: 5px 24px 25px 0;
+  max-width: calc(100% - 5px);
+}
+
+.text img {
+  max-width: 100%;
+}
+
+.text img[style*=left] {
+  margin: .25em 1.5em 1.5em 0;
+}
+
+.text img[style*=right] {
+  margin: .25em 0 1.5em 1.5em;
+}
+
+.text iframe,
+.text video {
+  width: 720px;
+  height: 420px;
+  max-width: 100%;
+}
+
+/*.text a { color: inherit; }*/
+
+.text *[style*="font-size"] {
+  display: block;
+  line-height: 1.5em;
+}
+
+/*---Подсветка кода в теге [code]---*/
+pre code {
+  display: block;
+  padding: 0.5em;
+  background: #f9fafa;
+  border: 1px solid #dce7e7;
+  overflow: auto;
+  white-space: pre;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .lisp .title {
+  color: #859900;
+}
+
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+
+pre .title,
+pre .localvars,
+pre .function .title,
+pre .chunk,
+pre .decorator,
+pre .builtin,
+pre .built_in,
+pre .lisp .title,
+pre .identifier,
+pre .title .keymethods,
+pre .id {
+  color: #268bd2;
+}
+
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  font-weight: bold;
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .label {
+  color: #b58900;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .shebang,
+pre .symbol,
+pre .diff .change,
+pre .special,
+pre .keymethods,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #eee8d5;
+}
+
+/* - Смайлики - */
+.emoji {
+  border: none;
+  vertical-align: middle;
+  margin-top: -.25em;
+}
+
+/* - Цитаты, Спойлеры, Код - */
+.quote,
+blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1.125em;
+}
+
+.title_quote,
+.quote,
+blockquote {
+  border: 0 solid var(--primary-color);
+}
+
+.title_quote {
+  font-size: var(--fs-sm);
+  color: var(--text-muted-color);
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+
+  .text .title_quote,
+  .text .quote,
+  .text blockquote {
+    border-left-width: 2px;
+    background-color: var(--quote-bg);
+    text-align: left;
+  }
+
+  .text .title_quote {
+    padding: 4px 16px;
+    padding-left: 26px;
+    border-left: 2px solid var(--primary-color);
+  }
+
+  .text .title_quote+.quote {
+    padding-top: 0 !important;
+  }
+
+  .text .quote,
+  .text blockquote {
+    padding: 16px 26px;
+    padding-left: 68px;
+    position: relative;
+    text-align: left;
+  }
+
+  .text .quote::before,
+  .text blockquote::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    pointer-events: none;
+    width: 28px;
+    height: 28px;
+    margin: 14px 20px;
+    mask-image: url(../images/quote.svg);
+    -webkit-mask-image: url(../images/quote.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    background-color: var(--primary-color);
+  }
+}
+
+@media (max-width: 575px) {
+
+  .text .title_quote,
+  .text .quote,
+  .text blockquote {
+    text-align: center;
+    padding: 1.25em 0;
+  }
+
+  .text .quote,
+  .text blockquote {
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+  }
+
+  .text .title_quote {
+    border-top-width: 2px;
+    padding-bottom: 0;
+  }
+
+  .text .title_quote+.quote {
+    padding-top: .25em;
+    border-top-width: 0;
+  }
+}
+
+/* - Цитата в комментариях - */
+.comment .title_quote,
+.comment .quote,
+.comment blockquote {
+  background-color: var(--quote-bg);
+  text-align: left;
+  border-left-width: 2px;
+  padding: 12px 16px;
+}
+
+.comment blockquote,
+.comment .quote {
+  font-size: 1em;
+}
+
+.comment .title_quote {
+  padding-bottom: 0;
+  font-size: var(--fs-xsm);
+}
+
+.comment .title_quote+.quote {
+  padding-top: 4px;
+}
+
+.comment .quote::before,
+.comment blockquote::before {
+  display: none !important;
+}
+
+.title_spoiler {
+  margin-top: 2px;
+}
+
+.text_spoiler {
+  margin-bottom: 2px;
+}
+
+.title_spoiler img {
+  vertical-align: middle;
+  margin: -1px 0 0 !important
+}
+
+.scriptcode {
+  color: #4c6d0f;
+  text-align: left;
+  font-family: "Courier New"
+}
+
+.title_spoiler {
+  font-weight: normal;
+}
+
+.text_spoiler {
+  border-top: 0;
+}
+
+.hide {
+  background-color: var(--quote-bg);
+  padding: 5px;
+  color: var(--primary-color);
+  margin: 0 0 1em 0
+}
+
+.hide a {
+  text-decoration: underline;
+}
+
+.hide a:hover {
+  text-decoration: none
+}
+
+/* - Постраничная навигация в полной и статичной новости - */
+.splitnewsnavigation {
+  margin: 1.5em 0;
+  padding: var(--gap-min) 0;
+  font-weight: bold;
+  border: 0 dashed var(--border-color);
+  border-width: var(--border-width) 0;
+  text-transform: uppercase;
+}
+
+.splitnewsnavigation>div {
+  display: inline;
+  margin-left: 1em;
+}
+
+.splitnewsnavigation a {
+  color: inherit;
+}
+
+.splitnewsnavigation a,
+.splitnewsnavigation span {
+  padding: 6px 10px;
+}
+
+.splitnewsnavigation span {
+  color: var(--primary-color);
+}

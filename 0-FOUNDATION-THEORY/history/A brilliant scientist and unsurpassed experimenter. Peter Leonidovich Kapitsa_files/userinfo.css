@@ -1,0 +1,133 @@
+﻿/* =========== © 2024 Centroarts.com =========== */
+
+.puser {
+	position: relative;
+	z-index: 1;
+	padding: var(--gap);
+	padding-top: calc(var(--gap) + 8px);
+	background-color: var(--dark-bg);
+	color: var(--dark-color-text);
+}
+
+.puser-info {
+	text-align: center;
+}
+
+.puser-info-cont+.medal-big,
+.puser-info-cont+.medal-big-drop {
+	margin-top: 20px;
+}
+
+.puser-login {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.puser-warnings {
+	line-height: 20px;
+	font-size: var(--fs-sm);
+	font-weight: bold;
+	padding: 2px 6px;
+	height: 24px;
+	min-width: 24px;
+	border-radius: 12px;
+	margin-left: -4px;
+	text-align: center;
+	background-color: var(--primary-color);
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.puser-login-name {
+	font-size: 24px;
+	line-height: 32px;
+	margin: 0;
+	display: block;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.puser-login-name.gold {
+	color: #caa816 !important;
+}
+
+.puser-fullname {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	opacity: .7;
+}
+
+.puser-second {
+	margin-top: var(--gap);
+}
+
+.puser-data-list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.puser-data-item a {
+	color: inherit !important;
+}
+
+.puser-data-num {
+	display: block;
+	font-weight: bold;
+}
+
+.puser-data-info {
+	margin-top: 2px;
+	margin-bottom: 4px;
+	line-height: 20px;
+	font-size: var(--fs-sm);
+	display: block;
+	pointer-events: none;
+}
+
+.puser-tools {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: var(--gap-min);
+	display: flex;
+}
+
+.puser-tools-item {
+	padding: 12px;
+	width: 48px;
+	height: 48px;
+	color: inherit !important;
+	background: none !important;
+	border: 0 none !important;
+}
+
+.puser-tools-item svg {
+	width: 24px;
+	height: 24px;
+	display: block;
+	opacity: .5;
+	transition: var(--opacity-animation);
+}
+
+.puser-tools-item:hover svg {
+	opacity: 1;
+}
+
+.puser-bg {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	max-width: 820px;
+	pointer-events: none;
+}
+
+.puser-bg.fit-cover img {
+	width: auto;
+}
