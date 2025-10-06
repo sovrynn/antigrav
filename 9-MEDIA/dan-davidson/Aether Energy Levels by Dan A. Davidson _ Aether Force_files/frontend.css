@@ -1,0 +1,65 @@
+/*
+ * WordPress plugin Social Media Follow Buttons Bar by Space X-Chimp ( https://www.spacexchimp.com ).
+ *
+ * @package     Social Media Follow Buttons Bar
+ * @author      Arthur Gareginyan
+ * @link        https://www.spacexchimp.com
+ * @copyright   Copyright (c) 2016-2022 Space X-Chimp. All Rights Reserved.
+ */
+
+
+/* All buttons */
+.sxc-follow-buttons {
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    box-shadow: none !important;        /* Reset */
+}
+
+/* Each button */
+.sxc-follow-buttons .sxc-follow-button {
+    display: inline-block !important;   /* Reset */
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    box-shadow: none !important;        /* Reset */
+    list-style-type: none !important;   /* Reset */
+    -webkit-user-select: none;          /* Reset */
+    -moz-user-select: none;             /* Reset */
+}
+.sxc-follow-buttons .sxc-follow-button::before {
+    content: "" !important;             /* Reset */
+    content: none !important;           /* Reset */
+}
+.sxc-follow-buttons .sxc-follow-button::after {
+    content: "" !important;             /* Reset */
+    content: none !important;           /* Reset */
+}
+
+.sxc-follow-buttons .sxc-follow-button a {
+    display: block !important;          /* Reset */
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    box-shadow: none !important;        /* Reset */
+}
+
+.sxc-follow-buttons .sxc-follow-button a img {
+    margin: 0 !important;               /* Reset */
+    padding: 0 !important;              /* Reset */
+    background: none !important;        /* Reset */
+    background-image: none !important;  /* Reset */
+    border: none !important;            /* Reset */
+    box-shadow: none !important;        /* Reset */
+    vertical-align: top;
+}
+
+.sxc-follow-buttons .sxc-follow-button a br {
+    display: none !important;           /* Reset */
+}

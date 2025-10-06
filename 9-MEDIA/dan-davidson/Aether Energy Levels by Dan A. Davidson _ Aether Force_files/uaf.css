@@ -1,0 +1,238 @@
+				@font-face {
+					font-family: 'vast-shadow-for-h1';
+					src: url('/wp-content/uploads/useanyfont/6241Vast-Shadow-for-H1.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/6241Vast-Shadow-for-H1.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.vast-shadow-for-h1{font-family: 'vast-shadow-for-h1' !important;}
+
+						@font-face {
+					font-family: 'greek';
+					src: url('/wp-content/uploads/useanyfont/6284Greek.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/6284Greek.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.greek{font-family: 'greek' !important;}
+
+						@font-face {
+					font-family: 'alchemy';
+					src: url('/wp-content/uploads/useanyfont/154Alchemy.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/154Alchemy.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.alchemy{font-family: 'alchemy' !important;}
+
+						@font-face {
+					font-family: 'anthro';
+					src: url('/wp-content/uploads/useanyfont/2271Anthro.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2271Anthro.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.anthro{font-family: 'anthro' !important;}
+
+						@font-face {
+					font-family: 'alfabetix';
+					src: url('/wp-content/uploads/useanyfont/9556Alfabetix.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/9556Alfabetix.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.alfabetix{font-family: 'alfabetix' !important;}
+
+						@font-face {
+					font-family: 'algol';
+					src: url('/wp-content/uploads/useanyfont/2025Algol.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2025Algol.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.algol{font-family: 'algol' !important;}
+
+						@font-face {
+					font-family: 'ariesa';
+					src: url('/wp-content/uploads/useanyfont/2915Ariesa.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2915Ariesa.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.ariesa{font-family: 'ariesa' !important;}
+
+						@font-face {
+					font-family: 'atlantisfamingo';
+					src: url('/wp-content/uploads/useanyfont/4545AtlantisFamingo.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/4545AtlantisFamingo.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.atlantisfamingo{font-family: 'atlantisfamingo' !important;}
+
+						@font-face {
+					font-family: 'battlestar';
+					src: url('/wp-content/uploads/useanyfont/2869BattleStar.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2869BattleStar.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.battlestar{font-family: 'battlestar' !important;}
+
+						@font-face {
+					font-family: 'futureworld';
+					src: url('/wp-content/uploads/useanyfont/9675futureworld.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/9675futureworld.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.futureworld{font-family: 'futureworld' !important;}
+
+						@font-face {
+					font-family: 'bb';
+					src: url('/wp-content/uploads/useanyfont/2584BB.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2584BB.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.bb{font-family: 'bb' !important;}
+
+						@font-face {
+					font-family: 'cosmicspace';
+					src: url('/wp-content/uploads/useanyfont/8869cosmicspace.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8869cosmicspace.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.cosmicspace{font-family: 'cosmicspace' !important;}
+
+						@font-face {
+					font-family: 'crystal';
+					src: url('/wp-content/uploads/useanyfont/8464crystal.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8464crystal.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.crystal{font-family: 'crystal' !important;}
+
+						@font-face {
+					font-family: 'futuristic';
+					src: url('/wp-content/uploads/useanyfont/8491futuristic.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8491futuristic.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.futuristic{font-family: 'futuristic' !important;}
+
+						@font-face {
+					font-family: 'downlink';
+					src: url('/wp-content/uploads/useanyfont/3692downlink.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/3692downlink.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.downlink{font-family: 'downlink' !important;}
+
+						@font-face {
+					font-family: 'mysticora';
+					src: url('/wp-content/uploads/useanyfont/909mysticora.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/909mysticora.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.mysticora{font-family: 'mysticora' !important;}
+
+						@font-face {
+					font-family: 'elementalbold';
+					src: url('/wp-content/uploads/useanyfont/7866elementalbold.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/7866elementalbold.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.elementalbold{font-family: 'elementalbold' !important;}
+
+						@font-face {
+					font-family: 'elementalinverse';
+					src: url('/wp-content/uploads/useanyfont/8380elementalinverse.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8380elementalinverse.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.elementalinverse{font-family: 'elementalinverse' !important;}
+
+						@font-face {
+					font-family: 'esoterik';
+					src: url('/wp-content/uploads/useanyfont/7550esoterik.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/7550esoterik.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.esoterik{font-family: 'esoterik' !important;}
+
+						@font-face {
+					font-family: 'goethe';
+					src: url('/wp-content/uploads/useanyfont/7889goethe.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/7889goethe.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.goethe{font-family: 'goethe' !important;}
+
+						@font-face {
+					font-family: 'goldenratio';
+					src: url('/wp-content/uploads/useanyfont/7578goldenratio.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/7578goldenratio.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.goldenratio{font-family: 'goldenratio' !important;}
+
+						@font-face {
+					font-family: 'homme';
+					src: url('/wp-content/uploads/useanyfont/9704Homme.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/9704Homme.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.homme{font-family: 'homme' !important;}
+
+						@font-face {
+					font-family: 'norse';
+					src: url('/wp-content/uploads/useanyfont/4320norse.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/4320norse.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.norse{font-family: 'norse' !important;}
+
+						@font-face {
+					font-family: 'mystical';
+					src: url('/wp-content/uploads/useanyfont/8286mystical.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8286mystical.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.mystical{font-family: 'mystical' !important;}
+
+						@font-face {
+					font-family: 'wizard';
+					src: url('/wp-content/uploads/useanyfont/1786wizard.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/1786wizard.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.wizard{font-family: 'wizard' !important;}
+
+						@font-face {
+					font-family: 'science';
+					src: url('/wp-content/uploads/useanyfont/1796science.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/1796science.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.science{font-family: 'science' !important;}
+
+						h1, h2, h3, .entry-title, body.single-post .entry-title, body.page .entry-title, .widget-title, .site-title{
+					font-family: 'anthro' !important;
+				}
+		

@@ -1,0 +1,100 @@
+.pmb-spinner {
+    background: url('/wp-admin/images/wpspin_light.gif') no-repeat;
+    background-size: 16px 16px;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 16px;
+    height: 16px;
+}
+.pmb-spinner-container {
+    display:inline-block;
+}
+
+.pmb-hidden-initially{
+    display:none;
+}
+
+.pmb-wide-input{
+    min-width:20em;
+}
+
+/* If users add the CSS class "pmb-print-only" we want it to be hidden on the frontend... */
+.pmb-print-only{
+    display:none !important;
+}
+/* ...but not when printing with Print My Blog...*/
+.pmb-posts .pmb-print-only{
+    display:block !important;
+}
+/* ...or when viewing from the editor */
+.block-editor .pmb-print-only{
+    display:block !important;
+}
+/* And when they add the CSS class "pmb-screen-only", hide it while printing with Print My Blog */
+.pmb-posts .pmb-screen-only{
+    display:none !important;
+}
+details.pmb-details{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+details.pmb-details summary, .twine-details .twine-summary{
+    font-weight: bold;
+    font-size:1.2em;
+}
+/* If a theme changes oursummary tag to display block or inline or anything, the cute arrow disappears in Firefox*/
+summary.pmb-reveal-options, summary.twine-summary{
+    padding:1em;
+    cursor:pointer;
+    color: #2271b1;
+    border: 1px solid #c3c4c7;
+    background: #f6f7f7;
+    vertical-align: top;
+}
+details .pmb-reveal-details{
+    padding:1em;
+    border: 1px solid #c3c4c7;
+    border-top:none;
+}
+.pmb-print-this-page{
+    text-align:right;
+}
+.pmb-print-this-page{
+    display:flex;
+    justify-content:flex-end;
+}
+.pmb-print-this-page .button:not(:first-of-type){
+    /* Keep buttons spaced apart a bit */
+    margin-left:1em;
+}
+.pmb-button{
+    cursor:pointer;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+.pmb-print-this-page .wp-block-button__link{
+    /* Prevent the default block styling from adding unnecesary space above these buttons*/
+    margin-top:0 !important;
+}
+.pmb-print-instructions ol{
+    text-align:left;
+}
+/* Hide print buttons when printing a page normally. */
+@media print{
+    .pmb-print-this-page{
+        display:none;
+    }
+}
+.pmb-party{
+    border:2px dashed red;
+    padding:.5em;
+    margin:.5em;
+    text-align:center;
+}
+
+.pmb-hover-help{
+    display:none;
+}

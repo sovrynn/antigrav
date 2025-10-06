@@ -1,0 +1,143 @@
+.wikilink-trash {
+	color:#B81324;
+}
+
+.wikilink-no-edit {
+	color:#B81324;
+}
+
+.wikilink-new {
+	color:#B81324;
+}
+
+.wikilink-pending {
+	color:#9933FF;
+}
+
+.wikilink-other {
+	color:inherit;
+}
+
+.wikilink-private {
+	color:inherit;
+}
+
+.wikilink-published {
+	color:inherit;
+}
+
+.widget-area .widget .wikilink-trash {
+    color:#B81324;
+}
+
+.widget-area .widget .wikilink-no-edit {
+    color:#B81324;
+}
+
+.widget-area .widget .wikilink-new {
+    color:#B81324;
+}
+
+.widget-area .widget .wikilink-pending {
+    color:#9933FF;
+}
+
+.widget-area .widget .wikilink-other {
+    color:inherit;
+}
+
+.widget-area .widget .wikilink-private {
+    color:inherit;
+}
+
+.widget-area .widget .wikilink-published {
+    color:inherit;
+}
+.wikicatlink {
+	color:inherit;
+}
+
+/* "Responsive and SEO Friendly Data Tables" from http://mobifreaks.com/user-interface/responsive-and-seo-friendly-data-tables/ */
+.ywtable{
+	display:table;	/* Defines a Table */
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border-top:1px solid #dddddd;
+	border-bottom:2px solid #dddddd;
+	color:#8d8d8d;
+	margin:10px 0;
+}
+.ywtable-head{
+	 display: table-header-group; /* Defines a table header group */
+}
+.ywtable-head .ywcolumn{ /* Column inside the table-head */
+	background:#777777;
+	color:#ffffff;
+	border-right:1px solid #5d5d5d;
+	border-bottom:none;
+}
+.ywtable-head .ywcolumn:hover{ /* Column hover inside the table-head */
+	background:#222222;
+}
+.ywrow{
+	display:table-row; /* Defines a table row */
+}
+.ywrow .ywcolumn:nth-child(1){ /* First column in a row */
+	border-left:1px solid #eeeeee;
+}
+.ywrow:last-child .ywcolumn{  /* column in a last row */
+	border-bottom:none;
+}
+.ywcolumn{
+	display:table-cell; /* Defines a table cell */
+	padding:10px 20px;
+	border-bottom:1px solid #eeeeee;
+	border-right:1px solid #eeeeee;
+}
+.ywcolumn-alt{
+	display:table-cell; /* Defines a table cell */
+	padding:10px 20px;
+	border:1px solid #eeeeee;
+}
+.ywcolumn:hover{
+	background:#f9f9f9;
+}
+/* Responsive table */
+@media all and (max-width: 640px){
+	.ywtable,
+	.ywrow,
+	.ywcolumn,
+	.ywcolumn:before{
+		display:block;	/* Converts a table, table row, table column and table column:before into a block element */
+	}
+	.ywtable,
+	.ywrow .ywcolumn:last-child{
+		border-bottom:none;
+	}
+	.ywtable-head{
+		position:absolute;	/* Hides table head but not using display none */
+		top:-1000em;
+		left:-1000em;
+	}
+	.ywrow{
+		border:1px solid #eeeeee;
+		border-top:2px solid #dddddd;
+		border-bottom:2px solid #dddddd;
+		margin:20px 0;
+	}
+	.ywrow .ywcolumn:nth-child(1){ /* first column of the row */
+		border-left:none;
+	}
+	.ywrow .ywcolumn:last-child{ /* last column of the row */
+		border-right:none;
+	}
+	.ywrow:last-child .ywcolumn,
+	.ywcolumn{ /* Column in the last row and column */
+		border-bottom:1px solid #eeeeee;
+	}
+	.ywcolumn:before{ /* prints the value of data-label attribute before the column data */
+		font-weight:bold;
+		padding-right:20px;
+		font-size:12px;
+	}
+}
