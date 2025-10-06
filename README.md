@@ -45,13 +45,13 @@ Therefore the inquiry should be structured around understanding the principles o
 
 # Basic working principles
 
-![](img/fractal3.jpg)
-
 ## 1. Everything is in plain sight waiting for us to see it.
 
 Everything already exists and happens perfectly as it should, and there is no other way it could work, even if we can't understand it. All we have to do is discover what exists in front of our eyes in plain sight. We are blind as we can only see certain frequencies (light) in a caricature cross-section with our eyeballs, but we will have to use our brain to expand our vision to other frequencies.
 
 Those hallucinatory fractal visuals? Yeah. That's what the universe ACTUALLY is. But our primitive eyes only see a cross section of reality.
+
+![](img/fractal3.jpg)
 
 ## 2. Everything is one. There are no boundaries.
 

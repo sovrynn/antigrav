@@ -1,0 +1,1 @@
+While literature from Asia is scarce, there appear to at least be a few signs that there may be many things going on in Asia that I am unaware of.
