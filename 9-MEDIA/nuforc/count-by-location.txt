@@ -1,0 +1,271 @@
+LOCATION	REPORT COUNT
+USA - Unspecified	117
+USA - Alaska	665
+USA - Alabama	1484
+USA - Arkansas	1343
+USA - Arizona	5263
+USA - California	16901
+USA - Colorado	3487
+USA - Connecticut	2110
+USA - District of Columbia	157
+USA - Delaware	443
+USA - Florida	8713
+USA - Georgia	2888
+USA - Guam	3
+USA - Hawaii	691
+USA - Iowa	1285
+USA - Idaho	1439
+USA - Illinois	4444
+USA - Indiana	2835
+USA - Kansas	1252
+USA - Kentucky	1792
+USA - Louisiana	1197
+USA - Massachusetts	2841
+USA - Maryland	1952
+USA - Maine	1248
+USA - Michigan	3833
+USA - Minnesota	2228
+USA - Missouri	2906
+USA - Mississippi	831
+USA - Montana	1053
+USA - North Carolina	3848
+USA - North Dakota	283
+USA - Nebraska	735
+USA - New Hampshire	1249
+USA - New Jersey	3034
+USA - New Mexico	1756
+USA - Nevada	1784
+USA - New York	6222
+USA - Ohio	4646
+USA - Oklahoma	1571
+USA - Oregon	3729
+USA - Pennsylvania	5286
+USA - Puerto Rico	192
+USA - Rhode Island	624
+USA - South Carolina	2346
+USA - South Dakota	425
+USA - Tennessee	2437
+USA - Texas	6546
+USA - Utah	1613
+USA - Virginia	2833
+USA - U.S. Virgin Islands	20
+USA - Vermont	636
+USA - Washington	7505
+USA - Wisconsin	2562
+USA - West Virginia	953
+USA - Wyoming	431
+Canada - Unspecified	9
+Canada - Alberta	746
+Canada - British Columbia	1252
+Canada - Manitoba	259
+Canada - New Brunswick	220
+Canada - Newfoundland and Labrador	59
+Canada - Nova Scotia	242
+Canada - Northwest Territories	24
+Canada - Ontario	2660
+Canada - Prince Edward Island	27
+Canada - Quebec	464
+Canada - Saskatchewan	229
+Canada - Yukon	25
+Afghanistan	19
+Albania	13
+Algeria	16
+American Samoa	3
+Antarctica	3
+Antigua	2
+Argentina	69
+Armenia	5
+Aruba	4
+Atlantic Ocean	22
+Australia	1060
+Austria	26
+Azerbaijan	7
+Azores	4
+Bahamas	37
+Bahrain	5
+Bangladesh	21
+Barbados	8
+Belarus	2
+Belgium	81
+Belize	11
+Bermuda	17
+Bolivia	15
+Bosnia and herzegovina	21
+Botswana	5
+Brazil	267
+British Virgin Islands	5
+Brunei	5
+Bulgaria	36
+Cambodia	9
+Cameroon	2
+Caribbean	2
+Caribbean Sea	10
+Caribbean Sea/Atantic Ocean	2
+Cayman Islands	2
+Chile	41
+China	75
+Colombia	60
+Congo	2
+Costa Rica	46
+Croatia	53
+Croatia (Hrvatska)	4
+Cuba	16
+Curacao	2
+Cyprus	49
+Czech Republic	24
+Czechia	13
+Democratic Republic of the Congo	2
+Denmark	55
+Dominican Republic	39
+Dubai	2
+Ecuador	27
+Egypt	33
+El Salvador	4
+Estonia	24
+Ethiopia	9
+Europe	4
+Fiji	4
+Finland	51
+France	129
+French West Indies	2
+Georgia	6
+Germany	254
+Gibraltar	4
+Grand Cayman	3
+Greece	97
+Greenland	7
+Guam	6
+Guatamala	2
+Guatemala	16
+Gulf of Mexico	4
+Guyana	7
+Haiti	4
+Honduras	22
+Hong Kong	8
+Hong Kong SAR	2
+Hungary	41
+Iceland	29
+In orbit	13
+India	571
+Indian Ocean	4
+Indonesia	56
+International Waters	23
+Iran	76
+Iraq	49
+Ireland	229
+Isle of Man	4
+Israel	74
+Italy	114
+Jamaica	28
+Japan	93
+Japan (Okinawa)	2
+Jordan	20
+Kazakhstan	10
+Kenya	13
+Korea	8
+Korea South	5
+Kosovo	12
+Kuwait	20
+Kyrgyzistan	2
+Laos	2
+Latvia	10
+Lebanon	21
+Lesotho	2
+Libya	6
+Lithuania	32
+London	2
+Luxembourg	6
+Luxemburg	3
+Macedonia	8
+Malaysia	77
+Maldives	4
+Malta	17
+Marshall Islands	2
+Mauritius	9
+Mediterranean Sea	4
+Mexico	542
+Mid-Atlantic Ocean	2
+Moldova	4
+Monaco	2
+Mongolia	3
+Montenegro	3
+Moon	2
+Morocco	25
+Myanmar	2
+Myanmar (Burma)	2
+Namibia	5
+Nederland	3
+Nepal	11
+Netherlands	174
+Netherlands The	5
+New Zealand	229
+Nicaragua	4
+Nigeria	12
+North Macedonia	4
+Northern Ireland	38
+Northern Mariana Islands	2
+Norway	81
+Okinawa	2
+Oman	6
+Pacific Ocean	13
+Pacific Ocean (western)	2
+Pakistan	57
+Palau	2
+Panama	23
+Papua New Guinea	3
+Paraguay	8
+Persian Gulf	2
+Peru	42
+Philippines	130
+Poland	74
+Portugal	100
+Puerto Rico	14
+Qatar	4
+Romania	54
+Russia	56
+Saipan	2
+Saudi Arabia	24
+Senegal	2
+Serbia	24
+Serbia and Montenegro	2
+Seychelles	2
+Singapore	30
+Slovak Republic	2
+Slovakia	9
+Slovenia	19
+Somalia	3
+South Africa	244
+South Korea	25
+Spain	177
+Sri Lanka	32
+St. Kitts	2
+St. Lucia	2
+Suriname	3
+Sweden	95
+Switzerland	49
+Syria	5
+Taiwan	13
+Tanzania	2
+Tenerife	4
+Thailand	50
+The Bahamas	6
+Tonga	2
+Trinidad and Tobago	14
+Tunisia	6
+Turkey	108
+Türkiye	5
+Turks and Caicos Islands	4
+U.S. Virgin Islands	3
+Uganda	2
+Ukraine	35
+United Arab Emirates	34
+United Kingdom	3804
+Unspecified	139
+Uruguay	12
+Uzbekistan	7
+Venezuela	47
+Vietnam	37
+West Germany	7
+Yugoslavia	11
+Zambia	3
+Zimbabwe	6
