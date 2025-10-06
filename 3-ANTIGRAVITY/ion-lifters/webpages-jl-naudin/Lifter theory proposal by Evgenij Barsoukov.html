@@ -1,0 +1,681 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Lifter theory proposal by Evgenij Barsoukov</title>
+</head>
+
+<body background="Lifter%20theory%20proposal%20by%20Evgenij%20Barsoukov_files/gback.gif" bgcolor="#FFFFFF">
+
+<h2 align="center"><font color="#FF0000" size="6" face="helvetica, verdana, arial"><em><u>Lifter theory</u></em></font><font size="6" face="helvetica, verdana, arial"><em><u><br>
+</u></em></font><font size="4">by Evgenij Barsoukov</font></h2>
+
+<p align="center"><font size="3"><em>Courtesy of Evgenij
+Barsoukov<br>
+</em></font><font size="2">Created on April 30, 2002 - <em><strong>JLN
+Labs</strong></em> - Updated on May 3, 2002</font></p>
+
+<hr>
+
+<p align="center">Dedicated to Lifter comunity, see details in <a href="http://jnaudin.free.fr/html/lifters.htm">http://jnaudin.free.fr/html/lifters.htm</a>
+<br>
+Most of my articles present here were first posted by me in
+Lifters mailing list <br>
+<a href="http://groups.yahoo.com/group/Lifters">http://groups.yahoo.com/group/Lifters</a>
+</p>
+
+<p align="left"><font size="4" face="helvetica, verdana, arial"><u>Contents</u>:</font>
+</p>
+
+<ul>
+    <li><a href="#0"><font size="5"><strong>Effect explanation</strong></font></a><font size="5"><strong> </strong></font></li>
+    <li><font size="5">What it is not:</font><font size="4"> </font><ul>
+            <li><a href="#1"><font size="4">Ionic jet thrust
+                calculation (~10^-7N / 100W)&nbsp;</font></a><font size="4"> </font></li>
+            <li><a href="#2"><font size="4">Radiation pressure
+                (~10^-9 N / 100W)</font></a><font size="4"> </font></li>
+            <li><a href="#2_1"><font size="4">Dielectrophoresis</font></a><font size="4"> </font></li>
+        </ul>
+    </li>
+    <li><a href="#3"><font size="4">Ion/air interaction by corona
+        discharge in Lifter - thrust/current relation (~2 g/W !)</font></a><font size="4"> </font></li>
+    <li><a href="#4"><font size="4">Thrust/voltage relation in
+        lifter</font></a><font size="4"> </font></li>
+    <li><a href="http://jnaudin.free.fr/html/liftfpwr.htm"><font size="4">Improving of
+        thrust/power ratio by optimizing voltage/distance/corona
+        wire radius</font></a><font size="4"> </font></li>
+    <li><a href="#6"><font size="4">AC operation of lifter</font></a><font size="4"> </font></li>
+    <li><a href="#7"><font size="4">3-electrode&nbsp;&nbsp; AC/DC
+        lifter proposal</font></a></li>
+</ul>
+
+<p><font size="3"><strong><u>The original document can be found
+at</u></strong><strong> : </strong></font><a href="http://sudy_zhenja.tripod.com/lifter_theory/main.html" target="_blank"><font size="3"><strong>http://sudy_zhenja.tripod.com/lifter_theory/main.html</strong></font></a><font size="3"><strong> </strong></font></p>
+
+<hr>
+
+<h2><a name="0"></a><u>Effect explanation</u></h2>
+
+<p>Ion thrust occuring during corona discharge due to
+interraction of ions with medium has following steps :</p>
+
+<ul>
+    <li>1) Ionization of air molecules near electrode with high
+        field&nbsp;intensity near to it (the small electrode, the
+        wire in the lifter).&nbsp; Lets call it
+        "emitter" for simplicity. </li>
+    <li>2) Acceleration of ionized molecules by electric field in
+        direction of&nbsp; wide electrode, let's call it
+        "collector". </li>
+    <li>3) Transmission of momentum from accelerated molecules to
+        outside air </li>
+</ul>
+
+<p>Let's apply all this 3 steps to cases with different polarity.
+First lets make "emitter" positive.&nbsp; </p>
+
+<ul>
+    <li>1) We will have ionization of air to cathion-radicals or
+        cations such&nbsp; as N2+ N2+*.&nbsp; </li>
+    <li>2) Positive particles will be accelerated in direction of
+        negative&nbsp; electrode (collector) </li>
+    <li>3) Momentum is transmitted from accelerated positive
+        particles in&nbsp; direction of collector. </li>
+</ul>
+
+<p>Now lets reverse polarity and make "emitter"
+negative. </p>
+
+<ul>
+    <li>1) We will have ionization of air to anion-radicals or
+        anions such as&nbsp; N2- N2-*.&nbsp; </li>
+    <li>2) Negative particles will be accelerated in direction of
+        positive&nbsp; electrode (collector) </li>
+    <li>3) Momentum is transmitted from accelerated negative
+        particles in&nbsp; direction of collector. </li>
+</ul>
+
+<p>As you can see, momentum is transmitted in direction of
+collector.&nbsp; </p>
+
+<p align="center"><strong>**** Thrust is applied TO the electrode
+which has charge carriers&nbsp; available near to it. <br>
+With other words, thrust is directed to electrode with higher
+field intensity near to it. </strong><font color="#FF0000"><strong>Direction
+of thrust&nbsp; does not depend on polarity</strong></font><strong>
+********** </strong></p>
+
+<p>Now, what about magnitude of thrust, depending on polarity? It
+depend on the ionization energy for particular positive or
+negative&nbsp;ions. </p>
+
+<p>Energy for reaction N2 + e -&gt;N2- and energy for reaction
+N2- e-&gt;N2+&nbsp; are different (the second is lower),
+therefore current and magnitude&nbsp;of thrust with negative
+emitter is slightly lower than that with&nbsp;positive emitter.
+This indeed has been observed by some of
+lifter&nbsp;experimentalist, particularly by Cristian Marinescu <br>
+( see <a href="http://jnaudin.free.fr/html/lfreplog.htm">http://jnaudin.free.fr/html/lfreplog.htm</a>
+). </p>
+
+<p>Second conclusion related to the form of electrodes of
+electric propulsion devices:&nbsp; </p>
+
+<ul>
+    <li>1) emitter should be as thin as possible to provide
+        highest field intensity near to it to provide more charge
+        carriers. </li>
+    <li>2) Collector should have a form which provides _minimal_
+        field intensity near surface, to prevent any ionization
+        near to it resulting in "counter-current" which
+        reduces the thrust. Collector should have no sharp edges
+        and the best configuration is spherical or
+        toroidal.&nbsp;Optimization can be made in electric-field
+        simulators. </li>
+    <li>3) At the other hand, it should not have too large
+        surface departing from direct line between center of
+        electrode and emitter, because flow&nbsp;lines deviating
+        from this direct line contribute less to net thrust. From
+        this point, conventional lifter configuration is best -
+        because&nbsp;all surface is on the axial line.&nbsp; </li>
+</ul>
+
+<p>But from point 2 conventional lifter could be improved to
+reduce counter-current from sharp edge of its collector. </p>
+
+<p align="center">So what is the perfect lifter from this point?
+It appears to be wire-circle emitter placed co-axial with a
+toroidal collector of same&nbsp; <br>
+diameter. </p>
+
+<hr>
+
+<h2 align="left"><a name="1"></a><u>Ionic jet thrust calculation</u>
+(~10^-7N / 100W)&nbsp;</h2>
+
+<p>&gt;Anyone have an idea as to the max (or practical)
+efficiency of ion wind thrusters in atmosphere in terms of N/W? </p>
+
+<p>Speed of single charged particle with mass m and charge e
+accelerated between two electrodes with voltage V is: v=
+sqrt(2*V*e/m).<br>
+At the other hand, momentum of single particle is p=m*v =
+m*sqrt(2*V*e/m) </p>
+
+<p>To calculate number of particles flying at given power in unit
+time, we divide total passed charge by the charge of single
+particle </p>
+
+<p>n=Q/(e*t)=i/e </p>
+
+<p>current i we obtain from power E as i=E/V so n=E/(V*e) </p>
+
+<p>Total force applyed is equal to total exchanged momentum per
+unit time (assuming all momentum of accelerated particle is used
+for propulsion, which is maximal possible estimate). As result we
+have: </p>
+
+<p>F=n*p=m*sqrt(2*V*e/m)*E/(e*V)&nbsp; </p>
+
+<p>If you put there m=me=9.1093897E-31kg (electron mass) that
+gives ~10^-6 N at E=100Watt, V=30 000Volt. </p>
+
+<p>In experiment with lifter 4 they&nbsp; ( <a href="http://jnaudin.free.fr/html/lifter4.htm">http://jnaudin.free.fr/html/lifter4.htm</a>
+) observed thrust 0.4N at 100W, so number above is way to
+small.&nbsp; </p>
+
+<p>But if you put m=14*2=28*mp (N2) or m=16*2=32*mp (02), where
+mp is mass of proton=1.6726231E-27kg, we have better picture
+(10^-4N) but still way too small compared to 0.4N. Whatever ions
+are used in this "ion wind", these are not ions taken
+from the air... </p>
+
+<p align="left">Mass of particle required to achieve such thrust
+is&nbsp;m = F^2*V*ee/(2*E^2). </p>
+
+<p align="left">For F=0.4N and above voltage and power we have:
+m~2*10^7*mp (where mp is proton mass) or 3.69*10^-20 kg. </p>
+
+<p align="left">This mass is not too large to be practical - it
+could be clusters of the electrode material or electrode coating
+brocken off the surface under very high stress applied by the
+voltage. </p>
+
+<hr>
+
+<h2 align="left"><a name="2"></a><u>Radiation pressure</u>
+(~10^-9 N / 100W)</h2>
+
+<p>&gt; 2) Poynting vector has unit of energy/second*m^2. It's
+not clear how this would give a force, (Newton) </p>
+
+<p>That is the easy one. Electromagnetic radiation has momentum,
+it has been shown theoretically by Maxwell and
+experimentally&nbsp;measured by Lebedev. <br>
+Momentum of electromagnetic wave, p = E/c </p>
+
+<p>To calculate the force, F = p/t = W/c.&nbsp; <br>
+For radiation power W=100Watt we have force W/c ~10-9 N.&nbsp; </p>
+
+<p>Recalculating this into "equivalent mass" we get
+~10^-5 gm... too small... indeed, electrons moving with curved
+trajectories and speeds around 1/3 c (like they do in
+lifters)should radiate&nbsp; microwaves. There are devices called
+reltrons, used to generate directed high power microwave
+impulses, which have exactly same&nbsp; principle, and look very
+much like lifter immerced in a vacuum tube. </p>
+
+<p align="center">However, generated momentum of microwaves is
+just too small... </p>
+
+<hr>
+
+<h2 align="left"><a name="2_1"></a><u>Dielectrophoresis</u></h2>
+
+<p>Dielectrophoresis was mentioned several times here, even by me
+in relation with lifter operation. </p>
+
+<p>I have taken more close look at it as described here <a href="http://www.ibmm.informatics.bangor.ac.uk/pages/science/dep.htm" target="_blank">http://www.ibmm.informatics.bangor.ac.uk/pages/science/dep.htm</a>
+<br>
+and suddently realized that it can not possiblly have to do
+anything with&nbsp; discussed effect. Why? - because
+dielectrophoresis is a _transient_ effect.&nbsp;&nbsp;It is
+redistribution of particles in inhomogenous electric field
+depending on their polarizability. Once the redistribution is
+finished, material flow is also finished, therefore
+dielectrophoresis is a _transient_ effect resulting in change of
+material state from "Voltage OFF" to "Voltage
+ON", it can not have a continuous component. </p>
+
+<p>1) There can not be any continuous flow of electrons between
+electrodes due to this effect, because there is no way how they
+can pass electrode/dielectric boudary. When voltage is switched
+on, there will be a transient current due to change of
+capacitance due to dielectric material redistribution. When
+redistribution is finished, capacitance becomes constant and
+current stops. However, electric current (as well as thrust) in
+lifter are observed continuously as long as voltage is on. </p>
+
+<p>2) Correspondingly, from 1 follows that can not be any
+continous flow of dielectric material, which shows that
+dielectrophoresis can apply to lifters only for short moment when
+voltage is switched on.&nbsp; </p>
+
+<p>Now some points not related to lifters (which are DC), but
+could be relevant to AC-based propulsion devices: </p>
+
+<p>3) When voltage is switched off, material flow is reverse to
+original one and the momentum of outflowing material is same as
+momentum of inflowing material therefore making net effect of one
+voltage pulse equal to zero.&nbsp; <br>
+&nbsp;This is true unless there is a difference in medium
+friction coefficient at high and low flow speed, which could
+result in some momentum retained by electrode arrangement. This
+point needs to be investigated separately. </p>
+
+<p>4) AC-voltage can be represented as a series of interchanging
+positive and negative voltage pulses, therefore point 3) applies
+to them as well. There is no net material flow except that due to
+differences in friction of in/outflowing material. </p>
+
+<p>That is why application of electrophoresis require some
+additional material flow to separate more and less polarizable
+particles, as they say in above cited web-site: </p>
+
+<p align="center">"Selective separation can thus be achieved
+by applying an additional force such as gravity or fluid
+flow". </p>
+
+<hr>
+
+<h2 align="left"><a name="3"></a><u>Ion/air interaction by corona
+discharge in Lifter - thrust/current relation</u></h2>
+
+<p><font size="3">In my previous messages I gave basic mechanism
+of lifter operation based on corona discharge with subsequent
+interraction of accelerated ions with outside enviroment. <br>
+Now I am presenting the derivation of ultimate formula of
+lifter&nbsp; - thrust to current relation.&nbsp; </font></p>
+
+<p><font size="3">Starting eqn. for force applied by electric
+field to medium with distributed charge q is: <br>
+F=q*E/d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1) </font></p>
+
+<p><font size="3">where E is voltage applied between electrodes
+and d is lenght between wire and collector. This formula is
+strictly correct only for plate capacitor arrangement (where ion
+flight path is parallel to force) but difference due to different
+field form will be small. Obviously due to first law of
+mechanics, the same force is applied by medium to lifter, so this
+is our force of interest. </font></p>
+
+<p><font size="3">Now, lets calculate amount of charge q
+distributed between electrodes at any time when corona discharge
+is on. <br>
+i=q*w/d&nbsp; <br>
+so&nbsp; <br>
+q=i*d/w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(2) </font></p>
+
+<p><font size="3">i is current and w is drift velocity of ions
+.&nbsp; Ions are moving not on straight path because electrically
+induced motion is overlayed by thermal mothion. During this whole
+motion ions interract with molecules of enviroment. So drift rate
+is a net velocity of ions in direction from corona to collector. </font></p>
+
+<p><font size="3">Now, drift velocity is related to fild strengh
+as <br>
+w=k*E/d&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(3) </font></p>
+
+<p><font size="3">Here k is mobility coefficient of ion in air.
+From the web-site of the institute of electrostatic technology
+(http://fee.mpei.ac.ru/elstat/lect&nbsp; in russian) I have
+values for mobility of positive ions (if wire is positive) and
+negative ions (if wire negative). k (+) = 2.1
+cm^2/volt*sec&nbsp;&nbsp;&nbsp; k(-) 2.24 cm^2/volt*sec <br>
+I will use k(+) for calculations below.&nbsp; </font></p>
+
+<p><font size="3">Now bringing it all together, w from (3) into
+(2) and than q from (2) into (1) we have our force: </font></p>
+
+<p><font size="3">F=i*d*E/(w*d)&nbsp; <br>
+F=i*d*E/(k*E*d/d) </font></p>
+
+<p><font size="3">Simplifying we get </font></p>
+
+<table border="2" cellpadding="8">
+    <tbody><tr>
+        <td><font size="3"><strong>F=i*d/k&nbsp;</strong></font></td>
+    </tr>
+</tbody></table>
+
+<p><font size="3">Now to be totally exact we have to substract
+the momentum which ions retain when they hit the collector.
+F_lost = m`*w. We can easilty calculate mass flow m`=dm/dt
+knowing current and molecular weight of ions, which is
+M=19gm/mole.&nbsp; </font></p>
+
+<p><font size="3">m` = M*i/(e*Na) <br>
+Na is Avogadro number = 6.0221367E+23 mole^-1, e - electron
+charge = 1.6*10^-19 <br>
+so (substituting w from (3)) </font></p>
+
+<p><font size="3">F_lost = M*i*k*E/(d*e*Na) </font></p>
+
+<p><font size="3">F_total =&nbsp; F-F_lost </font></p>
+
+<table border="2" cellpadding="8">
+    <tbody><tr>
+        <td><font size="3"><strong>F_total=i*d/k&nbsp; -
+        M*i*k*E/(d*e*Na) </strong></font></td>
+    </tr>
+</tbody></table>
+
+<p><font size="3">Wow! while current certainly depends on
+voltage, the result is that at given current thrust does not
+depend on voltage. At given current thrust increases with lenght
+between electrodes. <br>
+Later we will see that F_lost is negligibly small, so good
+equation to work with is simply&nbsp; i*d/k </font></p>
+
+<p><font size="3">Now the ultimate test - I compare the predicton
+of this equation with real experimentally observed thrust for
+lifters 1-4 (data on current, config and experimentaly observed
+thrust from table in </font><a href="http://jnaudin.free.fr/html/lifter4.htm"><font size="3">http://jnaudin.free.fr/html/lifter4.htm</font></a><font size="3"> ). </font></p>
+
+<p><font size="3">First <strong><u>Lifter1</u></strong>: <br>
+d= 30mm <br>
+k=k (+) = 2.1 cm^2/volt*sec <br>
+i=450uA </font></p>
+
+<p><font size="3">F1=0.064 N <br>
+F_lost = 1.8*10^-7N (so will be neglected in all other
+calculations) <br>
+experimental F1exp=2.3+1gm*g =0.032N </font></p>
+
+<p><font size="3">WOW! the prediction and experiment differ only
+2 times!&nbsp; </font></p>
+
+<p><font size="3">Remember that we considered the straight fligh
+path of ions, but actually it is curved so in reality less force
+is applied because not all force is directed parallely to
+wire/collector line. Additional power loss can happen due to
+"counter-current" of ions with opposite sign because of
+small corona formation at collector (if edge is too sharp) <br>
+More exact calculation considering exact field configuration
+might come even closer, but hey - we have our raw equation! Du
+you think numbers are so close just by chance!? </font></p>
+
+<p><font size="3">Anyway, lets see other lifters.&nbsp; <br>
+<strong><u>Lifter2</u></strong><strong> </strong>: <br>
+d = 30mm <br>
+i=570uA <br>
+<strong>F2=0.077 N <br>
+F2exp=6.6+3gm*g=0.094N </strong></font></p>
+
+<p><font size="3"><strong><u>Lifter v3.0</u></strong><strong> </strong>:
+<br>
+d=30mm <br>
+i=2.46mA <br>
+<strong>F3=0.351 N <br>
+F3exp=16+4gm*g= 0.196 N </strong></font></p>
+
+<p><font size="3"><strong><u>Lifter 4.0</u></strong><strong> </strong>:
+<br>
+d=40mm <br>
+i=2.01mA <br>
+<strong>F4=0.383 N <br>
+F4exp=32+4gm*g=0.353 N </strong></font></p>
+
+<p><font size="3">Wow! This is realy close. Note that lifter 4
+used rounded-up top of collector to minimize counter-current, so
+it achieved higher lift efficiency vs. theoretical equation
+compared to other lifters. </font></p>
+
+<p><font size="3">To summarize - Prediction falls quite near to
+experimental results for all sizes of lifter, and the closes
+result is in case where minimal counter-current can be expected.
+Finaly you have an equation to judge lifter efficiency, and
+additional proof for ion-propulsion mechanism.&nbsp; </font></p>
+
+<p align="center"><font size="3">Later I will investigate
+relation between voltage and current.&nbsp; Anway, the main point
+in improvement of lifter's force/power ratio - how to increase
+the current and distance between wire and collector without
+increasing voltage.&nbsp; </font></p>
+
+<hr>
+
+<h2 align="left"><a name="4"></a><u>Thrust/voltage relation in
+lifter</u></h2>
+
+<p>This calculation is based on assumptions&nbsp; that corona is
+present only on one electrode so the counter-current of ions with
+opposite to wire sign is negligible. Otherwise counter-current
+would reduce thrust. </p>
+
+<p>The corona onset voltage V0 is given by Peek's equation (links
+to some chapters of Peek's book are in <a href="http://www.ee.vill.edu/ion/p61.html" target="_blank">http://www.ee.vill.edu/ion/p61.html</a>
+): </p>
+
+<p>V0=g0*r*ln(d/r) <br>
+where <br>
+g0=30*kV/cm*delta*(1+0.301/sqrt(delat*r)) </p>
+
+<p>where r is radius of corona-wire in cm, d distance between
+wires and&nbsp; <br>
+delta is a factor depending on air pressure and temperature as <br>
+delta=3.92b/(273+t ) <br>
+where b is pressure in cm of barometric pressure and <br>
+t is temperature in degree C. </p>
+
+<p>At d=30mm&nbsp; and r=0.5 mm&nbsp; we get V0=14.4 kV </p>
+
+<p>Anyway, in my derivation the field strengh E has canceled out
+because it at one side it increases thrust, and the other side
+decreases it by decresing number of carriers (charge) inside the
+interval. So there is no voltage in the equation, only current. </p>
+
+<p>If we want voltage/thrust dependence, it also can be
+done.&nbsp; <br>
+The current/voltage characteristic of flat collector / wire
+combination&nbsp; <br>
+is derived by Copperman (see <a href="http://www.me.umn.edu/courses/me5115/notes/ESPnotes.pdf" target="_blank">http://www.me.umn.edu/courses/me5115/notes/ESPnotes.pdf</a>
+<br>
+for details).&nbsp; </p>
+
+<p>It has general form: </p>
+
+<table border="2" cellpadding="8">
+    <tbody><tr>
+        <td><strong>I =
+        k*G*V(V-V0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        eqn. 1 </strong></td>
+    </tr>
+</tbody></table>
+
+<p>where k ion mobility coeficient and V voltage and&nbsp; G
+depends on particular electrode configuration. </p>
+
+<p>For the case of wire/parallel flat plate electrode
+configuration <br>
+G = 2*pi*e0*L/(d^2*ln(f_geo/r)) </p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+e0 - dielectric permittivity of air <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+r is the wire radius; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+d is the wire-plate spacing; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+W plate width <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+L&nbsp; plate lenght (should be &gt;&gt; W)&nbsp; <br>
+f_geo is the characteristic length of particular electrode
+geompetry&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f_geo=4d/pi for
+2*d/W&lt;= 0.6, and&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+f_geo=(W/2)*pi exp(pi*d/W)&nbsp;&nbsp; for 2*d/W&gt;=2.0&nbsp; <br>
+First is more near to lifter case, but maybe second case with
+some effective W can also be used. </p>
+
+<p>Unfortunately wire/paralel plate approximation is not very
+good for Lifter. <br>
+For example for Lifter 1 at 40kV and d=30mm we get&nbsp; <br>
+with f_geo(1) and r (30 gauge)=0.1275 mm <br>
+I= 1.8mA whereas experiment shows 450uA. </p>
+
+<p>If we use f_geo (2) it is not clear what to put as plate witdh
+W. Intuitivelly it should be less that foil hight h=40mm (because
+foil is not parallel to wire) but much more then thickness of the
+foil. I found that using empyrical "effective width"
+h/7 gives current <br>
+I=480 uA which is near to experimental so eqn. can be used in
+this form. </p>
+
+<p>Anyway, derivation of strict eqn. for G for lifter electrode
+configuration is still open. </p>
+
+<p>So what about thrust? From above eqn and using my previous
+eqn. for thrust F=i*d/k <br>
+we have <a name="eqn">voltage/thrust relation</a>: </p>
+
+<table border="2" cellpadding="8">
+    <tbody><tr>
+        <td><strong>F=2*pi*e0*L*V(V-V0)/(d*ln(f_geo/
+r)))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        eqn.2 </strong></td>
+    </tr>
+</tbody></table>
+
+<p>Remarkalbe thing is that k canceled out and that d went into
+denominator which <br>
+indicates that it should be kept as small as possible because it
+decreases current as d^2 but increases thrust only as d^1. </p>
+
+<p>Using f_geo (2) with W=h/6 we get for Lifter 1 where&nbsp; <br>
+L=200*3=600mm <br>
+V=40kV <br>
+r= (assuming 50 gauge = 0.255 mm diameter) = 0.1275 mm </p>
+
+<p>F=0.069 N&nbsp; which is about twice of experimentally
+observed 0.032 N probably due to some counter-current. Anyway it
+is not bad for a raw assesment and considering that
+counter-current should reduce the thrust. </p>
+
+<p>Let's see what we would get using 50 gauge wire as Tom Ventura
+recently&nbsp; <br>
+tried (quite a cool experiment considering how brittle it should
+be) <br>
+r= (30 gauge = 0.025 mm diameter) = 0.01275 <br>
+I obtain using eqn. 1 <br>
+i= 51 uA <br>
+F=0.072 N at 40kV </p>
+
+<p>So with decreasing wire thickness we get thrust increase of
+4.3%. </p>
+
+<p align="center">I will explore later how to optimize
+power/thrust relation based on this eqn., and to find form of G
+which corresponds exactly to lifter electrode configuration. </p>
+
+<hr>
+
+<h2 align="center"><img src="Lifter%20theory%20proposal%20by%20Evgenij%20Barsoukov_files/lfttp.gif" border="1" width="651" height="591"><br>
+<font size="3"><u>A sample of datas for the Lifter1 setup</u></font></h2>
+
+<h2 align="center"><a name="5"></a><a href="http://jnaudin.free.fr/html/liftfpwr.htm">Improving
+of thrust/power ratio by optimizing voltage/distance/corona wire
+radius</a></h2>
+
+<hr>
+
+<h2><a name="6"></a><u>AC operation of Lifter</u></h2>
+
+<p>&gt; I am thinking: since many experiments have shown that
+reverse polarity still produce lift force (which kI found out was
+true with my lifter) then perhaps AC will work as well?&nbsp; </p>
+
+<p>It will depend on frequency you are using. You have to provide
+that ions which "started" from corona wire reach the
+collector before&nbsp;you change the polarity. Otherwise you will
+have in wire/collector interval mix of positive and negative ions
+flying back and forth&nbsp;and compensating each others
+thrust.&nbsp; </p>
+
+<p>It is easy to calculate maximal frequency below which you will
+still have thrust (critical frequency). It will be 1/tau <br>
+where tau is flight time of ion between electrodes. </p>
+
+<p>tau = d/w&nbsp; <br>
+where w is drift velocity and d is distance between electrodes </p>
+
+<p>w = k*E/d where E is voltage and k mobility coefficient
+(about&nbsp;2.1 cm^2/volt*sec). So critical frequency is </p>
+
+<p>f=1/tau = k*E/d^2 </p>
+
+<p>for E=40 kV and d=30mm <br>
+we have <br>
+f_crit=9.3*10^3 Hz (about 10kHz) </p>
+
+<p>In you increase AC frequency Above value thrust
+will&nbsp;rapidly decrease. If you operate at much lower frequcy
+you will have thrust, but I guess it will be less than tha DC
+value at the same voltage. </p>
+
+<hr>
+
+<h2><a name="6"></a><u>3-electrode&nbsp; AC/DC lifter proposal</u></h2>
+
+<p>Any theory is good only if it allows to improve some
+technolgoy.&nbsp; <br>
+Equation F=i*d/k suggests, that it is desirable to maximaze
+amount of available charge (and corespondingly
+current)&nbsp;without increasing d or V.&nbsp; </p>
+
+<p>For this we need to de-couple charge generation from
+ion-aceleration. This could be achieved by&nbsp; simple
+3-electrode AC-DC lifter design. Instead of&nbsp;corona wire we
+use two winded together wires, one of which is insulated with
+sufficiently thick teflon insulation (lets call&nbsp;it
+"base"). We apply between this 2 electrodes AC voltage
+sufficient&nbsp;to produce sustained barrier discharge. Because
+of very small&nbsp;distance between electrodes required AC
+voltage would be quite small,&nbsp;say 5 kV. It can be further
+reduced by coating the insulation with&nbsp;ferroelectric
+material pelets but for preliminary test it is
+not&nbsp;necessary. </p>
+
+<p>Now, as we already have our plasma, we only need to
+"suck" out of it ions of one polarity. For this we
+place with distance d (much larger than usual, say 100 mm, a
+collector and apply DC voltage between it and not-insulated wire,
+"emmiter" (which should be +). This way we&nbsp;should
+achieve noticeable current betwen emmiter and collector
+at&nbsp;quite large distances d but reasonably small DC and AC
+voltages&nbsp;applied and those get much higher F=i*d/k at lower
+power. Is this a&nbsp;way to radically improve thrust/power ratio
+and escape from the&nbsp;need of magic lifter electrode
+confuguration and very high voltages&nbsp;needed for initiation
+of corona? Some cool experimentator is required&nbsp;to answer
+this question... &nbsp; </p>
+
+<hr>
+
+<p align="center"><img src="Lifter%20theory%20proposal%20by%20Evgenij%20Barsoukov_files/effvd1.gif" border="1" width="801" height="584"><br>
+<img src="Lifter%20theory%20proposal%20by%20Evgenij%20Barsoukov_files/effvd2.gif" border="1" width="925" height="223"></p>
+
+<p align="center"><font size="3"><strong><img src="Lifter%20theory%20proposal%20by%20Evgenij%20Barsoukov_files/blinkstr.gif" width="21" height="21"> </strong></font><a href="http://jnaudin.free.fr/html/liftfpwr.htm"><font size="5"><strong>Towards a thrust/power
+ratio up to </strong></font><font color="#FF0000" size="5"><strong>40g/W</strong></font></a><em><strong>
+by Evgenij Barsoukov</strong></em></p>
+
+<hr>
+
+<p align="center"><font color="#000000" size="4"><b>Return to the</b></font><font color="#FFFF00" size="5"><b> </b></font><a href="http://jnaudin.free.fr/html/lifters.htm"><font size="5"><b>Lifters experiments</b></font></a><font size="5"><b> </b></font><font color="#000000" size="4"><b>page</b></font></p>
+
+
+</body></html>

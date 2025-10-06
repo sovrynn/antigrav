@@ -1,0 +1,10 @@
+[data-sitename="aipadvances"] .hero-row {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url('/ImageLibrary/Publications/adv/adv-hero.jpg');
+}
+
+.widget-instance-adv_home-self-serve-content-feature-submit-button{
+	border:none !important;
+}
+.widget-instance-adv_home-self-serve-content-feature-socials{
+	border:none !important;
+}

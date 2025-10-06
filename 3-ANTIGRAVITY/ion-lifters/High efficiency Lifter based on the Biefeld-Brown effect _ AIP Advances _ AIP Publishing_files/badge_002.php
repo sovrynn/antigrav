@@ -1,0 +1,1 @@
+veraSafeBadge({"26655432209":{"page_url":"https:\/\/verasafe.com\/trust-seals\/?uid=26655432209","seal_title":"EU Data Protection Representative Program","seal_url":"https:\/\/content.verasafe.com\/trust-seal\/trust_seal_eu_dpr_v2.svg"}});

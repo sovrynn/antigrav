@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'white-label';
+  src:  url('fonts/white-label.eot?tbp9zc');
+  src:  url('fonts/white-label.eot?tbp9zc#iefix') format('embedded-opentype'),
+    url('fonts/white-label.ttf?tbp9zc') format('truetype'),
+    url('fonts/white-label.woff?tbp9zc') format('woff'),
+    url('fonts/white-label.svg?tbp9zc#white-label') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'white-label' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pause_circle_filled:before {
+  content: "\e902";
+}
+.icon-pause_circle_outline:before {
+  content: "\e93b";
+}
+.icon-play_circle_filled:before {
+  content: "\e93c";
+}
+.icon-play_circle_outline:before {
+  content: "\e93d";
+}
+.icon-social-reddit:before {
+  content: "\e931";
+}
+.icon-spinner:before {
+  content: "\e924";
+}
+.icon-menu_pdf:before {
+  content: "\e914";
+}
+.icon-menu_permissions:before {
+  content: "\e91d";
+}
+.icon-menu_reprints:before {
+  content: "\e900";
+}
+.icon-menu_figures:before {
+  content: "\e91e";
+}
+.icon-menu_views:before {
+  content: "\e91f";
+}
+.icon-menu_cite:before {
+  content: "\e920";
+}
+.icon-availability_cart:before {
+  content: "\e903";
+}
+.icon-menu_supplement:before {
+  content: "\e92c";
+}
+.icon-supplement:before {
+  content: "\e92c";
+}
+.icon-menu_account:before {
+  content: "\e91b";
+}
+.icon-menu_hamburger:before {
+  content: "\e91c";
+}
+.icon-menu_search:before {
+  content: "\e915";
+}
+.icon-availability_free:before {
+  content: "\e904";
+}
+.icon-availability_openaccess:before {
+  content: "\e905";
+}
+.icon-availability_open:before {
+  content: "\e905";
+}
+.icon-availability_restricted:before {
+  content: "\e906";
+}
+.icon-availability_lock:before {
+  content: "\e906";
+}
+.icon-availability_available:before {
+  content: "\e907";
+}
+.icon-availability_unlocked:before {
+  content: "\e907";
+}
+.icon-general_minus:before {
+  content: "\e925";
+}
+.icon-general-minus:before {
+  content: "\e925";
+}
+.icon-general_add:before {
+  content: "\e909";
+}
+.icon-general-add:before {
+  content: "\e909";
+}
+.icon-general-close:before {
+  content: "\e90f";
+}
+.icon-menu_cite2:before {
+  content: "\e91a";
+}
+.icon-cite:before {
+  content: "\e91a";
+}
+.icon-menu_share:before {
+  content: "\e916";
+}
+.icon-menu_tools:before {
+  content: "\e917";
+}
+.icon-menu_views-standard:before {
+  content: "\e930";
+}
+.icon-menu_views-split:before {
+  content: "\e919";
+}
+.icon-menu_download:before {
+  content: "\e926";
+}
+.icon-menu_file:before {
+  content: "\e927";
+}
+.icon-social-twitter:before {
+  content: "\f099";
+}
+.icon-social-x:before {
+  content: "\f099";
+}
+.icon-social-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-social-bluesky:before {
+  content: "\e901";
+}
+.icon-social-youtube:before {
+  content: "\f16a";
+}
+.icon-social-instagram:before {
+  content: "\f16d";
+}
+.icon-general_arrow-down:before {
+  content: "\e908";
+}
+.icon-general_arrow-left:before {
+  content: "\e945";
+}
+.icon-general_arrow-right:before {
+  content: "\e946";
+}
+.icon-general_arrow-up:before {
+  content: "\e947";
+}
+.icon-social-linkedin:before {
+  content: "\f0e1";
+}
+.icon-social-pinterest:before {
+  content: "\f231";
+}
+.icon-social-feed:before {
+  content: "\f09e";
+}
+.icon-social-rss:before {
+  content: "\f09e";
+}
+.icon-menu_settings:before {
+  content: "\e936";
+}
+.icon-linkout:before {
+  content: "\e922";
+}
+.icon-menu_pdf-small:before {
+  content: "\e918";
+}
+.icon-availability_cart-small:before {
+  content: "\e928";
+}
+.icon-history-small:before {
+  content: "\e92a";
+}
+.icon-clock:before {
+  content: "\e92a";
+}
+.icon-corresponding_author:before {
+  content: "\e923";
+}
+.icon-menu_supplement-small:before {
+  content: "\e92b";
+}
+.icon-supplement-small:before {
+  content: "\e92b";
+}
+.icon-availability_openaccess-small:before {
+  content: "\e921";
+}
+.icon-availability_restricted-small:before {
+  content: "\e92e";
+}
+.icon-availability_lock-small:before {
+  content: "\e92e";
+}
+.icon-availability_available-small:before {
+  content: "\e92f";
+}
+.icon-peer-review:before {
+  content: "\e937";
+}
+.icon-peer-review-history:before {
+  content: "\e93a";
+}
+.icon-peer-review-alt:before {
+  content: "\e938";
+}
+.icon-peer-review-history-alt:before {
+  content: "\e939";
+}
+.icon-general-arrow-filled-down:before {
+  content: "\e932";
+}
+.icon-caret-down:before {
+  content: "\e932";
+}
+.icon-general-arrow-filled-right:before {
+  content: "\e934";
+}
+.icon-caret-right:before {
+  content: "\e934";
+}
+.icon-general-arrow-filled-left:before {
+  content: "\e933";
+}
+.icon-caret-left:before {
+  content: "\e933";
+}
+.icon-general-arrow-filled-up:before {
+  content: "\e935";
+}
+.icon-caret-up:before {
+  content: "\e935";
+}
+.icon-menu_alerts:before {
+  content: "\e911";
+}
+.icon-view-online:before {
+  content: "\e929";
+}
+.icon-export-citation:before {
+  content: "\e92d";
+}
+.icon-general-check:before {
+  content: "\e90e";
+}
+.icon-checkmark:before {
+  content: "\e90e";
+}
+.icon-splitview_supplements:before {
+  content: "\e90a";
+}
+.icon-split-view-supplements-pane:before {
+  content: "\e90a";
+}
+.icon-splitview_related:before {
+  content: "\e90b";
+}
+.icon-RelatedCss:before {
+  content: "\e90b";
+}
+.icon-split-view-related-pane:before {
+  content: "\e90b";
+}
+.icon-splitview_references:before {
+  content: "\e90c";
+}
+.icon-ReferencesCss:before {
+  content: "\e90c";
+}
+.icon-split-view-references-pane:before {
+  content: "\e90c";
+}
+.icon-splitview_read:before {
+  content: "\e90d";
+}
+.icon-icon-full-text:before {
+  content: "\e90d";
+}
+.icon-splitview_notes:before {
+  content: "\e910";
+}
+.icon-split-view-peer-review-pane:before {
+  content: "\e910";
+}
+.icon-splitview_figures-tables:before {
+  content: "\e912";
+}
+.icon-FiguresTablesCss:before {
+  content: "\e912";
+}
+.icon-split-view-figures-and-tables-pane:before {
+  content: "\e912";
+}
+.icon-splitview_content:before {
+  content: "\e913";
+}
+.icon-ContentCss:before {
+  content: "\e913";
+}
+.icon-split-view-contents-pane:before {
+  content: "\e913";
+}
+.icon-general-mail:before {
+  content: "\f199";
+}
+.icon-envelope-square:before {
+  content: "\f199";
+}
+.icon-menu_comments:before {
+  content: "\f075";
+}
+.icon-comment:before {
+  content: "\f075";
+}

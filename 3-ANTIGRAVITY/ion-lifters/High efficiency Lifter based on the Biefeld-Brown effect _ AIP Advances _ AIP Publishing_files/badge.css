@@ -1,0 +1,27 @@
+#verasafe-block {
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#verasafe-block [id^="verasafe-badge"] {
+    margin-right: 10px;
+}
+
+#verasafe-block img {
+    display: block;
+    max-width: 120px;
+}
+
+#verasafe-block a,
+#verasafe-block a:hover,
+#verasafe-block a:active,
+#verasafe-block a:focus {
+    background: none;
+    border: 0;
+    outline: none;
+    display: block;
+    text-decoration: none;
+    opacity: 1;
+}

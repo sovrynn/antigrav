@@ -1,0 +1,118 @@
+@media (min-width: 900px) {
+.journal-header .site-menu.site-menu-lvl-1 {
+    min-width: 300% !Important;
+}
+}
+
+
+em {
+    font-family: Helvetica,Arial,sans-serif !important;
+}
+
+strong {
+	font-family: Helvetica,Arial,sans-serif !important;
+}
+
+a {
+	font-family: Helvetica,Arial,sans-serif !important;
+}
+
+.main-content {
+  margin-left:25px;
+}
+
+#microsite-nav-menu {
+  background:#3a3a3a;
+}
+
+body[data-sitename=aippublishing] #microsite-nav-menu {
+    background:#ebf3f8 ;
+}
+
+.journal-logo {
+  padding:15px 0px;
+}
+.society-logo{
+  max-height:4rem !important;
+  max-width:8rem;
+}
+
+.pubslist{
+    display:flex;
+  }
+  
+  .list1 {
+    width:50%;padding-right:20px;
+  }
+  
+  .list2{
+    width:50%;
+  }
+
+.add-border {
+  border: 1px solid black;
+}
+
+.featured-jobs_wrap .feed-item div.date {
+  display: none;
+}
+
+.featured-jobs_wrap .feed-item div.desription {
+  display: none;
+}
+
+@media (max-width: 970px) { 
+	.widget-instance-HeaderAd
+	{
+		width:95%;
+	}
+	.widget-instance-HeaderAd img {
+		height:auto;
+	}
+		.ad-banner {
+		    aspect-ratio: 7.5/1;
+	}
+}
+
+@media (min-width: 900px) { .pg_index .theme-homepage-layout div[class*=home-row].home-columns.wide-narrow>.widget-dynamic-inner-wrap{ grid-template-columns: minmax(300px,2fr) minmax(300px,340px); } } 
+
+@media (max-width: 899px) {
+  #microsite-nav-menu {
+  background:#ffffff !important;
+}
+}
+  
+  @media screen and (max-width: 750px) {
+    .pubslist{
+    display:block;
+  }
+  
+  .list1 {
+    width:100%;
+  }
+  
+  .list2{
+    width:100%;
+  }
+  }
+
+@media (max-width: 450px) {
+  .ad-banner {
+    aspect-ratio: 6/1;
+  }
+}
+
+button.swal2-confirm.swal2-styled{
+	background-color:#2914bd;
+}
+
+
+h2#swal2-title {
+	color:#1d1b1b!Important;
+	font-size:1.125rem!Important;
+}
+
+p.swal-description{
+	color:#1d1b1b!Important;
+	font-size:.875rem!Important;
+}

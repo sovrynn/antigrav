@@ -1,0 +1,1 @@
+There was an APEC talk given based on ECE theory (very cool!) that attempts to explain how ECE theory can explain antigravity. But it seems a bit hand-wavey... but it's still an improvement than what I was working with before
