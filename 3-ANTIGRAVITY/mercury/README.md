@@ -1,5 +1,7 @@
 # Leads
 
+Look into Malcolm Bendall's Thunderstorm Generator (rotating mercury/plasma)
+
 Dipole
 
 Plasma store a lot of electric charge

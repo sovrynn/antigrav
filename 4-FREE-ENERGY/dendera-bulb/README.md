@@ -1,0 +1,1 @@
+That Egyptian stone.
