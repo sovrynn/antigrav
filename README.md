@@ -21,6 +21,7 @@ Background knowledge:
 
 Auxiliary initiative:
 - `WEAPONS-TOOLS`: Information about other devices that can be understood using this knowledge.
+- `BIOLOGY`: Approaching biology from a new angle, with possibilities of new health and longevity applications.
 
 Auxiliary resource folders:
 - `MEDIA`: Monolithic folder for information from various sources on this topic, organized by author/source.
